@@ -1,0 +1,361 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: "Roboto";
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+footer, header {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+}
+
+input, button {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+body {
+  position: relative;
+  background: #F9F7F4;
+  max-width: 1920px;
+}
+body .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 135px;
+  position: absolute;
+  width: 1920px;
+  height: 9100px;
+  left: 0px;
+  top: 1px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 39.9%), linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("header.png");
+  background-size: cover;
+  width: 1920px;
+  height: 831px;
+}
+.header .header__navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 214px;
+  width: 1168px;
+  height: 30.24px;
+}
+.header .header__navbar .navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 214px;
+  margin-left: 376px;
+  margin-top: 28.88px;
+  width: 1168px;
+  height: 30.24px;
+}
+.header .header__navbar .navbar .navbar__logo {
+  width: 181.84px;
+  height: 30.24px;
+}
+.header .header__navbar .navbar .navbar__logo .YourTourLogo {
+  position: absolute;
+  left: 376px;
+  top: 28.88px;
+}
+.header .header__navbar .navbar .navbar__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 50px;
+  width: 468px;
+  height: 28px;
+}
+.header .header__navbar .navbar .navbar__menu .menu__item {
+  width: 114px;
+  height: 28px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 142%;
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+.header .header__navbar .navbar .telephone {
+  width: 155px;
+  height: 28px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 142%;
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+.header .header__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 50px;
+  width: 1920px;
+  height: 743px;
+}
+.header .header__content .header__content__title {
+  width: 768px;
+  height: 315px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 109%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+.header .header__content .header__content__subtitle {
+  width: 562px;
+  height: 56px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 142%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.header .header__content .header__content__button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 20px;
+  gap: 10px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  width: 118px;
+  height: 34px;
+}
+.header .header__content .header__content__button .findTourBtn {
+  width: 78px;
+  height: 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 142%;
+  letter-spacing: -0.01em;
+  color: #1B1F2B;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 100px;
+}
+.section .section__header__flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+.section .section__header__flex .section__header__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 59px;
+  line-height: 124%;
+  text-align: center;
+  color: #1B1F2B;
+}
+.section .section__content__flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.chooseTourSection {
+  width: 1170px;
+  height: 1334px;
+}
+.chooseTourSection .chooseTourSection__header {
+  width: 700px;
+  height: 142px;
+  gap: 35px;
+}
+.chooseTourSection .chooseTourSection__header .chooseTourSection__header__title {
+  width: 473px;
+  height: 73px;
+}
+.chooseTourSection .chooseTourSection__header .chooseTourSection__header__menu {
+  width: 700px;
+  height: 34px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+}
+.chooseTourSection .chooseTourSection__header .chooseTourSection__header__menu .chooseTourSection_menu__item {
+  width: 137px;
+  height: 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 6px;
+}
+.chooseTourSection .chooseTourSection__header .chooseTourSection__header__menu .chooseTourSection_menu__item .chooseTourSection_menu__item-name {
+  height: 28px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 122%;
+  cursor: pointer;
+}
+.chooseTourSection .chooseTourSection__header .chooseTourSection__header__menu .chooseTourSection_menu__item .chooseTourSection_menu__item-name:hover {
+  text-decoration: underline;
+  color: #EFA501;
+}
+.chooseTourSection .chooseTourSection__content {
+  width: 1170px;
+  height: 1092px;
+  padding: 0px;
+  gap: 30px;
+}
+.chooseTourSection .chooseTourSection__content .chooseTour__cards-container {
+  width: 1170px;
+  height: 531px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+}
+.chooseTourSection .chooseTourSection__content .chooseTour__cards-container .chooseTour__card {
+  width: 370px;
+  height: 531px;
+  border-radius: 50px;
+  position: relative;
+}
+.chooseTourSection .chooseTourSection__content .chooseTour__cards-container .chooseTour__card .chooseTour__card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+.chooseTourSection .chooseTourSection__content .chooseTour__cards-container .chooseTour__card .chooseTour__card-content .chooseTour__text-container {
+  width: 270px;
+  height: 126px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+}
+.chooseTourSection .chooseTourSection__content .chooseTour__cards-container .chooseTour__card .chooseTour__card-content .chooseTour__text-container .chooseTour__card__title {
+  width: 270px;
+  height: 86px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 122%;
+  color: #FFFFFF;
+}
+.chooseTourSection .chooseTourSection__content .chooseTour__cards-container .chooseTour__card .chooseTour__card-content .chooseTour__text-container .chooseTour__card__subtitle {
+  width: 270px;
+  height: 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 142%;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+}
+.chooseTourSection .chooseTourSection__content .chooseTour__cards-container .chooseTour__card .chooseTour__card-content .chooseTour__link {
+  width: 159px;
+  height: 28px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 15px;
+  cursor: pointer;
+}
+.chooseTourSection .chooseTourSection__content .chooseTour__cards-container .chooseTour__card .chooseTour__card-content .chooseTour__link .chooseTour__link__text {
+  width: 120px;
+  height: 28px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 122%;
+  color: #FFFFFF;
+}
+.chooseTourSection .chooseTourSection__content .chooseTour__cards-container .chooseTour__card .chooseTour__card-content .chooseTour__link .chooseTour__link__arrow {
+  width: 24px;
+  height: 26px;
+  position: relative;
+}
+.chooseTourSection .chooseTourSection__content .chooseTour__cards-container .chooseTour__card .chooseTour__card-content .chooseTour__link .chooseTour__link__arrow img {
+  position: absolute;
+  left: 4.17%;
+  top: 21.15%;
+  color: #FFFFFF;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,387 @@
+$whiteColor:  #FFFFFF;
+$blackColor: #1B1F2B;
+$orangeColor: #EFA501;
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Roboto';
+}
+
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+footer, header{display: block;}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+}
+
+input, button{font-family: inherit;}
+button{cursor: pointer;}
+a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul, li{list-style: none;}
+
+body {
+    position: relative;
+    background: #F9F7F4;
+    max-width: 1920px;
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        // justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 135px;
+    
+        position: absolute;
+        width: 1920px;
+        height: 9100px;
+        left: 0px;
+        top: 1px;
+    }
+}
+
+// ! HEADER
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 39.9%), linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('header.png');
+    background-size: cover;
+    width: 1920px;
+    height: 831px;
+
+    .header__navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        gap: 214px;
+        width: 1168px;
+        height: 30.24px;
+
+        .navbar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px;
+            gap: 214px;
+            margin-left: 376px;
+            margin-top: 28.88px;
+            width: 1168px;
+            height: 30.24px;
+
+            .navbar__logo {
+                width: 181.84px;
+                height: 30.24px;
+
+                .YourTourLogo {
+                    position: absolute;
+                    left: 376px;
+                    top: 28.88px;
+                }
+            }
+
+            .navbar__menu {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 0px;
+                gap: 50px;
+                width: 468px;
+                height: 28px;
+
+                .menu__item {
+                    width: 114px;
+                    height: 28px;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 142%;
+                    color: $whiteColor;
+                    white-space: nowrap
+                }
+            }
+
+            .telephone {
+                width: 155px;
+                height: 28px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 142%;
+                color: $whiteColor;
+                white-space: nowrap;
+            }
+        }
+    }
+
+    .header__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 50px;
+        width: 1920px;
+        height: 743px;
+
+        .header__content__title {
+            width: 768px;
+            height: 315px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 96px;
+            line-height: 109%;
+            text-align: center;
+            letter-spacing: 0.02em;
+            color: $whiteColor;
+        }
+
+        .header__content__subtitle {
+            width: 562px;
+            height: 56px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 142%;
+            text-align: center;
+            color: $whiteColor;
+        }
+
+        .header__content__button {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 5px 20px;
+            gap: 10px;
+            background: $whiteColor;
+            border-radius: 10px;
+            width: 118px;
+            height: 34px;
+
+            .findTourBtn {
+                width: 78px;
+                height: 24px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 142%;
+                letter-spacing: -0.01em;
+                color: $blackColor;
+            }
+        }
+    }
+}
+
+// ! ОБЩИЕ ПАРАМЕТРЫ СЕКЦИЙ
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 100px;
+
+    .section__header__flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+
+        .section__header__title {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 59px;
+            line-height: 124%;
+            text-align: center;
+            color: $blackColor;
+        }
+    }
+
+    .section__content__flex {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+// ! chooseYourTour section
+
+.chooseTourSection {
+    width: 1170px;
+    height: 1334px;
+
+    .chooseTourSection__header {
+        width: 700px;
+        height: 142px;
+        gap: 35px;
+
+        .chooseTourSection__header__title {
+            width: 473px;
+            height: 73px;
+        }
+
+        .chooseTourSection__header__menu {
+            width: 700px;
+            height: 34px;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 30px;
+
+            .chooseTourSection_menu__item {
+                width: 137px;
+                height: 34px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 0px;
+                gap: 6px;
+
+                .chooseTourSection_menu__item-name {
+                    height: 28px;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 23px;
+                    line-height: 122%;
+                    cursor: pointer;
+                }
+
+                .chooseTourSection_menu__item-name:hover {
+                    text-decoration: underline;
+                    color: $orangeColor;
+                }
+            }
+        }
+    }
+
+    .chooseTourSection__content {
+        width: 1170px;
+        height: 1092px;
+        padding: 0px;
+        gap: 30px;
+
+        .chooseTour__cards-container {
+            width: 1170px;
+            height: 531px;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 30px;
+
+            .chooseTour__card {
+                width: 370px;
+                height: 531px;
+                border-radius: 50px;
+                position: relative;
+
+                .chooseTour__card-content {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    padding: 50px;
+                    position: absolute;
+                    left: 0px;
+                    right: 0px;
+                    top: 0px;
+                    bottom: 0px;
+
+                    .chooseTour__text-container {
+                        width: 270px;
+                        height: 126px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-end;
+                        align-items: flex-start;
+                        padding: 0px;
+                        gap: 16px;
+
+                        .chooseTour__card__title {
+                            width: 270px;
+                            height: 86px;
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 35px;
+                            line-height: 122%;
+                            color: $whiteColor;
+                        }
+
+                        .chooseTour__card__subtitle {
+                            width: 270px;
+                            height: 24px;
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 17px;
+                            line-height: 142%;
+                            letter-spacing: -0.01em;
+                            color: $whiteColor;
+                        }
+                    }
+
+                    .chooseTour__link {
+                        width: 159px;
+                        height: 28px;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        padding: 0px;
+                        gap: 15px;
+                        cursor: pointer;
+
+                        .chooseTour__link__text {
+                            width: 120px;
+                            height: 28px;
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 23px;
+                            line-height: 122%;
+                            color: $whiteColor;
+                        }
+
+                        .chooseTour__link__arrow {
+                            width: 24px;
+                            height: 26px;
+                            position: relative;
+                            
+                            img {
+                                position: absolute;
+                                left: 4.17%;
+                                top: 21.15%;
+                                color: $whiteColor;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
