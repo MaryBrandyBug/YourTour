@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: "Roboto";
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+footer, header {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+}
+
+input, button {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+body {
+  position: relative;
+  background: #F9F7F4;
+  max-width: 1920px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 135px;
+  position: absolute;
+  width: 1920px;
+  height: 9100px;
+  left: 0px;
+  top: 1px;
+}/*# sourceMappingURL=Main.styles.css.map */

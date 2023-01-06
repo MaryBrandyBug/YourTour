@@ -1,0 +1,153 @@
+$headerWhiteColor:  #FFFFFF;
+$headerBtnFontColor: #1B1F2B;
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 39.9%), linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('header.png');
+    background-size: cover;
+
+    width: 1920px;
+    height: 831px;
+
+    .header__navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        gap: 214px;
+
+        width: 1168px;
+        height: 30.24px;
+
+        .navbar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px;
+            gap: 214px;
+            margin-left: 376px;
+            margin-top: 28.88px;
+
+            width: 1168px;
+            height: 30.24px;
+
+            .navbar__logo {
+                width: 181.84px;
+                height: 30.24px;
+
+                .YourTourLogo {
+                    position: absolute;
+                    left: 376px;
+                    top: 28.88px;
+                }
+            }
+
+            .navbar__menu {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 0px;
+                gap: 50px;
+
+                width: 468px;
+                height: 28px;
+
+                .menu__item {
+                    width: 114px;
+                    height: 28px;
+
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 142%;
+                    color: $headerWhiteColor;
+                    white-space: nowrap
+                }
+            }
+
+            .telephone {
+                width: 155px;
+                height: 28px;
+
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 142%;
+                color: $headerWhiteColor;
+                white-space: nowrap;
+            }
+        }
+    }
+
+    .header__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 50px;
+
+        width: 1920px;
+        height: 743px;
+
+        .header__content__title {
+            width: 768px;
+            height: 315px;
+
+            font-style: normal;
+            font-weight: 700;
+            font-size: 96px;
+            line-height: 109%;
+            text-align: center;
+            letter-spacing: 0.02em;
+            color: $headerWhiteColor;
+        }
+
+        .header__content__subtitle {
+            width: 562px;
+            height: 56px;
+
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 142%;
+            text-align: center;
+            color: $headerWhiteColor;
+        }
+
+        .header__content__button {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 5px 20px;
+            gap: 10px;
+            background: $headerWhiteColor;
+            border-radius: 10px;
+
+            width: 118px;
+            height: 34px;
+
+            .findTourBtn {
+                width: 78px;
+                height: 24px;
+
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 142%;
+                letter-spacing: -0.01em;
+                color: $headerBtnFontColor;
+            }
+        }
+    }
+}

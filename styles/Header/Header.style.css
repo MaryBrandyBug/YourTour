@@ -1,0 +1,128 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 39.9%), linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("header.png");
+  background-size: cover;
+  width: 1920px;
+  height: 831px;
+}
+.header .header__navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 214px;
+  width: 1168px;
+  height: 30.24px;
+}
+.header .header__navbar .navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 214px;
+  margin-left: 376px;
+  margin-top: 28.88px;
+  width: 1168px;
+  height: 30.24px;
+}
+.header .header__navbar .navbar .navbar__logo {
+  width: 181.84px;
+  height: 30.24px;
+}
+.header .header__navbar .navbar .navbar__logo .YourTourLogo {
+  position: absolute;
+  left: 376px;
+  top: 28.88px;
+}
+.header .header__navbar .navbar .navbar__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 50px;
+  width: 468px;
+  height: 28px;
+}
+.header .header__navbar .navbar .navbar__menu .menu__item {
+  width: 114px;
+  height: 28px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 142%;
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+.header .header__navbar .navbar .telephone {
+  width: 155px;
+  height: 28px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 142%;
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+.header .header__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 50px;
+  width: 1920px;
+  height: 743px;
+}
+.header .header__content .header__content__title {
+  width: 768px;
+  height: 315px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 109%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+.header .header__content .header__content__subtitle {
+  width: 562px;
+  height: 56px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 142%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.header .header__content .header__content__button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 20px;
+  gap: 10px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  width: 118px;
+  height: 34px;
+}
+.header .header__content .header__content__button .findTourBtn {
+  width: 78px;
+  height: 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 142%;
+  letter-spacing: -0.01em;
+  color: #1B1F2B;
+}/*# sourceMappingURL=Header.style.css.map */
