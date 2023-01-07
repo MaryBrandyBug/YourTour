@@ -173,6 +173,18 @@ body .wrapper {
   text-align: center;
   color: #FFFFFF;
 }
+.header .header__content .header__content__button:hover {
+  background: #EFA501;
+}
+.header .header__content .header__content__button:hover .findTourBtn {
+  color: #FFFFFF;
+}
+.header .header__content .header__content__button:active {
+  background: #F8E6BE;
+}
+.header .header__content .header__content__button:active .findTourBtn {
+  color: #1B1F2B;
+}
 .header .header__content .header__content__button {
   display: flex;
   flex-direction: row;
@@ -184,6 +196,7 @@ body .wrapper {
   border-radius: 10px;
   width: 118px;
   height: 34px;
+  cursor: pointer;
 }
 .header .header__content .header__content__button .findTourBtn {
   width: 78px;
@@ -634,6 +647,12 @@ body .wrapper {
   line-height: 142%;
   color: #FFFFFF;
 }
+.formSection .formSection__content-form .formSection__buttons-container .formSection__submit-button:hover {
+  background: #3B7E7B;
+}
+.formSection .formSection__content-form .formSection__buttons-container .formSection__submit-button:active {
+  background: #627F7E;
+}
 .formSection .formSection__content-form .formSection__buttons-container .formSection__reset-button {
   width: 235px;
   height: 58px;
@@ -654,6 +673,12 @@ body .wrapper {
   font-size: 20px;
   line-height: 142%;
   color: #286562;
+}
+.formSection .formSection__content-form .formSection__buttons-container .formSection__reset-button:hover {
+  background: #F1F3F2;
+}
+.formSection .formSection__content-form .formSection__buttons-container .formSection__reset-button:active {
+  background: #D9DFDB;
 }
 
 .reviewsSection {
@@ -870,6 +895,13 @@ body .wrapper {
   cursor: pointer;
 }
 .travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block .travelStoriesSection__content-block__footer .travelStoriesSection__footer-social-networks .travelStoriesSection__social-network:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 7px;
+}
+.travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block .travelStoriesSection__content-block__footer .travelStoriesSection__footer-social-networks .travelStoriesSection__social-network:active {
+  color: #EFA501;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   text-decoration-thickness: 1px;
