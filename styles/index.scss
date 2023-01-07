@@ -121,7 +121,7 @@ body {
 
                 .menu__item:hover {
                     text-decoration-line: underline;
-                    text-decoration-thickness: 2px;
+                    text-decoration-thickness: 1px;
                     text-underline-offset: 7px;
                 }
             }
@@ -423,6 +423,15 @@ body {
                         width: 199px;
                         height: 42px;
                         background: $darkGreen;
+                        position: absolute;
+                        top: 446px;
+                        left: 30px;
+                    }
+
+                    .chooseTour__link:active {
+                        width: 199px;
+                        height: 42px;
+                        background: $orangeColor;
                         position: absolute;
                         top: 446px;
                         left: 30px;
@@ -897,9 +906,33 @@ body {
                     display: flex;
                     flex-direction: row;
                     align-items: center;
+                    justify-content: center;
                     padding: 0px;
                     gap: 15px;
                     cursor: pointer;
+
+                    position: absolute;
+                    left: 60px;
+                }
+
+                .travelStoriesSection__footer-details-link:hover {
+                    width: 199px;
+                    height: 42px;
+                    background: $darkGreen;
+                    border-radius: 50px;
+                    position: absolute;
+                    top: 23px;
+                    left: 40px
+                }
+
+                .travelStoriesSection__footer-details-link:active {
+                    width: 199px;
+                    height: 42px;
+                    background: $orangeColor;
+                    border-radius: 50px;
+                    position: absolute;
+                    top: 23px;
+                    left: 40px
                 }
 
                 .travelStoriesSection__footer-social-networks {
@@ -911,6 +944,9 @@ body {
                     gap: 35px;
                     height: 28px;
 
+                    position: absolute;
+                    left: 788px;
+
                     .travelStoriesSection__social-network {
                         font-family: 'Roboto';
                         font-style: normal;
@@ -919,6 +955,12 @@ body {
                         line-height: 142%;
                         color: $whiteColor;
                         cursor: pointer;
+                    }
+
+                    .travelStoriesSection__social-network:hover {
+                        text-decoration-line: underline;
+                        text-decoration-thickness: 1px;
+                        text-underline-offset: 7px;
                     }
                 }
             }
@@ -1096,14 +1138,14 @@ body {
                 .footer__social-network:hover {
                     text-decoration-line: underline;
                     text-underline-offset: 7px;
-                    text-decoration-thickness: 2px;
+                    text-decoration-thickness: 1px;
                 }
             }
         }
     }
 }
 
-// ! zoom
+// ! scale chooseTour
 
 .chooseTour__card {
     background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%);
@@ -1117,10 +1159,30 @@ body {
         border-radius: 50px;
         transition: all 0.2s;
     }
-    
 }
 
 .chooseTour__card:hover .chooseTour__card__background {
+    transform: scale(1.2);
+    transition: all 300ms ease;
+}
+
+// ! scale travelStories
+
+.travelStoriesSection__content-block {
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%);
+    overflow: hidden;
+
+    .travelStoriesSection__card__background {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        border-radius: 50px;
+        transition: all 0.2s;
+    }
+}
+
+.travelStoriesSection__content-block:hover .travelStoriesSection__card__background {
     transform: scale(1.2);
     transition: all 300ms ease;
 }
