@@ -867,6 +867,7 @@ body {
                     align-items: center;
                     padding: 0px;
                     gap: 15px;
+                    cursor: pointer;
                 }
 
                 .travelStoriesSection__footer-social-networks {
@@ -885,6 +886,7 @@ body {
                         font-size: 20px;
                         line-height: 142%;
                         color: $whiteColor;
+                        cursor: pointer;
                     }
                 }
             }
@@ -929,6 +931,65 @@ body {
                         list-style: inside;
                     }
                 }
+            }
+        }
+    }
+}
+
+// ! mail section
+
+.mailSection {
+    width: 771px;
+    height: 370px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+
+    .mailSection__photo {
+        width: 370px;
+        height: 370px;
+        border-radius: 50px;
+    }
+
+    .mailSection__content {
+        width: 371px;
+        height: 162px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 20px;
+
+        .mailSection__content__header {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 35px;
+            line-height: 122%;
+            color: $blackColor;
+        }
+
+        .mailSection__content__text {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 142%;
+            color: $greyColor;
+
+            .mailSection__content__mail {
+                color: $blackColor;
+                text-decoration: none;
+            }
+
+            .mailSection__content__mail:hover {
+                text-decoration: underline;
+            }
+
+            .mailSection__content__mail:active {
+                color: $darkGreen;
             }
         }
     }
