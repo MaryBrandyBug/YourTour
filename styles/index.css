@@ -389,11 +389,17 @@ body .wrapper {
   gap: 15px;
   cursor: pointer;
   border-radius: 50px;
+  position: absolute;
+  top: 453px;
+  left: 50px;
 }
 .chooseTourSection .chooseTourSection__content .chooseTour__cards-container .chooseTour__card .chooseTour__card-content .chooseTour__link:hover {
   width: 199px;
   height: 42px;
   background: #286562;
+  position: absolute;
+  top: 446px;
+  left: 30px;
 }
 
 .formSection {
