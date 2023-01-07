@@ -255,6 +255,7 @@ body .wrapper {
   left: 4.17%;
   top: 21.15%;
   color: #FFFFFF;
+  z-index: 0;
 }
 .section .info-cards__header {
   font-family: "Roboto";
@@ -350,6 +351,7 @@ body .wrapper {
   right: 0px;
   top: 0px;
   bottom: 0px;
+  border-radius: 50px;
 }
 .chooseTourSection .chooseTourSection__content .chooseTour__cards-container .chooseTour__card .chooseTour__card-content .chooseTour__text-container {
   width: 270px;
@@ -983,4 +985,22 @@ body .wrapper {
           text-decoration-line: underline;
   text-underline-offset: 7px;
   text-decoration-thickness: 2px;
+}
+
+.chooseTour__card {
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%);
+  overflow: hidden;
+}
+.chooseTour__card .chooseTour__card__background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border-radius: 50px;
+  transition: all 0.2s;
+}
+
+.chooseTour__card:hover .chooseTour__card__background {
+  transform: scale(1.2);
+  transition: all 300ms ease;
 }/*# sourceMappingURL=index.css.map */

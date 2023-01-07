@@ -266,6 +266,7 @@ body {
             left: 4.17%;
             top: 21.15%;
             color: $whiteColor;
+            z-index: 0;
         }
     }
 
@@ -354,11 +355,6 @@ body {
             padding: 0px;
             gap: 30px;
 
-            // .chooseTour__card:hover {
-            //     transform: scale(1.2);
-            //     transition: all 0.3s ease;
-            // }
-
             .chooseTour__card {
                 width: 370px;
                 height: 531px;
@@ -376,6 +372,7 @@ body {
                     right: 0px;
                     top: 0px;
                     bottom: 0px;
+                    border-radius: 50px;
 
                     .chooseTour__text-container {
                         width: 270px;
@@ -1097,4 +1094,26 @@ body {
             }
         }
     }
+}
+
+// ! zoom
+
+.chooseTour__card {
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%);
+    overflow: hidden;
+
+    .chooseTour__card__background {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        border-radius: 50px;
+        transition: all 0.2s;
+    }
+    
+}
+
+.chooseTour__card:hover .chooseTour__card__background {
+    transform: scale(1.2);
+    transition: all 300ms ease;
 }
