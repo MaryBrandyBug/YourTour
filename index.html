@@ -14,6 +14,7 @@
 </head>
 <body>
   <div class="wrapper">
+
     <header class="header">
       <div class="header__navbar">
         <div class="navbar">
@@ -36,6 +37,7 @@
         </div>
       </div>
     </header>
+
     <div class="chooseTourSection section">
       <div class="chooseTourSection__header section__header__flex">
         <h2 class="chooseTourSection__header__title section__header__title">Выбери свой тур</h2>
@@ -143,6 +145,80 @@
         </div>
       </div>
     </div>
+
+    <div class="formSection section">
+      <div class="formSection__header section__header__flex">
+        <h2 class="formSection__header__title section__header__title">Собери свой тур</h2>
+        <p class="formSection__header__subtitle">Идейные соображения высшего порядка,а также рамки и место обучения кадров</p>
+      </div>
+      <div class="formSection__content-form section__content__flex">
+
+        <div class="formSection__input-fields-container">
+          <div class="formSection__input-field-container">
+            <p class="formSection__input-name">Имя</p>
+            <input type="text" class="formSection__input-field" placeholder="Введите Ваше имя">
+          </div>
+          <div class="formSection__input-field-container">
+            <p class="formSection__input-name">Направление</p>
+            <select class="formSection__input-field select-field">
+              <option value="">Куда хотите ехать</option>
+            </select>
+          </div>
+        </div>
+        <div class="formSection__input-fields-container">
+          <div class="formSection__input-field-container">
+            <p class="formSection__input-name">Email</p>
+            <input type="email" class="formSection__input-field" placeholder="example@mail.com">
+          </div>
+          <div class="formSection__input-field-container">
+            <p class="formSection__input-name">Телефон</p>
+            <input type="tel" class="formSection__input-field" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _">
+          </div>
+        </div>
+        <div class="formSection__input-fields-container">
+          <div class="formSection__input-field-container">
+            <p class="formSection__input-name">Дата от</p>
+            <input type="date" class="formSection__input-field"  value="">
+          </div>
+          <div class="formSection__input-field-container">
+            <p class="formSection__input-name">Дата до</p>
+            <input type="date" class="formSection__input-field" placeholder="">
+          </div>
+        </div>
+        <div class="formSection__input-comment-container">
+          <p class="formSection__input-name">Комментарий</p>
+          <input type="text" class="formSection__input-field-comment">
+        </div>
+        <div class="formSection__ageCheck-container">
+          <div class="formSection__input-ageCheck-container">
+            <p class="formSection__input-name">Вам есть 18 лет?</p>
+            <div class="formSection__radio-buttons-container">
+              <div class="formSection__radio-button-container">
+                <input type="radio" name="age" class="formSection__age-radio-button">
+                <p class="formSection__input-name">Да</p>
+              </div>
+              <div class="formSection__radio-button-container">
+                <input type="radio" name="age" class="formSection__age-radio-button">
+                <p class="formSection__input-name">Нет</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="formSection__agreement-container">
+          <input type="checkbox" class="formSection__agreement-radio-button">
+          <p class="formSection__accept">Нажимая кнопку, я принимаю условия <a href="#" class="formSection__agreement-text-link">Лицензионного договора</a></p>
+        </div>
+        <div class="formSection__buttons-container">
+          <div class="formSection__submit-button">
+            <p class="formSection__submit-button-text">Найти тур</p>
+          </div>
+          <div class="formSection__reset-button">
+            <p class="formSection__reset-button-text">Сбросить</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </body>
 </html>
