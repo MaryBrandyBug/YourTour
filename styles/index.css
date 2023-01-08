@@ -122,6 +122,13 @@ body .wrapper {
   line-height: 142%;
   color: #FFFFFF;
   white-space: nowrap;
+  cursor: pointer;
+}
+.header .header__navbar .navbar .navbar__menu .menu__item:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 7px;
 }
 .header .header__navbar .navbar .telephone {
   width: 155px;
@@ -166,6 +173,18 @@ body .wrapper {
   text-align: center;
   color: #FFFFFF;
 }
+.header .header__content .header__content__button:hover {
+  background: #EFA501;
+}
+.header .header__content .header__content__button:hover .findTourBtn {
+  color: #FFFFFF;
+}
+.header .header__content .header__content__button:active {
+  background: #F8E6BE;
+}
+.header .header__content .header__content__button:active .findTourBtn {
+  color: #1B1F2B;
+}
 .header .header__content .header__content__button {
   display: flex;
   flex-direction: row;
@@ -177,6 +196,7 @@ body .wrapper {
   border-radius: 10px;
   width: 118px;
   height: 34px;
+  cursor: pointer;
 }
 .header .header__content .header__content__button .findTourBtn {
   width: 78px;
@@ -248,6 +268,7 @@ body .wrapper {
   left: 4.17%;
   top: 21.15%;
   color: #FFFFFF;
+  z-index: 0;
 }
 .section .info-cards__header {
   font-family: "Roboto";
@@ -299,7 +320,16 @@ body .wrapper {
   cursor: pointer;
 }
 .chooseTourSection .chooseTourSection__header .chooseTourSection__header__menu .chooseTourSection_menu__item .chooseTourSection_menu__item-name:hover {
-  text-decoration: underline;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 7px;
+}
+.chooseTourSection .chooseTourSection__header .chooseTourSection__header__menu .chooseTourSection_menu__item .chooseTourSection_menu__item-name:active {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 7px;
   color: #EFA501;
 }
 .chooseTourSection .chooseTourSection__content {
@@ -334,6 +364,7 @@ body .wrapper {
   right: 0px;
   top: 0px;
   bottom: 0px;
+  border-radius: 50px;
 }
 .chooseTourSection .chooseTourSection__content .chooseTour__cards-container .chooseTour__card .chooseTour__card-content .chooseTour__text-container {
   width: 270px;
@@ -366,9 +397,30 @@ body .wrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   padding: 0px;
   gap: 15px;
   cursor: pointer;
+  border-radius: 50px;
+  position: absolute;
+  top: 453px;
+  left: 50px;
+}
+.chooseTourSection .chooseTourSection__content .chooseTour__cards-container .chooseTour__card .chooseTour__card-content .chooseTour__link:hover {
+  width: 199px;
+  height: 42px;
+  background: #286562;
+  position: absolute;
+  top: 446px;
+  left: 30px;
+}
+.chooseTourSection .chooseTourSection__content .chooseTour__cards-container .chooseTour__card .chooseTour__card-content .chooseTour__link:active {
+  width: 199px;
+  height: 42px;
+  background: #EFA501;
+  position: absolute;
+  top: 446px;
+  left: 30px;
 }
 
 .formSection {
@@ -530,22 +582,31 @@ body .wrapper {
   gap: 11px;
 }
 .formSection .formSection__content-form .formSection__ageCheck-container .formSection__input-ageCheck-container .formSection__radio-buttons-container .formSection__radio-button-container .formSection__age-radio-button {
+  display: none;
+}
+.formSection .formSection__content-form .formSection__ageCheck-container .formSection__input-ageCheck-container .formSection__radio-buttons-container .formSection__radio-button-container .radio__border {
   width: 26px;
   height: 26px;
-  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 50%;
+  position: relative;
 }
-.formSection .formSection__content-form .formSection__agreement-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  gap: 19px;
+.formSection .formSection__content-form .formSection__ageCheck-container .formSection__input-ageCheck-container .formSection__radio-buttons-container .formSection__radio-button-container .radio__border::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-color: #1B1F2B;
+  border-radius: 50%;
+  transition: 0.2s;
+  z-index: -1;
 }
-.formSection .formSection__content-form .formSection__agreement-container .formSection__agreement-radio-button {
-  width: 26px;
-  height: 26px;
-  outline: solid 1px #1B1F2B;
+.formSection .formSection__content-form .formSection__ageCheck-container .formSection__input-ageCheck-container .formSection__radio-buttons-container .formSection__radio-button-container .formSection__age-radio-button:checked + .radio__border::before {
+  z-index: 1;
 }
 .formSection .formSection__content-form .formSection__agreement-container .formSection__accept {
   font-family: "Roboto";
@@ -555,11 +616,57 @@ body .wrapper {
   line-height: 142%;
   letter-spacing: -0.01em;
   color: #A6A6A6;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 19px;
+}
+.formSection .formSection__content-form .formSection__agreement-container .formSection__accept .formSection__agreement-radio-button {
+  display: none;
+}
+.formSection .formSection__content-form .formSection__agreement-container .formSection__accept .checkbox__border {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  border: 2px solid black;
+  border-radius: 20%;
+  position: relative;
+}
+.formSection .formSection__content-form .formSection__agreement-container .formSection__accept .checkbox__border::before {
+  content: "";
+  position: absolute;
+  left: -1.3px;
+  top: 47%;
+  height: 29%;
+  width: 2px;
+  background-color: #1B1F2B;
+  transform: translateX(12.45px) rotate(-45deg);
+  transform-origin: left bottom;
+  transition: 0.2s;
+}
+.formSection .formSection__content-form .formSection__agreement-container .formSection__accept .checkbox__border::after {
+  position: absolute;
+  left: 9%;
+  bottom: 19%;
+  height: 2px;
+  width: 70%;
+  background-color: #1B1F2B;
+  content: "";
+  transform: translateX(10px) rotate(-45deg);
+  transform-origin: left bottom;
+  transition: 0.2s;
+}
+.formSection .formSection__content-form .formSection__agreement-container .formSection__accept .formSection__agreement-radio-button:checked + .checkbox__border::before,
+.formSection .formSection__content-form .formSection__agreement-container .formSection__accept .formSection__agreement-radio-button:checked + .checkbox__border::after {
+  opacity: 1;
 }
 .formSection .formSection__content-form .formSection__agreement-container .formSection__accept .formSection__agreement-text-link {
   color: #1B1F2B;
   text-decoration: none;
   cursor: pointer;
+  margin-left: -13px;
 }
 .formSection .formSection__content-form .formSection__agreement-container .formSection__accept .formSection__agreement-text-link:hover {
   text-decoration: underline;
@@ -595,6 +702,12 @@ body .wrapper {
   line-height: 142%;
   color: #FFFFFF;
 }
+.formSection .formSection__content-form .formSection__buttons-container .formSection__submit-button:hover {
+  background: #3B7E7B;
+}
+.formSection .formSection__content-form .formSection__buttons-container .formSection__submit-button:active {
+  background: #627F7E;
+}
 .formSection .formSection__content-form .formSection__buttons-container .formSection__reset-button {
   width: 235px;
   height: 58px;
@@ -615,6 +728,12 @@ body .wrapper {
   font-size: 20px;
   line-height: 142%;
   color: #286562;
+}
+.formSection .formSection__content-form .formSection__buttons-container .formSection__reset-button:hover {
+  background: #F1F3F2;
+}
+.formSection .formSection__content-form .formSection__buttons-container .formSection__reset-button:active {
+  background: #D9DFDB;
 }
 
 .reviewsSection {
@@ -785,9 +904,30 @@ body .wrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   padding: 0px;
   gap: 15px;
   cursor: pointer;
+  position: absolute;
+  left: 60px;
+}
+.travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block .travelStoriesSection__content-block__footer .travelStoriesSection__footer-details-link:hover {
+  width: 199px;
+  height: 42px;
+  background: #286562;
+  border-radius: 50px;
+  position: absolute;
+  top: 23px;
+  left: 40px;
+}
+.travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block .travelStoriesSection__content-block__footer .travelStoriesSection__footer-details-link:active {
+  width: 199px;
+  height: 42px;
+  background: #EFA501;
+  border-radius: 50px;
+  position: absolute;
+  top: 23px;
+  left: 40px;
 }
 .travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block .travelStoriesSection__content-block__footer .travelStoriesSection__footer-social-networks {
   display: flex;
@@ -797,6 +937,8 @@ body .wrapper {
   padding: 0px;
   gap: 35px;
   height: 28px;
+  position: absolute;
+  left: 788px;
 }
 .travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block .travelStoriesSection__content-block__footer .travelStoriesSection__footer-social-networks .travelStoriesSection__social-network {
   font-family: "Roboto";
@@ -806,6 +948,19 @@ body .wrapper {
   line-height: 142%;
   color: #FFFFFF;
   cursor: pointer;
+}
+.travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block .travelStoriesSection__content-block__footer .travelStoriesSection__footer-social-networks .travelStoriesSection__social-network:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 7px;
+}
+.travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block .travelStoriesSection__content-block__footer .travelStoriesSection__footer-social-networks .travelStoriesSection__social-network:active {
+  color: #EFA501;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 7px;
 }
 .travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block .travelStoriesSection__content-block__content {
   display: flex;
@@ -954,4 +1109,46 @@ body .wrapper {
   line-height: 142%;
   color: #1B1F2B;
   cursor: pointer;
+}
+.footer .footer__content .footer__content__social-networks-links .footer__link-block .footer__social-network:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  text-underline-offset: 7px;
+  text-decoration-thickness: 1px;
+}
+
+.chooseTour__card {
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%);
+  overflow: hidden;
+}
+.chooseTour__card .chooseTour__card__background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border-radius: 50px;
+  transition: all 0.2s;
+}
+
+.chooseTour__card:hover .chooseTour__card__background {
+  transform: scale(1.2);
+  transition: all 300ms ease;
+}
+
+.travelStoriesSection__content-block {
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%);
+  overflow: hidden;
+}
+.travelStoriesSection__content-block .travelStoriesSection__card__background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border-radius: 50px;
+  transition: all 0.2s;
+}
+
+.travelStoriesSection__content-block:hover .travelStoriesSection__card__background {
+  transform: scale(1.2);
+  transition: all 300ms ease;
 }/*# sourceMappingURL=index.css.map */
