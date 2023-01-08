@@ -1,5 +1,9 @@
-$headerWhiteColor:  #FFFFFF;
-$headerBtnFontColor: #1B1F2B;
+$whiteColor:  #FFFFFF;
+$blackColor: #1B1F2B;
+$orangeColor: #EFA501;
+$lightOrange: #F8E6BE;
+
+
 .header {
     display: flex;
     flex-direction: column;
@@ -7,18 +11,17 @@ $headerBtnFontColor: #1B1F2B;
     padding: 0px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 39.9%), linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('header.png');
     background-size: cover;
-
     width: 1920px;
     height: 831px;
 
     .header__navbar {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        // justify-content: space-between;
         align-items: center;
+        justify-content: center;
         padding: 0px;
         gap: 214px;
-
         width: 1168px;
         height: 30.24px;
 
@@ -31,7 +34,6 @@ $headerBtnFontColor: #1B1F2B;
             gap: 214px;
             margin-left: 376px;
             margin-top: 28.88px;
-
             width: 1168px;
             height: 30.24px;
 
@@ -53,34 +55,38 @@ $headerBtnFontColor: #1B1F2B;
                 align-items: center;
                 padding: 0px;
                 gap: 50px;
-
                 width: 468px;
                 height: 28px;
 
                 .menu__item {
                     width: 114px;
                     height: 28px;
-
                     font-family: 'Roboto';
                     font-style: normal;
                     font-weight: 400;
                     font-size: 20px;
                     line-height: 142%;
-                    color: $headerWhiteColor;
-                    white-space: nowrap
+                    color: $whiteColor;
+                    white-space: nowrap;
+                    cursor: pointer;
+                }
+
+                .menu__item:hover {
+                    text-decoration-line: underline;
+                    text-decoration-thickness: 1px;
+                    text-underline-offset: 7px;
                 }
             }
 
             .telephone {
                 width: 155px;
                 height: 28px;
-
                 font-family: 'Roboto';
                 font-style: normal;
                 font-weight: 400;
                 font-size: 20px;
                 line-height: 142%;
-                color: $headerWhiteColor;
+                color: $whiteColor;
                 white-space: nowrap;
             }
         }
@@ -93,34 +99,45 @@ $headerBtnFontColor: #1B1F2B;
         align-items: center;
         padding: 0px;
         gap: 50px;
-
         width: 1920px;
         height: 743px;
 
         .header__content__title {
             width: 768px;
             height: 315px;
-
             font-style: normal;
             font-weight: 700;
             font-size: 96px;
             line-height: 109%;
             text-align: center;
             letter-spacing: 0.02em;
-            color: $headerWhiteColor;
+            color: $whiteColor;
         }
 
         .header__content__subtitle {
             width: 562px;
             height: 56px;
-
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 400;
             font-size: 20px;
             line-height: 142%;
             text-align: center;
-            color: $headerWhiteColor;
+            color: $whiteColor;
+        }
+
+        .header__content__button:hover {
+            background: $orangeColor;
+            .findTourBtn {
+                color: $whiteColor;
+            }
+        }
+
+        .header__content__button:active {
+            background: $lightOrange;
+            .findTourBtn {
+                color: $blackColor;
+            }
         }
 
         .header__content__button {
@@ -130,23 +147,22 @@ $headerBtnFontColor: #1B1F2B;
             justify-content: center;
             padding: 5px 20px;
             gap: 10px;
-            background: $headerWhiteColor;
+            background: $whiteColor;
             border-radius: 10px;
-
             width: 118px;
             height: 34px;
+            cursor: pointer;
 
             .findTourBtn {
                 width: 78px;
                 height: 24px;
-
                 font-family: 'Roboto';
                 font-style: normal;
                 font-weight: 400;
                 font-size: 17px;
                 line-height: 142%;
                 letter-spacing: -0.01em;
-                color: $headerBtnFontColor;
+                color: $blackColor;
             }
         }
     }

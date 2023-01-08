@@ -11,8 +11,8 @@
 .header .header__navbar {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
   padding: 0px;
   gap: 214px;
   width: 1168px;
@@ -59,6 +59,13 @@
   line-height: 142%;
   color: #FFFFFF;
   white-space: nowrap;
+  cursor: pointer;
+}
+.header .header__navbar .navbar .navbar__menu .menu__item:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 7px;
 }
 .header .header__navbar .navbar .telephone {
   width: 155px;
@@ -103,6 +110,18 @@
   text-align: center;
   color: #FFFFFF;
 }
+.header .header__content .header__content__button:hover {
+  background: #EFA501;
+}
+.header .header__content .header__content__button:hover .findTourBtn {
+  color: #FFFFFF;
+}
+.header .header__content .header__content__button:active {
+  background: #F8E6BE;
+}
+.header .header__content .header__content__button:active .findTourBtn {
+  color: #1B1F2B;
+}
 .header .header__content .header__content__button {
   display: flex;
   flex-direction: row;
@@ -114,6 +133,7 @@
   border-radius: 10px;
   width: 118px;
   height: 34px;
+  cursor: pointer;
 }
 .header .header__content .header__content__button .findTourBtn {
   width: 78px;
@@ -125,4 +145,4 @@
   line-height: 142%;
   letter-spacing: -0.01em;
   color: #1B1F2B;
-}/*# sourceMappingURL=Header.style.css.map */
+}/*# sourceMappingURL=header.css.map */
