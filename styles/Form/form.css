@@ -4,14 +4,9 @@
 }
 .formSection .formSection__header {
   gap: 30px;
-  width: 458px;
-  height: 159px;
-}
-.formSection .formSection__header .formSection__header__title {
-  width: 458px;
-  height: 73px;
 }
 .formSection .formSection__header .formSection__header__subtitle {
+  width: 458px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -34,6 +29,7 @@
   font-size: 20px;
   line-height: 142%;
   color: #1B1F2B;
+  margin-top: -5px;
 }
 .formSection .formSection__content-form .formSection__input-fields-container {
   width: 1030px;
@@ -140,7 +136,7 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  gap: 8px;
+  gap: 12px;
 }
 .formSection .formSection__content-form .formSection__ageCheck-container .formSection__input-ageCheck-container .formSection__radio-buttons-container {
   display: flex;
@@ -160,8 +156,8 @@
   display: none;
 }
 .formSection .formSection__content-form .formSection__ageCheck-container .formSection__input-ageCheck-container .formSection__radio-buttons-container .formSection__radio-button-container .radio__border {
-  width: 26px;
-  height: 26px;
+  width: 21px;
+  height: 21px;
   border: 2px solid black;
   border-radius: 50%;
   position: relative;
@@ -173,8 +169,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   display: block;
-  width: 15px;
-  height: 15px;
+  width: 12px;
+  height: 12px;
   background-color: #1B1F2B;
   border-radius: 50%;
   transition: 0.2s;
@@ -203,8 +199,8 @@
 }
 .formSection .formSection__content-form .formSection__agreement-container .formSection__accept .checkbox__border {
   display: inline-block;
-  width: 26px;
-  height: 26px;
+  width: 20px;
+  height: 20px;
   border: 2px solid black;
   border-radius: 20%;
   position: relative;
@@ -263,7 +259,6 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 15px 30px;
   gap: 10px;
   background: #286562;
   border-radius: 10px;
@@ -290,7 +285,6 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 15px 30px;
   gap: 10px;
   background: #E0F0E5;
   border-radius: 10px;

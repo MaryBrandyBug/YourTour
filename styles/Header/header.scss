@@ -23,19 +23,19 @@ $lightOrange: #F8E6BE;
         padding: 0px;
         gap: 214px;
         width: 1168px;
-        height: 30.24px;
+        height: 88px;
 
         .navbar {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
-            padding: 0px;
-            gap: 214px;
-            margin-left: 376px;
-            margin-top: 28.88px;
+            padding: 0px;            margin-left: 376px;
             width: 1168px;
             height: 30.24px;
+
+            gap: 180px;
+            margin-left: 752px;
 
             .navbar__logo {
                 width: 181.84px;
@@ -149,8 +149,8 @@ $lightOrange: #F8E6BE;
             gap: 10px;
             background: $whiteColor;
             border-radius: 10px;
-            width: 118px;
-            height: 34px;
+            // width: 118px;
+            // height: 34px;
             cursor: pointer;
 
             .findTourBtn {
