@@ -65,6 +65,12 @@ $gainsboro: #D9DFDB;
             padding: 0px;
             gap: 30px;
 
+            .select-field {
+                option {
+                    color: $greyColor;
+                }
+            }
+
             .formSection__input-field-container {
                 width: 500px;
                 height: 104px;
@@ -96,8 +102,18 @@ $gainsboro: #D9DFDB;
                     font-weight: 400;
                     font-size: 20px;
                     line-height: 142%;
-                    color: $greyColor;
+                    cursor: pointer;
+                    // color: $greyColor;
                     // position: relative;
+                }
+
+                .formSection__input-field:focus{
+                    border: 1px solid $greyColor;
+                    background: $lightBeigeColor;
+                }
+
+                .formSection__input-field:hover {
+                    background: $lightBeigeColor;
                 }
 
                 .formSection__input-field::placeholder {
@@ -128,6 +144,10 @@ $gainsboro: #D9DFDB;
             align-items: flex-start;
             padding: 0px;
             gap: 8px;
+
+            .input-comment {
+                resize: none;
+            }
 
             .formSection__input-field-comment {
                 width: 1030px;
@@ -370,3 +390,16 @@ $gainsboro: #D9DFDB;
         }
     }
 }
+
+input:focus::-webkit-input-placeholder { z-index: -1 };
+input:focus:-moz-placeholder { color:transparent; };
+input:focus::-moz-placeholder { color:transparent; };
+input:focus:-ms-input-placeholder { color:transparent; };
+
+// input:focus{
+//     // color:red;
+//     background-color: #fff;
+//     border-color: #bdbdbd;
+//     outline: 0;
+//     box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+// };
