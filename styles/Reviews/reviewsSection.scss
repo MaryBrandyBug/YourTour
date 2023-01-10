@@ -13,20 +13,20 @@ $whiteSmoke: #F1F3F2;
 $gainsboro: #D9DFDB;
 
 .reviewsSection {
-    width: 1170px;
-    height: 1005px;
+    max-width: 1170px;
+    min-height: 1005px;
 
     .reviewsSection__header {
         gap: 30px;
 
         .reviewsSection__header__title {
-            width: 529px;
-            height: 146px;
+            max-width: 529px;
+            // height: 146px;
         }
 
         .reviewsSection__header__subtitle {
-            width: 418px;
-            height: 56px;
+            max-width: 418px;
+            max-height: 56px;
         }
     }
 
@@ -62,8 +62,8 @@ $gainsboro: #D9DFDB;
                 flex-direction: row;
                 align-items: flex-end;
                 padding: 70px 0px 0px;
-                width: 490px;
-                height: 145px;
+                // width: 490px;
+                // height: 145px;
 
                 .reviewsSection__footer-content {
                     display: flex;
@@ -71,8 +71,8 @@ $gainsboro: #D9DFDB;
                     align-items: flex-start;
                     padding: 0px;
                     gap: 8px;
-                    width: 415px;
-                    height: 75px;
+                    min-width: 415px;
+                    // height: 75px;
 
                     .reviewsSection__reviewer-name {
                         font-family: 'Roboto';
@@ -95,8 +95,8 @@ $gainsboro: #D9DFDB;
                 }
 
                 .footer-content__reviewer {
-                    width: 75px;
-                    height: 75px;
+                    max-width: 75px;
+                    max-height: 75px;
                     border-radius: 100px;;
                 }
             }

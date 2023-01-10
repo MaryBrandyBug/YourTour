@@ -13,22 +13,22 @@ $whiteSmoke: #F1F3F2;
 $gainsboro: #D9DFDB;
 
 .chooseTourSection {
-    width: 1170px;
-    height: 1334px;
+    // max-width: 1170px;
+    min-height: 1334px;
 
     .chooseTourSection__header {
-        width: 700px;
-        height: 142px;
+        max-width: 700px;
+        // min-height: 142px;
         gap: 35px;
 
         .chooseTourSection__header__title {
-            width: 473px;
-            height: 73px;
+            // width: 473px;
+            // height: 73px;
         }
 
         .chooseTourSection__header__menu {
-            width: 700px;
-            height: 34px;
+            // width: 700px;
+            // height: 34px;
             display: flex;
             flex-direction: row;
             align-items: flex-start;
@@ -36,7 +36,7 @@ $gainsboro: #D9DFDB;
             gap: 30px;
 
             .chooseTourSection_menu__item {
-                height: 34px;
+                // height: 34px;
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
@@ -44,7 +44,7 @@ $gainsboro: #D9DFDB;
                 gap: 6px;
 
                 .chooseTourSection_menu__item-name {
-                    height: 28px;
+                    // height: 28px;
                     font-family: 'Roboto';
                     font-style: normal;
                     font-weight: 700;
@@ -70,25 +70,43 @@ $gainsboro: #D9DFDB;
     }
 
     .chooseTourSection__content {
-        width: 1170px;
-        height: 1092px;
+        // max-width: 1170px;
+        max-height: 1092px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 1170px;
         padding: 0px;
         gap: 30px;
 
-        .chooseTour__cards-container {
-            width: 1170px;
-            height: 531px;
-            display: flex;
-            flex-direction: row;
-            align-items: flex-start;
-            padding: 0px;
-            gap: 30px;
+        // .chooseTour__cards-container {
+        //     height: 531px;
+        //     display: flex;
+        //     flex-direction: row;
+        //     align-items: flex-start;
+        //     padding: 0px;
 
             .chooseTour__card {
-                width: 370px;
-                height: 531px;
+                min-width: 370px;
+                min-height: 531px;
                 border-radius: 50px;
                 position: relative;
+                background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%);
+                overflow: hidden;
+
+                .chooseTour__card__background {
+                    position: absolute;
+                    max-width: 100%;
+                    max-height: 100%;
+                    z-index: -1;
+                    border-radius: 50px;
+                    transition: all 0.2s;
+                }
+
+                .chooseTour__card:hover .chooseTour__card__background {
+                    transform: scale(1.2);
+                    transition: all 300ms ease;
+                }
 
                 .chooseTour__card-content {
                     display: flex;
@@ -104,8 +122,8 @@ $gainsboro: #D9DFDB;
                     border-radius: 50px;
 
                     .chooseTour__text-container {
-                        width: 270px;
-                        height: 126px;
+                        max-width: 270px;
+                        // height: 126px;
                         display: flex;
                         flex-direction: column;
                         justify-content: flex-end;
@@ -114,13 +132,13 @@ $gainsboro: #D9DFDB;
                         gap: 16px;
 
                         .chooseTour__card__title {
-                            width: 220px;
-                            height: 86px;
+                            // width: 220px;
+                            // height: 86px;
                         }
 
                         .chooseTour__card__subtitle {
-                            width: 270px;
-                            height: 24px;
+                            // width: 270px;
+                            // height: 24px;
                             font-family: 'Roboto';
                             font-style: normal;
                             font-weight: 400;
@@ -132,8 +150,8 @@ $gainsboro: #D9DFDB;
                     }
 
                     .chooseTour__link {
-                        width: 159px;
-                        height: 28px;
+                        // max-width: 159px;
+                        // height: 28px;
                         display: flex;
                         flex-direction: row;
                         align-items: center;
@@ -168,24 +186,86 @@ $gainsboro: #D9DFDB;
                 }
             }
         }
-    }
+    // }
 }
 
-.chooseTour__card {
-    background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%);
-    overflow: hidden;
+// .chooseTour__card {
+//     background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%);
+//     overflow: hidden;
 
-    .chooseTour__card__background {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        z-index: -1;
-        border-radius: 50px;
-        transition: all 0.2s;
+//     .chooseTour__card__background {
+//         position: absolute;
+//         max-width: 100%;
+//         max-height: 100%;
+//         z-index: -1;
+//         border-radius: 50px;
+//         transition: all 0.2s;
+//     }
+// }
+
+// .chooseTour__card:hover .chooseTour__card__background {
+//     transform: scale(1.2);
+//     transition: all 300ms ease;
+// }
+
+// @media (max-width: 1920px) {
+//     .chooseTourSection__content {
+//         max-height: 1092px;
+//         display: flex;
+//         flex-direction: row;
+//         flex-wrap: wrap;
+//         max-width: 1170px;
+
+//         .chooseTour__cards-container{
+//             gap: 30px;
+    
+//             .chooseTour__card {
+//                 width: 370px;
+//             }
+//         }
+//     }
+// }
+
+// @media (max-width: 1024px) {
+//     .chooseTourSection__content {
+//         max-width: 1024px;
+//         height: 1629px;
+//         display: flex;
+//         flex-wrap: wrap;
+//         flex-direction: row;
+        
+//         // .chooseTour__cards-container {
+//         //     width: 918px;
+//         //     gap: 18px;
+//         //     flex-wrap: wrap;
+
+//             .chooseTour__card {
+//                 width: 450px;
+
+//                 .chooseTour__card-content {
+
+//                 }
+
+//                 .chooseTour__card__background {
+//                     // width: 450px;
+//                 }
+//             }
+//         // }
+//     }
+
+// }
+
+@media (max-width: 1024px) {
+    .chooseTourSection {
+        max-height: 1871px;
+
+        .chooseTourSection__content {
+            padding: 0px 53px;
+            gap: 18px;
+
+            .chooseTour__card {
+                min-width: 450px;
+            }
+        }
     }
-}
-
-.chooseTour__card:hover .chooseTour__card__background {
-    transform: scale(1.2);
-    transition: all 300ms ease;
 }

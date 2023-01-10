@@ -19,13 +19,14 @@ $gainsboro: #D9DFDB;
     align-items: center;
     padding: 0px;
     gap: 214px;
-    width: 1920px;
-    height: 88px;
+    min-width: 100%;
+    // width: 1920px;
+    min-height: 88px;
     background: $lightBeigeColor;
 
     .footer__content {
-        width: 1168px;
-        height: 28px;
+        min-width: 1168px;
+        min-height: 28px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -43,8 +44,8 @@ $gainsboro: #D9DFDB;
         }
 
         .footer__content__social-networks-links {
-            width: 419px;
-            height: 28px;
+            max-width: 419px;
+            min-height: 28px;
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -53,8 +54,8 @@ $gainsboro: #D9DFDB;
             gap: 25px;
 
             .footer__link-block {
-                width: 126px;
-                height: 28px;
+                max-width: 126px;
+                min-height: 28px;
                 display: flex;
                 flex-direction: row;
                 align-items: center;
@@ -62,8 +63,8 @@ $gainsboro: #D9DFDB;
                 gap: 10px;
 
                 .inst-icon {
-                    width: 26h;
-                    height: 26px;
+                    max-width: 26h;
+                    max-height: 26px;
                 }
 
                 .footer__social-network {

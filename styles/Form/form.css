@@ -1,5 +1,4 @@
 .formSection {
-  width: 1170px;
   height: 1245px;
 }
 .formSection .formSection__header {
@@ -16,7 +15,6 @@
   color: #A6A6A6;
 }
 .formSection .formSection__content-form {
-  height: 986px;
   padding: 70px;
   gap: 33px;
   background: #FFFFFF;
@@ -32,7 +30,6 @@
   margin-top: -5px;
 }
 .formSection .formSection__content-form .formSection__input-fields-container {
-  width: 1030px;
   height: 104px;
   display: flex;
   flex-direction: row;
@@ -113,7 +110,7 @@
   content: url("./png/Rectangle.png");
 }
 .formSection .formSection__content-form .formSection__input-comment-container {
-  width: 1030px;
+  max-width: 1030px;
   height: 188px;
   display: flex;
   flex-direction: column;

@@ -13,7 +13,7 @@ $whiteSmoke: #F1F3F2;
 $gainsboro: #D9DFDB;
 
 .formSection {
-    width: 1170px;
+    // width: 1170px;
     height: 1245px;
 
     .formSection__header {
@@ -40,7 +40,7 @@ $gainsboro: #D9DFDB;
     }
 
     .formSection__content-form {
-        height: 986px;
+        // height: 986px;
         padding: 70px;
         gap: 33px;
         background: $whiteColor;
@@ -57,7 +57,7 @@ $gainsboro: #D9DFDB;
         }
 
         .formSection__input-fields-container {
-            width: 1030px;
+            // width: 1030px;
             height: 104px;
             display: flex;
             flex-direction: row;
@@ -137,7 +137,7 @@ $gainsboro: #D9DFDB;
         }
 
         .formSection__input-comment-container {
-            width: 1030px;
+            max-width: 1030px;
             height: 188px;
             display: flex;
             flex-direction: column;

@@ -1,30 +1,18 @@
 .travelStoriesSection {
   gap: 100px;
-  width: 1170px;
-  height: 2060px;
+  max-width: 1170px;
 }
 .travelStoriesSection .travelStoriesSection__header {
   gap: 30px;
-  width: 615px;
-  height: 159px;
-}
-.travelStoriesSection .travelStoriesSection__header .travelStoriesSection__header__title {
-  width: 615px;
-  height: 73px;
-}
-.travelStoriesSection .travelStoriesSection__header .travelStoriesSection__header__subtitle {
-  width: 418px;
-  height: 56px;
 }
 .travelStoriesSection .travelStoriesSection__content {
-  width: 1170px;
-  height: 1801px;
+  max-width: 1170px;
   padding: 0px;
   gap: 50px;
 }
 .travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block {
-  width: 1170px;
-  height: 567px;
+  min-width: 1170px;
+  min-height: 567px;
   border-radius: 50px;
   position: relative;
 }
@@ -41,8 +29,6 @@
   bottom: 0px;
 }
 .travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block .travelStoriesSection__content-block__footer .travelStoriesSection__footer-details-link {
-  width: 159px;
-  height: 28px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -111,17 +97,12 @@
   padding: 60px 0px 0px 60px;
   gap: 37px;
   position: absolute;
-  height: 394px;
   left: 0px;
   right: 0px;
   top: 0px;
 }
-.travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block .travelStoriesSection__content-block__content .travelStoriesSection__content-block__title {
-  width: 554px;
-  height: 43px;
-}
 .travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block .travelStoriesSection__content-block__content .travelStoriesSection__content-block__text {
-  width: 554px;
+  max-width: 554px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -147,8 +128,8 @@
 }
 .travelStoriesSection__content-block .travelStoriesSection__card__background {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
   z-index: -1;
   border-radius: 50px;
   transition: all 0.2s;

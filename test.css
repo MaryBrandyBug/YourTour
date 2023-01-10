@@ -64,10 +64,10 @@ body .wrapper {
   padding: 0px;
   gap: 135px;
   position: absolute;
-  width: 1920px;
+  max-width: 1920px;
   left: 0px;
   top: 1px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .section {
@@ -138,3 +138,13 @@ body .wrapper {
   line-height: 122%;
   color: white;
 }/*# sourceMappingURL=test.css.map */
+
+@media (max-width: 1024px) {
+  .wrapper {
+      max-width: 1024px;
+      max-height: 9785px;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+  }
+}
