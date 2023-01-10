@@ -341,6 +341,7 @@ input:focus:-ms-input-placeholder {
   .formSection .formSection__content-form {
     max-width: 800px;
     padding: 60px;
+    gap: 35px;
   }
   .formSection .formSection__content-form .formSection__input-fields-container {
     gap: 20px;

@@ -35,7 +35,6 @@ $gainsboro: #D9DFDB;
         flex-direction: row;
         align-items: flex-start;
         padding: 0px;
-        padding: 0px;
         gap: 30px;
 
         .reviewsSection__review-card {
@@ -44,7 +43,7 @@ $gainsboro: #D9DFDB;
             justify-content: space-between;
             align-items: flex-start;
             padding: 40px;
-            height: 590px;
+            min-height: 590px;
             background: $lightBeigeColor;
             border-radius: 50px;
 
@@ -98,6 +97,32 @@ $gainsboro: #D9DFDB;
                     max-width: 75px;
                     max-height: 75px;
                     border-radius: 100px;;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .reviewsSection {
+        max-width: 1024px;
+        min-height: 1173px;
+        
+
+        .reviewsSection__content {
+            max-width: 1024px;
+            padding: 0px 52px;
+            gap: 18px;
+
+            .reviewsSection__review-card {
+                max-width: 370px;
+                min-height: 767px;
+
+                .reviewsSection__review-card__footer {
+
+                    .reviewsSection__footer-content {
+                        min-width: 295px;
+                    }
                 }
             }
         }
