@@ -1,11 +1,11 @@
 .formSection {
-  height: 1245px;
+  max-height: 1245px;
 }
 .formSection .formSection__header {
   gap: 30px;
 }
 .formSection .formSection__header .formSection__header__subtitle {
-  width: 458px;
+  max-width: 458px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -30,7 +30,7 @@
   margin-top: -5px;
 }
 .formSection .formSection__content-form .formSection__input-fields-container {
-  height: 104px;
+  max-height: 104px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -41,8 +41,8 @@
   color: #A6A6A6;
 }
 .formSection .formSection__content-form .formSection__input-fields-container .formSection__input-field-container {
-  width: 500px;
-  height: 104px;
+  max-width: 500px;
+  max-height: 104px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -53,8 +53,8 @@
   opacity: 0;
 }
 .formSection .formSection__content-form .formSection__input-fields-container .formSection__input-field-container .formSection__input-field {
-  width: 500px;
-  height: 68px;
+  min-width: 500px;
+  min-height: 68px;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -111,7 +111,7 @@
 }
 .formSection .formSection__content-form .formSection__input-comment-container {
   max-width: 1030px;
-  height: 188px;
+  max-height: 188px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -122,8 +122,8 @@
   resize: none;
 }
 .formSection .formSection__content-form .formSection__input-comment-container .formSection__input-field-comment {
-  width: 1030px;
-  height: 152px;
+  min-width: 1030px;
+  min-height: 152px;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -166,8 +166,8 @@
   display: none;
 }
 .formSection .formSection__content-form .formSection__ageCheck-container .formSection__input-ageCheck-container .formSection__radio-buttons-container .formSection__radio-button-container .radio__border {
-  width: 21px;
-  height: 21px;
+  min-width: 21px;
+  min-height: 21px;
   border: 2px solid black;
   border-radius: 50%;
   position: relative;
@@ -209,8 +209,8 @@
 }
 .formSection .formSection__content-form .formSection__agreement-container .formSection__accept .checkbox__border {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
   border: 2px solid black;
   border-radius: 20%;
   position: relative;
@@ -220,8 +220,8 @@
   position: absolute;
   left: -1.3px;
   top: 48%;
-  height: 29%;
-  width: 2px;
+  min-height: 29%;
+  min-width: 2px;
   background-color: #1B1F2B;
   transform: translateX(9.45px) rotate(-45deg);
   transform-origin: left bottom;
@@ -232,8 +232,8 @@
   position: absolute;
   left: 9%;
   bottom: 19%;
-  height: 2px;
-  width: 68%;
+  min-height: 2px;
+  min-width: 68%;
   background-color: #1B1F2B;
   content: "";
   transform: translateX(7.1px) rotate(-46deg);
@@ -265,8 +265,8 @@
   gap: 30px;
 }
 .formSection .formSection__content-form .formSection__buttons-container .formSection__submit-button {
-  width: 235px;
-  height: 58px;
+  min-width: 235px;
+  min-height: 58px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -291,8 +291,8 @@
   background: #627F7E;
 }
 .formSection .formSection__content-form .formSection__buttons-container .formSection__reset-button {
-  width: 235px;
-  height: 58px;
+  min-width: 235px;
+  min-height: 58px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -331,4 +331,24 @@ input:focus::-moz-placeholder {
 
 input:focus:-ms-input-placeholder {
   color: transparent;
+}
+
+@media (max-width: 1024px) {
+  .formSection {
+    max-height: 1225px;
+    margin-top: 540px;
+  }
+  .formSection .formSection__content-form {
+    max-width: 800px;
+    padding: 60px;
+  }
+  .formSection .formSection__content-form .formSection__input-fields-container {
+    gap: 20px;
+  }
+  .formSection .formSection__content-form .formSection__input-fields-container .formSection__input-field-container {
+    max-width: 389px;
+  }
+  .formSection .formSection__content-form .formSection__input-fields-container .formSection__input-field-container .formSection__input-field {
+    min-width: 389px;
+  }
 }/*# sourceMappingURL=form.css.map */
