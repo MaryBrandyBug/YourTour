@@ -83,7 +83,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0px;
-    gap: 100px;
+    // gap: 100px;
 
     .section__header__flex {
         display: flex;
@@ -120,8 +120,8 @@ body {
     }
 
     .info-link__text {
-        width: 120px;
-        height: 28px;
+        max-width: 120px;
+        max-height: 28px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
@@ -151,6 +151,42 @@ body {
         font-size: 35px;
         line-height: 122%;
         color: white;
+    }
+}
+
+@media (max-width: 360px) {
+    .section {
+        // gap: 50px;
+
+        .info-link__text {
+            max-width: 84px;
+            max-height: 23px;
+            font-size: 16px;
+            line-height: 142%;
+        }
+
+        .info-link__arrow {
+
+            img {
+                left: 1px;
+                top: -8px;
+            }
+        }
+
+        .section__header__flex {
+
+            .section__header__title {
+                font-size: 34px;
+                line-height: 112%;
+            }
+        }
+
+        .info-cards__header {
+            font-weight: 700;
+            font-size: 23px;
+            line-height: 120%;
+            letter-spacing: 0.04em;
+        }
     }
 }
 
