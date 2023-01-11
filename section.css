@@ -94,3 +94,29 @@ body {
         max-width: 900px;
     }
 }
+
+.div {
+    max-width: 370px;
+    min-height: 530px;
+    background: url('./styles/png/cardTourPh-1.png');
+    /* background-size: 100%; */
+    /* background-repeat: no-repeat; */
+    transition: all .2s;
+    border: 2px solid black;
+}
+
+/* .div:hover {
+    transition: all .2s;
+    background-size: 110%;
+} */
+
+@media (max-width: 1024) {
+    .div {
+        max-width: 450px;
+        /* background: url('./styles/png/cardTourPh-1.png');
+        background-size: 100%;
+        background-size: 450px;
+    background-repeat: no-repeat; */
+    }
+
+}
