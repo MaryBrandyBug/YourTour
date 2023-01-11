@@ -54,7 +54,6 @@ ul, li {
 body {
   position: relative;
   background: #F9F7F4;
-  max-width: 1920px;
 }
 body .wrapper {
   display: flex;
@@ -64,7 +63,7 @@ body .wrapper {
   padding: 0px;
   gap: 135px;
   position: absolute;
-  max-width: 1920px;
+  /* max-width: 1920px; */
   left: 0px;
   top: 1px;
   /* margin: 0 auto; */

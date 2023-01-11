@@ -30,4 +30,29 @@
   max-width: 349.16px;
   height: 301px;
   border-radius: 50px;
+}
+
+@media (max-width: 1024px) {
+  .travelPhotoSection {
+    max-width: 1024px;
+  }
+  .travelPhotoSection .travelPhotoSection__content {
+    max-width: 1024px;
+    max-height: 963px;
+    padding: 0px 20px;
+  }
+  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container {
+    max-width: 984px;
+    gap: 20px;
+  }
+  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .travelPhotoSection__big-photo {
+    max-width: 314.67px;
+    max-height: 300px;
+  }
+  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .max-size {
+    display: none;
+  }
+  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .travelPhotoSection__small-photo {
+    max-width: 231px;
+  }
 }/*# sourceMappingURL=travelPhotoSection.css.map */

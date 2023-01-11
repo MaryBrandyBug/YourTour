@@ -57,7 +57,6 @@ $gainsboro: #D9DFDB;
         }
 
         .formSection__input-fields-container {
-            // width: 1030px;
             max-height: 104px;
             display: flex;
             flex-direction: row;
@@ -150,6 +149,7 @@ $gainsboro: #D9DFDB;
             }
 
             .formSection__input-field-comment {
+                max-width: 1030px;
                 min-width: 1030px;
                 min-height: 152px;
                 box-sizing: border-box;
@@ -415,6 +415,17 @@ input:focus:-ms-input-placeholder { color:transparent; };
                     .formSection__input-field {
                         min-width: 389px;
                     }
+                }
+
+            }
+
+
+            .formSection__input-comment-container {
+                max-width: 798px;
+
+                .formSection__input-field-comment {
+                    max-width: 798px;
+                    min-width: 798px;
                 }
             }
         }

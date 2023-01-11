@@ -20,7 +20,6 @@ $gainsboro: #D9DFDB;
     padding: 0px;
     gap: 214px;
     min-width: 100%;
-    // width: 1920px;
     min-height: 88px;
     background: $lightBeigeColor;
 
@@ -83,6 +82,16 @@ $gainsboro: #D9DFDB;
                     text-decoration-thickness: 1px;
                 }
             }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer {
+        max-width: 1024px;
+
+        .footer__content {
+            min-width: 918px;
         }
     }
 }

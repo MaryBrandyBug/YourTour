@@ -57,3 +57,34 @@ $gainsboro: #D9DFDB;
         }
     }
 }
+
+@media (max-width: 1024px) {
+    .travelPhotoSection {
+        max-width: 1024px;
+        
+        
+        .travelPhotoSection__content {
+            max-width: 1024px;
+            max-height: 963px;
+            padding: 0px 20px;
+
+            .travelPhotoSection__photo-container {
+                max-width: 984px;
+                gap: 20px;
+
+                .travelPhotoSection__big-photo {
+                    max-width: 314.67px;
+                    max-height: 300px;
+                }
+                .max-size {
+                    display: none;
+                }
+
+                .travelPhotoSection__small-photo {
+                    max-width: 231px;
+                }
+
+            }
+        }
+    }
+}

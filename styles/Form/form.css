@@ -122,6 +122,7 @@
   resize: none;
 }
 .formSection .formSection__content-form .formSection__input-comment-container .formSection__input-field-comment {
+  max-width: 1030px;
   min-width: 1030px;
   min-height: 152px;
   box-sizing: border-box;
@@ -351,5 +352,12 @@ input:focus:-ms-input-placeholder {
   }
   .formSection .formSection__content-form .formSection__input-fields-container .formSection__input-field-container .formSection__input-field {
     min-width: 389px;
+  }
+  .formSection .formSection__content-form .formSection__input-comment-container {
+    max-width: 798px;
+  }
+  .formSection .formSection__content-form .formSection__input-comment-container .formSection__input-field-comment {
+    max-width: 798px;
+    min-width: 798px;
   }
 }/*# sourceMappingURL=form.css.map */
