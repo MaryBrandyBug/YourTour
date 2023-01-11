@@ -168,10 +168,14 @@
   }
 }
 @media (max-width: 360px) {
+  .header {
+    max-height: 486px;
+  }
   .header .header__content {
     min-width: 360px;
     min-height: 488px;
     gap: 40px;
+    margin-top: -47px;
   }
   .header .header__content .header__content__title {
     font-size: 34px;
@@ -180,8 +184,12 @@
     min-height: 114px;
   }
   .header .header__content .header__content__subtitle {
-    max-width: 310px;
+    max-width: 314px;
     font-size: 16px;
+  }
+  .header .header__content .header__content__button .findTourBtn {
+    font-size: 16px;
+    min-height: 19px;
   }
   .header .header__navbar {
     max-width: 360px;
