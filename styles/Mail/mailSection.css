@@ -1,6 +1,6 @@
 .mailSection {
-  width: 771px;
-  height: 370px;
+  max-width: 771px;
+  min-height: 370px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -8,13 +8,11 @@
   gap: 30px;
 }
 .mailSection .mailSection__photo {
-  width: 370px;
-  height: 370px;
+  max-width: 370px;
+  max-height: 370px;
   border-radius: 50px;
 }
 .mailSection .mailSection__content {
-  width: 371px;
-  height: 162px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

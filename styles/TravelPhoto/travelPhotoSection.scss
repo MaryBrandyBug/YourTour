@@ -13,20 +13,20 @@ $whiteSmoke: #F1F3F2;
 $gainsboro: #D9DFDB;
 
 .travelPhotoSection {
-    width: 1920px;
-    height: 1222px;
+    max-width: 1920px;
+    min-height: 1222px;
 
     .travelPhotoSection__header {
         gap: 30px;
 
         .travelPhotoSection__header__title {
-            width: 723px;
-            height: 73px;
+            // width: 723px;
+            // height: 73px;
         }
 
         .travelPhotoSection__header__subtitle {
-            width: 418px;
-            height: 56px;
+            max-width: 418px;
+            // height: 56px;
         }
     }
 
@@ -35,8 +35,8 @@ $gainsboro: #D9DFDB;
         gap: 30px;
 
         .travelPhotoSection__photo-container {
-            width: 1860px;
-            height: 301px;
+            max-width: 1860px;
+            max-height: 301px;
             display: flex;
             flex-direction: row;
             align-items: flex-start;
@@ -44,13 +44,13 @@ $gainsboro: #D9DFDB;
             gap: 30px;
 
             .travelPhotoSection__big-photo {
-                width: 442.5px;
-                height: 300px;
+                max-width: 442.5px;
+                max-height: 300px;
                 border-radius: 50px;
             }
 
             .travelPhotoSection__small-photo {
-                width: 349.16px;
+                max-width: 349.16px;
                 height: 301px;
                 border-radius: 50px;
             }
