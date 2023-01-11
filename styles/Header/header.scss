@@ -39,6 +39,7 @@ $lightOrange: #F8E6BE;
 
             .navbar__logo {
                 min-width: 181.84px;
+                max-width: 181.84;
                 min-height: 30.24px;
 
                 .YourTourLogo {
@@ -199,6 +200,63 @@ $lightOrange: #F8E6BE;
             
             .header__content__subtitle {
                 max-width: 442px;
+            }
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .header {
+
+        .header__content {
+            min-width: 360px;
+            min-height: 488px;
+            gap: 40px;
+
+            .header__content__title {
+                font-size: 34px;
+                line-height: 112%;
+                max-width: 360px;
+                min-height: 114px;
+            }
+
+            .header__content__subtitle {
+                max-width: 310px;
+                font-size: 16px;
+            }
+
+            .findTourBtn {
+
+            }
+        }
+
+        .header__navbar {
+            max-width: 360px;
+
+            .navbar {
+                max-width: 320px;
+                gap: 33px;
+
+                .navbar__menu {
+                    display: none;
+                }
+
+                .navbar__logo {
+                    min-width: 124px;
+                    max-width: 124px;
+
+                    .YourTourLogo {
+                        max-width: 133px;
+                        left: 20px;
+                        // top: 33px;
+                    }
+                }
+
+                .telephone {
+                    max-width: 124px;
+                    min-height: 23px;
+                    font-size: 16px;
+                }
             }
         }
     }

@@ -33,8 +33,6 @@ ul, li{list-style: none;}
 body {
     position: relative;
     background: #F9F7F4;
-    // max-width: 1920px;
-    // margin: 0;
 
     .wrapper {
         display: flex;
@@ -56,7 +54,7 @@ body {
 @media (max-width: 1024px) {
     body {
         max-width: 1024px;
-        
+
         .wrapper {
         max-width: 1024px;
         // min-height: 9785px;
@@ -64,8 +62,18 @@ body {
         left: 0px;
         top: 0px;
     }
+}        
 }
-        
+
+@media (max-width: 360px) {
+    body {
+
+        .wrapper {
+            max-width: 360px;
+            align-items: flex-start;
+            gap: 75px;
+        }
+    }
 }
 
 // ! параметры секций
@@ -91,7 +99,7 @@ body {
             font-size: 59px;
             line-height: 124%;
             text-align: center;
-            color: $blackColor;
+            color: black;
         }
 
         .section__header__subtitle {
