@@ -64,4 +64,13 @@
           text-decoration-line: underline;
   text-underline-offset: 7px;
   text-decoration-thickness: 1px;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    max-width: 1024px;
+  }
+  .footer .footer__content {
+    min-width: 918px;
+  }
 }/*# sourceMappingURL=footer.css.map */

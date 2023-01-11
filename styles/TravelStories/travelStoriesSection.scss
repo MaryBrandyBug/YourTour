@@ -39,11 +39,39 @@ $gainsboro: #D9DFDB;
         padding: 0px;
         gap: 50px;
 
+        .travelStoriesSection__content-block:hover .travelStoriesSection__card__background {
+            transform: scale(1.2);
+            transition: all 300ms ease;
+        }
+
         .travelStoriesSection__content-block {
-            min-width: 1170px;
-            min-height: 567px;
+            max-width: 1170px;
+            max-height: 567px;
             border-radius: 50px;
             position: relative;
+            background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%);
+            overflow: hidden;
+
+            .stories__img-cont {
+                position: absolute;
+                overflow: hidden;
+
+                .stories__img {
+                    max-width: 1170px;
+                    max-height: 567px;
+                    position: relative;
+                    z-index: -1;
+
+                    .travelStoriesSection__card__background {
+                        position: absolute;
+                        // max-width: 100%;
+                        // max-height: 100%;
+                        z-index: -1;
+                        border-radius: 50px;
+                        transition: all 0.2s;
+                    }
+                }
+            }
 
             .travelStoriesSection__content-block__footer {
                 display: flex;
@@ -56,6 +84,7 @@ $gainsboro: #D9DFDB;
                 left: 0px;
                 right: 0px;
                 bottom: 0px;
+                z-index: 2;
 
                 .travelStoriesSection__footer-details-link {
                     // width: 159px;
@@ -140,6 +169,7 @@ $gainsboro: #D9DFDB;
                 left: 0px;
                 right: 0px;
                 top: 0px;
+                z-index: 2;
 
                 .travelStoriesSection__content-block__title {
                     // width: 554px;
@@ -174,21 +204,18 @@ $gainsboro: #D9DFDB;
     }
 }
 
-.travelStoriesSection__content-block {
-    background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%);
-    overflow: hidden;
+@media (max-width: 1024px) {
+    .travelStoriesSection {
+        max-width: 1024px;
 
-    .travelStoriesSection__card__background {
-        position: absolute;
-        max-width: 100%;
-        max-height: 100%;
-        z-index: -1;
-        border-radius: 50px;
-        transition: all 0.2s;
+        .travelStoriesSection__content {
+            max-width: 1024px;
+            padding: 0px 53px;
+
+            .travelStoriesSection__content-block {
+                max-width: 918px;
+            }
+
+        }
     }
-}
-
-.travelStoriesSection__content-block:hover .travelStoriesSection__card__background {
-    transform: scale(1.2);
-    transition: all 300ms ease;
 }
