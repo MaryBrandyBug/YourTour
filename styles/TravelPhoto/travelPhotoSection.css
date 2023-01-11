@@ -47,7 +47,7 @@
   }
   .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .travelPhotoSection__big-photo {
     max-width: 314.67px;
-    max-height: 300px;
+    min-height: 300px;
   }
   .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .max-size {
     display: none;
