@@ -67,7 +67,7 @@
   max-height: 100%;
   z-index: -1;
   border-radius: 50px;
-  transition: all 0.2s;
+  transition: all 0.3s;
 }
 .chooseTourSection .chooseTourSection__content .chooseTour__card .chooseTour__card-content {
   display: flex;
