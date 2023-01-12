@@ -32,6 +32,7 @@
 }
 .header .header__navbar .navbar .navbar__logo {
   min-width: 181.84px;
+  max-width: 181.84;
   min-height: 30.24px;
 }
 .header .header__navbar .navbar .navbar__logo .YourTourLogo {
@@ -164,5 +165,53 @@
   }
   .header .header__content .header__content__subtitle {
     max-width: 442px;
+  }
+}
+@media (max-width: 360px) {
+  .header {
+    max-height: 486px;
+  }
+  .header .header__content {
+    min-width: 360px;
+    min-height: 488px;
+    gap: 40px;
+    margin-top: -47px;
+  }
+  .header .header__content .header__content__title {
+    font-size: 34px;
+    line-height: 112%;
+    max-width: 360px;
+    min-height: 114px;
+  }
+  .header .header__content .header__content__subtitle {
+    max-width: 314px;
+    font-size: 16px;
+  }
+  .header .header__content .header__content__button .findTourBtn {
+    font-size: 16px;
+    min-height: 19px;
+  }
+  .header .header__navbar {
+    max-width: 360px;
+  }
+  .header .header__navbar .navbar {
+    max-width: 320px;
+    gap: 33px;
+  }
+  .header .header__navbar .navbar .navbar__menu {
+    display: none;
+  }
+  .header .header__navbar .navbar .navbar__logo {
+    min-width: 124px;
+    max-width: 124px;
+  }
+  .header .header__navbar .navbar .navbar__logo .YourTourLogo {
+    max-width: 133px;
+    left: 20px;
+  }
+  .header .header__navbar .navbar .telephone {
+    max-width: 124px;
+    min-height: 23px;
+    font-size: 16px;
   }
 }/*# sourceMappingURL=header.css.map */

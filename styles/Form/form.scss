@@ -13,18 +13,13 @@ $whiteSmoke: #F1F3F2;
 $gainsboro: #D9DFDB;
 
 .formSection {
-    // width: 1170px;
     max-height: 1245px;
+    gap: 100px;
 
     .formSection__header {
         gap: 30px;
-        // margin-top: 30px;
-        // width: 458px;
-        // height: 159px;
 
         .formSection__header__title {
-            // width: 458px;
-            // height: 73px;
         }
 
         .formSection__header__subtitle {
@@ -40,7 +35,6 @@ $gainsboro: #D9DFDB;
     }
 
     .formSection__content-form {
-        // height: 986px;
         padding: 70px;
         gap: 33px;
         background: $whiteColor;
@@ -85,6 +79,7 @@ $gainsboro: #D9DFDB;
 
                 .formSection__input-field {
                     min-width: 500px;
+                    max-width: 500px;
                     min-height: 68px;
                     box-sizing: border-box;
                     display: flex;
@@ -102,8 +97,6 @@ $gainsboro: #D9DFDB;
                     font-size: 20px;
                     line-height: 142%;
                     cursor: pointer;
-                    // color: $greyColor;
-                    // position: relative;
                 }
 
                 .formSection__input-field:focus{
@@ -127,10 +120,6 @@ $gainsboro: #D9DFDB;
                 input[type="date"]:not(.has-value):before{
                     color: $greyColor;
                     content: attr(placeholder);
-                }
-
-                .select-field {
-                    content: url('./png/Rectangle.png');
                 }
             }
         }
@@ -170,8 +159,6 @@ $gainsboro: #D9DFDB;
             align-items: flex-start;
             padding: 0px;
             gap: 30px;
-            // width: 1030px;
-            // height: 64px;
 
             .formSection__input-ageCheck-container {
                 display: flex;
@@ -188,8 +175,6 @@ $gainsboro: #D9DFDB;
                     gap: 31px;
 
                     .formSection__radio-button-container {
-                        // width: 63px;
-                        // height: 28px;
                         display: flex;
                         flex-direction: row;
                         align-items: center;
@@ -197,8 +182,6 @@ $gainsboro: #D9DFDB;
                         gap: 11px;
 
                         .formSection__age-radio-button {
-                            // width: 26px;
-                            // height: 26px;
                             display: none;
                         }
 
@@ -234,12 +217,6 @@ $gainsboro: #D9DFDB;
         }
 
         .formSection__agreement-container {
-            // display: flex;
-            // flex-direction: row;
-            // justify-content: center;
-            // align-items: center;
-            // padding: 0px;
-            // gap: 19px;
 
             .formSection__accept {
                 font-family: 'Roboto';
@@ -257,9 +234,18 @@ $gainsboro: #D9DFDB;
                 gap: 19px;
                 
                 .formSection__agreement-radio-button {
-                    // width: 26px;
-                    // height: 26px;
                     display: none;
+                }
+
+                .agreement-text {
+
+
+                    .formSection__agreement-text-link {
+                        color: $blackColor;
+                        text-decoration: none;
+                        cursor: pointer;
+                        margin-left: 1px;
+                    }
                 }
 
                 .checkbox__border {
@@ -304,12 +290,12 @@ $gainsboro: #D9DFDB;
                     opacity: 1;
                 }
 
-                .formSection__agreement-text-link {
-                    color: $blackColor;
-                    text-decoration: none;
-                    cursor: pointer;
-                    margin-left: -13px;
-                }
+                // .formSection__agreement-text-link {
+                //     color: $blackColor;
+                //     text-decoration: none;
+                //     cursor: pointer;
+                //     margin-left: -13px;
+                // }
 
                 .formSection__agreement-text-link:hover {
                     text-decoration: underline;
@@ -400,6 +386,8 @@ input:focus:-ms-input-placeholder { color:transparent; };
     .formSection {
         max-height: 1225px;
         margin-top: 540px;
+        gap: 100px;
+
         
         .formSection__content-form {
             max-width: 800px;
@@ -426,6 +414,97 @@ input:focus:-ms-input-placeholder { color:transparent; };
                 .formSection__input-field-comment {
                     max-width: 798px;
                     min-width: 798px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .formSection  {
+        margin-top: 922px;
+        max-width: 360px;
+        max-width: 1254px;
+        gap: 40px;
+        padding: 0px 12px;
+
+        .formSection__header {
+            gap: 20px;
+
+            .formSection__header__subtitle {
+                max-width: 318px;
+            }
+        }
+
+        .formSection__content-form {
+            padding: 20px 20px 40px;
+            border-radius: 30px;
+            gap: 30px;
+            max-width: 278px;
+
+            .formSection__input-name {
+                font-size: 16px;
+                margin-top: 0px;
+            }
+
+            .formSection__input-fields-container {
+                flex-wrap: wrap;
+                max-height: 300px;
+
+                .formSection__input-field-container {
+                    max-width: 250px;
+                    max-height: 74px;
+                    
+                    .formSection__input-field {
+                        min-width: 278px;
+                        max-width: 278px;
+                        min-height: 43px;
+                    }
+                }
+            }
+
+            .formSection__input-comment-container {
+                max-width: 278px;
+                max-height: 163px;
+
+                .formSection__input-field-comment {
+                    max-width: 278px;
+                    min-width: 278px;
+                    min-height: 132px;
+                }
+            }
+
+            .formSection__agreement-container {
+
+                .formSection__accept {
+                    font-size: 16px;
+                    gap: 0;
+
+                    .checkbox__border {
+                        margin-bottom: 38px;
+                    }
+
+                    .agreement-text {
+                        margin-left: 4px;
+
+                        .formSection__agreement-text-link {
+                            margin-left: 3px;
+                        }
+                    }
+                }
+            }
+
+            .formSection__buttons-container {
+                gap: 10px;
+
+                .formSection__submit-button {
+                    min-width: 134px;
+                    min-height: 47px;
+                }
+
+                .formSection__reset-button {
+                    min-width: 134px;
+                    min-height: 47px;
                 }
             }
         }
