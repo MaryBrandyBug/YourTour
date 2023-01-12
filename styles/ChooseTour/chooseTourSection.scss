@@ -15,6 +15,7 @@ $gainsboro: #D9DFDB;
 .chooseTourSection {
     // max-width: 1170px;
     min-height: 1334px;
+    gap: 100px;
 
     .chooseTourSection__header {
         max-width: 700px;
@@ -219,6 +220,7 @@ $gainsboro: #D9DFDB;
     .chooseTourSection {
         min-height: auto;
         gap: 35px;
+        max-height: 2172px;
 
         .chooseTourSection__content {
             max-width: 318px;

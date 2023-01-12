@@ -1,6 +1,7 @@
 .travelPhotoSection {
   max-width: 1920px;
   min-height: 1222px;
+  gap: 100px;
 }
 .travelPhotoSection .travelPhotoSection__header {
   gap: 30px;

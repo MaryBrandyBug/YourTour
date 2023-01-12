@@ -15,6 +15,7 @@ $gainsboro: #D9DFDB;
 .formSection {
     // width: 1170px;
     max-height: 1245px;
+    gap: 100px;
 
     .formSection__header {
         gap: 30px;
@@ -130,7 +131,7 @@ $gainsboro: #D9DFDB;
                 }
 
                 .select-field {
-                    content: url('./png/Rectangle.png');
+                    // content: url('./png/Rectangle.png');
                 }
             }
         }
@@ -400,6 +401,8 @@ input:focus:-ms-input-placeholder { color:transparent; };
     .formSection {
         max-height: 1225px;
         margin-top: 540px;
+        gap: 100px;
+
         
         .formSection__content-form {
             max-width: 800px;
@@ -426,6 +429,84 @@ input:focus:-ms-input-placeholder { color:transparent; };
                 .formSection__input-field-comment {
                     max-width: 798px;
                     min-width: 798px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .formSection  {
+        margin-top: 922px;
+        max-width: 360px;
+        max-width: 1254px;
+        gap: 40px;
+        padding: 0px 12px;
+
+        .formSection__header {
+            gap: 20px;
+
+            .formSection__header__subtitle {
+                max-width: 318px;
+            }
+        }
+
+        .formSection__content-form {
+            padding: 20px 20px 40px;
+            border-radius: 30px;
+            gap: 30px;
+            max-width: 278px;
+
+            .formSection__input-name {
+                font-size: 16px;
+                margin-top: 0px;
+            }
+
+            .formSection__input-fields-container {
+                flex-wrap: wrap;
+                max-height: 300px;
+
+                .formSection__input-field-container {
+                    max-width: 250px;
+                    max-height: 74px;
+                    
+                    .formSection__input-field {
+                        min-width: 230px;
+                        min-height: 43px;
+                    }
+                }
+            }
+
+            .formSection__input-comment-container {
+                max-width: 278px;
+                max-height: 163px;
+
+                .formSection__input-field-comment {
+                    max-width: 278px;
+                    min-width: 278px;
+                    min-height: 132px;
+                }
+            }
+
+            .formSection__agreement-container {
+
+                .formSection__accept {
+                    font-size: 16px;
+                    gap: 0;
+                }
+            }
+
+            .formSection__buttons-container {
+                gap: 10px;
+
+                .formSection__submit-button {
+                    min-width: 134px;
+                    min-height: 47px;
+                }
+
+                .formSection__reset-button {
+                    min-width: 134px;
+                    min-height: 47px;
                 }
             }
         }

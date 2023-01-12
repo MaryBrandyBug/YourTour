@@ -1,6 +1,7 @@
 .reviewsSection {
   max-width: 1170px;
   min-height: 1005px;
+  gap: 100px;
 }
 .reviewsSection .reviewsSection__header {
   gap: 30px;
