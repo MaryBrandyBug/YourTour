@@ -63,7 +63,6 @@ $gainsboro: #D9DFDB;
     .travelPhotoSection {
         max-width: 1024px;
         
-        
         .travelPhotoSection__content {
             max-width: 1024px;
             max-height: 963px;
@@ -85,6 +84,45 @@ $gainsboro: #D9DFDB;
                     max-width: 231px;
                 }
 
+            }
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .travelPhotoSection {
+        max-width: 360px;
+        min-height: 558px;
+        gap: 50px;
+
+        .travelPhotoSection__header {
+
+        }
+
+        .travelPhotoSection__content {
+            gap: 18px;
+            padding: 0px 21px;
+
+            .travelPhotoSection__photo-container {
+                max-width: 318px;
+                max-height: 110px;
+
+                .travelPhotoSection__big-photo {
+                    max-width: 150px;
+                    // max-height: 110px;
+                    min-height: 110px;
+                    border-radius: 20px;
+                }
+
+                .max-middle-size {
+                    display: none;
+                }
+
+                .travelPhotoSection__small-photo {
+                    max-width: 99px;
+                    max-height: 110px;
+                    border-radius: 20px;
+                }
             }
         }
     }
