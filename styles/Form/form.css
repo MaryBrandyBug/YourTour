@@ -55,6 +55,7 @@
 }
 .formSection .formSection__content-form .formSection__input-fields-container .formSection__input-field-container .formSection__input-field {
   min-width: 500px;
+  max-width: 500px;
   min-height: 68px;
   box-sizing: border-box;
   display: flex;
@@ -206,6 +207,12 @@
 .formSection .formSection__content-form .formSection__agreement-container .formSection__accept .formSection__agreement-radio-button {
   display: none;
 }
+.formSection .formSection__content-form .formSection__agreement-container .formSection__accept .agreement-text .formSection__agreement-text-link {
+  color: #1B1F2B;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 1px;
+}
 .formSection .formSection__content-form .formSection__agreement-container .formSection__accept .checkbox__border {
   display: inline-block;
   min-width: 20px;
@@ -243,12 +250,6 @@
 .formSection .formSection__content-form .formSection__agreement-container .formSection__accept .formSection__agreement-radio-button:checked + .checkbox__border::before,
 .formSection .formSection__content-form .formSection__agreement-container .formSection__accept .formSection__agreement-radio-button:checked + .checkbox__border::after {
   opacity: 1;
-}
-.formSection .formSection__content-form .formSection__agreement-container .formSection__accept .formSection__agreement-text-link {
-  color: #1B1F2B;
-  text-decoration: none;
-  cursor: pointer;
-  margin-left: -13px;
 }
 .formSection .formSection__content-form .formSection__agreement-container .formSection__accept .formSection__agreement-text-link:hover {
   text-decoration: underline;
@@ -393,7 +394,8 @@ input:focus:-ms-input-placeholder {
     max-height: 74px;
   }
   .formSection .formSection__content-form .formSection__input-fields-container .formSection__input-field-container .formSection__input-field {
-    min-width: 230px;
+    min-width: 278px;
+    max-width: 278px;
     min-height: 43px;
   }
   .formSection .formSection__content-form .formSection__input-comment-container {
@@ -408,6 +410,15 @@ input:focus:-ms-input-placeholder {
   .formSection .formSection__content-form .formSection__agreement-container .formSection__accept {
     font-size: 16px;
     gap: 0;
+  }
+  .formSection .formSection__content-form .formSection__agreement-container .formSection__accept .checkbox__border {
+    margin-bottom: 38px;
+  }
+  .formSection .formSection__content-form .formSection__agreement-container .formSection__accept .agreement-text {
+    margin-left: 4px;
+  }
+  .formSection .formSection__content-form .formSection__agreement-container .formSection__accept .agreement-text .formSection__agreement-text-link {
+    margin-left: 3px;
   }
   .formSection .formSection__content-form .formSection__buttons-container {
     gap: 10px;

@@ -186,11 +186,14 @@
   }
   .chooseTourSection .chooseTourSection__header {
     max-width: 360px;
+    min-width: 360px;
     gap: 30px;
   }
   .chooseTourSection .chooseTourSection__header .chooseTourSection__header__menu {
     gap: 10px;
     flex-wrap: wrap;
+    justify-content: center;
+    max-width: 300px;
   }
   .chooseTourSection .chooseTourSection__header .chooseTourSection__header__menu .chooseTourSection_menu__item .chooseTourSection_menu__item-name {
     font-size: 16px;

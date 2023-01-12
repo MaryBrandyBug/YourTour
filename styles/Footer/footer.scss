@@ -95,3 +95,44 @@ $gainsboro: #D9DFDB;
         }
     }
 }
+
+@media (max-width: 360px) {
+    .footer {
+        max-width: 360px;
+        min-height: 95px;
+
+        .footer__content {
+            min-width: 318px;
+            flex-direction: column;
+            gap: 7px;
+
+            .footer__content__text {
+                font-size: 16px;
+            }
+
+            .footer__content__social-networks-links {
+                max-width: 314px;
+
+                .footer__link-block {
+
+                    .footer__link-icon {
+                        max-width: 20px;
+                    }
+
+                    img {
+                        max-width: 20px;
+                    }
+                    .inst-icon {
+                        max-width: 20px;
+                        max-height: 20px;
+
+                    }
+
+                    .footer__social-network {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}

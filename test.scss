@@ -43,8 +43,6 @@ body {
         gap: 135px;
     
         position: absolute;
-        // max-width: 100%;
-        // height: 9100px;
         left: 0px;
         top: 1px;
         margin: 0;
@@ -57,7 +55,6 @@ body {
 
         .wrapper {
         max-width: 1024px;
-        // min-height: 9785px;
         position: absolute;
         left: 0px;
         top: 0px;
@@ -70,7 +67,6 @@ body {
 
         .wrapper {
             max-width: 360px;
-            align-items: flex-start;
             gap: 75px;
         }
     }
@@ -82,8 +78,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // padding: 0px;
-    // gap: 100px;
 
     .section__header__flex {
         display: flex;

@@ -173,6 +173,9 @@
   .travelStoriesSection .travelStoriesSection__header {
     padding: 0px 21px;
   }
+  .travelStoriesSection .travelStoriesSection__header .travelStoriesSection__header__title {
+    max-width: 319px;
+  }
   .travelStoriesSection .travelStoriesSection__content {
     max-width: 318px;
     gap: 20px;

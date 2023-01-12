@@ -242,6 +242,10 @@ $gainsboro: #D9DFDB;
 
         .travelStoriesSection__header {
             padding: 0px 21px;
+
+            .travelStoriesSection__header__title {
+                max-width: 319px;
+            }
         }
 
         .travelStoriesSection__content {

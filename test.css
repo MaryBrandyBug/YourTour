@@ -82,7 +82,6 @@ body .wrapper {
 @media (max-width: 360px) {
   body .wrapper {
     max-width: 360px;
-    align-items: flex-start;
     gap: 75px;
   }
 }
