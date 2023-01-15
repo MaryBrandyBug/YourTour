@@ -88,6 +88,7 @@
   .reviewsSection .reviewsSection__content .reviewsSection__review-card {
     max-width: 370px;
     min-height: 767px;
+    margin-top: 2px;
   }
   .reviewsSection .reviewsSection__content .reviewsSection__review-card .reviewsSection__review-card__footer .reviewsSection__footer-content {
     min-width: 295px;
@@ -112,6 +113,9 @@
     min-height: 408px;
     max-width: 278px;
     border-radius: 20px;
+  }
+  .reviewsSection .reviewsSection__content .reviewsSection__review-card .card-txt-first {
+    max-height: 408px;
   }
   .reviewsSection .reviewsSection__content .reviewsSection__review-card .reviewsSection__review-card-text {
     font-size: 16px;

@@ -134,12 +134,9 @@ body .wrapper {
 .section .info-link__arrow {
   max-width: 24px;
   max-height: 26px;
-  position: relative;
 }
 .section .info-link__arrow img {
-  position: absolute;
-  left: 4.17%;
-  top: 21.15%;
+  margin-top: 21%;
   color: white;
   z-index: 0;
 }

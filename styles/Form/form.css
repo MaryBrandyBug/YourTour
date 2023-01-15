@@ -37,9 +37,7 @@
   align-items: flex-start;
   padding: 0px;
   gap: 30px;
-}
-.formSection .formSection__content-form .formSection__input-fields-container .select-field option {
-  color: #A6A6A6;
+  margin-top: 3px;
 }
 .formSection .formSection__content-form .formSection__input-fields-container .formSection__input-field-container {
   max-width: 500px;
@@ -52,6 +50,12 @@
 }
 .formSection .formSection__content-form .formSection__input-fields-container .formSection__input-field-container input[type=date]::-webkit-calendar-picker-indicator {
   opacity: 0;
+}
+.formSection .formSection__content-form .formSection__input-fields-container .formSection__input-field-container option::-moz-selection {
+  color: #ccc;
+}
+.formSection .formSection__content-form .formSection__input-fields-container .formSection__input-field-container option::selection {
+  color: #ccc;
 }
 .formSection .formSection__content-form .formSection__input-fields-container .formSection__input-field-container .formSection__input-field {
   min-width: 500px;
@@ -140,6 +144,7 @@
   align-items: flex-start;
   padding: 0px;
   gap: 30px;
+  margin-top: 5px;
 }
 .formSection .formSection__content-form .formSection__ageCheck-container .formSection__input-ageCheck-container {
   display: flex;
@@ -342,10 +347,11 @@ input:focus:-ms-input-placeholder {
   .formSection .formSection__content-form {
     max-width: 800px;
     padding: 60px;
-    gap: 35px;
+    gap: 32px;
   }
   .formSection .formSection__content-form .formSection__input-fields-container {
     gap: 20px;
+    max-height: 102px;
   }
   .formSection .formSection__content-form .formSection__input-fields-container .formSection__input-field-container {
     max-width: 389px;
@@ -355,6 +361,7 @@ input:focus:-ms-input-placeholder {
   }
   .formSection .formSection__content-form .formSection__input-comment-container {
     max-width: 798px;
+    max-height: 183.4px;
   }
   .formSection .formSection__content-form .formSection__input-comment-container .formSection__input-field-comment {
     max-width: 798px;
@@ -397,6 +404,15 @@ input:focus:-ms-input-placeholder {
     min-width: 278px;
     max-width: 278px;
     min-height: 43px;
+  }
+  .formSection .formSection__content-form .formSection__input-fields-container .formSection__input-field-container .formSection__input-field::-moz-placeholder {
+    font-size: 16px;
+  }
+  .formSection .formSection__content-form .formSection__input-fields-container .formSection__input-field-container .formSection__input-field:-ms-input-placeholder {
+    font-size: 16px;
+  }
+  .formSection .formSection__content-form .formSection__input-fields-container .formSection__input-field-container .formSection__input-field::placeholder {
+    font-size: 16px;
   }
   .formSection .formSection__content-form .formSection__input-comment-container {
     max-width: 278px;
