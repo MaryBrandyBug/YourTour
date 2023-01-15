@@ -50,10 +50,6 @@
   padding: 0px;
   gap: 30px;
 }
-.chooseTourSection .chooseTourSection__content .chooseTour__card:hover .chooseTour__card__background {
-  transform: scale(1.2);
-  transition: all 300ms ease;
-}
 .chooseTourSection .chooseTourSection__content .chooseTour__card {
   min-width: 370px;
   min-height: 531px;
@@ -114,29 +110,37 @@
   top: 453px;
   left: 50px;
 }
-.chooseTourSection .chooseTourSection__content .chooseTour__card .chooseTour__card-content .chooseTour__link:hover {
-  width: 199px;
-  height: 42px;
-  background: #286562;
-  position: absolute;
-  top: 446px;
-  left: 30px;
-}
-.chooseTourSection .chooseTourSection__content .chooseTour__card .chooseTour__card-content .chooseTour__link:active {
-  width: 199px;
-  height: 42px;
-  background: #EFA501;
-  position: absolute;
-  top: 446px;
-  left: 30px;
-}
 
+@media (min-width: 361px) {
+  .chooseTourSection .chooseTourSection__content .chooseTour__card:hover .chooseTour__card__background {
+    transform: scale(1.2);
+    transition: all 300ms ease;
+  }
+  .chooseTourSection .chooseTourSection__content .chooseTour__card .chooseTour__card-content .chooseTour__link:hover {
+    width: 199px;
+    height: 42px;
+    background: #286562;
+    position: absolute;
+    top: 446px;
+    left: 30px;
+  }
+  .chooseTourSection .chooseTourSection__content .chooseTour__card .chooseTour__card-content .chooseTour__link:active {
+    width: 199px;
+    height: 42px;
+    background: #EFA501;
+    position: absolute;
+    top: 446px;
+    left: 30px;
+  }
+}
 @media (max-width: 1024px) {
   .chooseTourSection {
     max-height: 1871px;
   }
   .chooseTourSection .chooseTourSection__content {
     max-width: 920px;
+    justify-content: center;
+    gap: 20px;
   }
   .chooseTourSection .chooseTourSection__content .chooseTour__card {
     min-width: 450px;
@@ -188,6 +192,9 @@
     max-width: 360px;
     min-width: 360px;
     gap: 30px;
+  }
+  .chooseTourSection .chooseTourSection__header .chooseTourSection__header__title {
+    letter-spacing: 0.65px;
   }
   .chooseTourSection .chooseTourSection__header .chooseTourSection__header__menu {
     gap: 10px;

@@ -118,6 +118,7 @@ $gainsboro: #D9DFDB;
             .reviewsSection__review-card {
                 max-width: 370px;
                 min-height: 767px;
+                margin-top: 2px;
 
                 .reviewsSection__review-card__footer {
 
@@ -150,6 +151,10 @@ $gainsboro: #D9DFDB;
                 min-height: 408px;
                 max-width: 278px;
                 border-radius: 20px;
+
+                .card-txt-first {
+                    max-height: 408px;
+                }
 
                 .reviewsSection__review-card-text {
                     font-size: 16px;

@@ -57,12 +57,13 @@ $gainsboro: #D9DFDB;
             align-items: flex-start;
             padding: 0px;
             gap: 30px;
+            margin-top: 3px;
 
-            .select-field {
-                option {
-                    color: $greyColor;
-                }
-            }
+            // .select-field {
+            //     option {
+                    // color: $greyColor;
+            //     }
+            // }
 
             .formSection__input-field-container {
                 max-width: 500px;
@@ -76,6 +77,9 @@ $gainsboro: #D9DFDB;
                 input[type=date]::-webkit-calendar-picker-indicator {
                     opacity: 0;
                 } 
+
+                option::selection {color: #ccc;}
+
 
                 .formSection__input-field {
                     min-width: 500px;
@@ -159,6 +163,7 @@ $gainsboro: #D9DFDB;
             align-items: flex-start;
             padding: 0px;
             gap: 30px;
+            margin-top: 5px;
 
             .formSection__input-ageCheck-container {
                 display: flex;
@@ -382,20 +387,22 @@ input:focus:-moz-placeholder { color:transparent; };
 input:focus::-moz-placeholder { color:transparent; };
 input:focus:-ms-input-placeholder { color:transparent; };
 
+
+
 @media (max-width: 1024px) {
     .formSection {
         max-height: 1225px;
         margin-top: 540px;
         gap: 100px;
-
         
         .formSection__content-form {
             max-width: 800px;
             padding: 60px;
-            gap: 35px;
+            gap: 32px;
 
             .formSection__input-fields-container {
                 gap: 20px;
+                max-height: 102px;
 
                 .formSection__input-field-container {
                     max-width: 389px;
@@ -410,6 +417,7 @@ input:focus:-ms-input-placeholder { color:transparent; };
 
             .formSection__input-comment-container {
                 max-width: 798px;
+                max-height: 183.4px;
 
                 .formSection__input-field-comment {
                     max-width: 798px;
@@ -459,6 +467,10 @@ input:focus:-ms-input-placeholder { color:transparent; };
                         min-width: 278px;
                         max-width: 278px;
                         min-height: 43px;
+                    }
+
+                    .formSection__input-field::placeholder {
+                        font-size: 16px;
                     }
                 }
             }
