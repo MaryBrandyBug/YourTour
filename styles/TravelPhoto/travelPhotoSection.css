@@ -37,6 +37,9 @@
   .travelPhotoSection {
     max-width: 1024px;
   }
+  .travelPhotoSection .travelPhotoSection__header {
+    gap: 25px;
+  }
   .travelPhotoSection .travelPhotoSection__content {
     max-width: 1024px;
     max-height: 963px;

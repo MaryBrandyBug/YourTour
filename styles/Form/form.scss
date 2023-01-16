@@ -35,10 +35,18 @@ $gainsboro: #D9DFDB;
     }
 
     .formSection__content-form {
-        padding: 70px;
         gap: 33px;
         background: $whiteColor;
         border-radius: 50px;
+        min-height: 986px;
+
+        .form-cont {
+            display: flex;
+            max-width: 1170px;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 33px;
+            margin-top: 70px;
 
         .formSection__input-name {
             font-family: 'Roboto';
@@ -59,12 +67,6 @@ $gainsboro: #D9DFDB;
             gap: 30px;
             margin-top: 3px;
 
-            // .select-field {
-            //     option {
-                    // color: $greyColor;
-            //     }
-            // }
-
             .formSection__input-field-container {
                 max-width: 500px;
                 max-height: 104px;
@@ -80,6 +82,22 @@ $gainsboro: #D9DFDB;
 
                 option::selection {color: #ccc;}
 
+                .formSection__select-field {
+                    min-width: 500px;
+                    max-width: 500px;
+                    min-height: 68px;
+                    background: $beigeColor;
+                    border: 1px solid #F4F0E9;
+                    border-radius: 10px;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 142%;
+                    gap: 10px;
+                    padding: 20px;
+                    cursor: pointer;
+                }
 
                 .formSection__input-field {
                     min-width: 500px;
@@ -127,6 +145,7 @@ $gainsboro: #D9DFDB;
                 }
             }
         }
+    }
 
         .formSection__input-comment-container {
             max-width: 1030px;
@@ -136,6 +155,17 @@ $gainsboro: #D9DFDB;
             align-items: flex-start;
             padding: 0px;
             gap: 8px;
+            margin-left: 70px;
+
+            .formSection__input-name {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 142%;
+                color: $blackColor;
+                margin-top: -5px;
+            }
 
             .input-comment {
                 resize: none;
@@ -164,6 +194,7 @@ $gainsboro: #D9DFDB;
             padding: 0px;
             gap: 30px;
             margin-top: 5px;
+            margin-left: 70px;
 
             .formSection__input-ageCheck-container {
                 display: flex;
@@ -171,6 +202,16 @@ $gainsboro: #D9DFDB;
                 align-items: flex-start;
                 padding: 0px;
                 gap: 12px;
+
+                .formSection__input-name {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 142%;
+                    color: $blackColor;
+                    margin-top: -5px;
+                }
 
                 .formSection__radio-buttons-container {
                     display: flex;
@@ -222,6 +263,7 @@ $gainsboro: #D9DFDB;
         }
 
         .formSection__agreement-container {
+            margin-left: 70px;
 
             .formSection__accept {
                 font-family: 'Roboto';
@@ -318,6 +360,7 @@ $gainsboro: #D9DFDB;
             align-items: flex-start;
             padding: 0px;
             gap: 30px;
+            margin-left: 70px;
 
             .formSection__submit-button {
                 min-width: 235px;
@@ -392,13 +435,17 @@ input:focus:-ms-input-placeholder { color:transparent; };
 @media (max-width: 1024px) {
     .formSection {
         max-height: 1225px;
-        margin-top: 540px;
         gap: 100px;
         
         .formSection__content-form {
-            max-width: 800px;
+            max-width: 815px;
+            min-height: 844px;
             padding: 60px;
-            gap: 32px;
+            gap: 34px;
+
+            .form-cont {
+                gap: 32px;
+                margin-top: 0px;
 
             .formSection__input-fields-container {
                 gap: 20px;
@@ -407,22 +454,52 @@ input:focus:-ms-input-placeholder { color:transparent; };
                 .formSection__input-field-container {
                     max-width: 389px;
 
+                    .formSection__select-field {
+                        max-width: 389px;
+                        min-width: 389px;
+                    }
+
                     .formSection__input-field {
                         min-width: 389px;
                     }
                 }
 
             }
+        }
 
 
             .formSection__input-comment-container {
                 max-width: 798px;
                 max-height: 183.4px;
+                margin-left: 11px;
 
                 .formSection__input-field-comment {
                     max-width: 798px;
                     min-width: 798px;
                 }
+            }
+
+            .formSection__ageCheck-container {
+                margin-left: 11px;
+            }
+
+            .formSection__agreement-container {
+                margin-left: 11px;
+
+                .formSection__accept {
+                    gap: 12px;
+
+                    .agreement-text {
+
+                        .formSection__agreement-text-link {
+                            margin-top: 0px;
+                        }
+                    }
+                }
+            }
+
+            .formSection__buttons-container  {
+                margin-left: 11px;
             }
         }
     }
