@@ -118,12 +118,12 @@ $gainsboro: #D9DFDB;
             .reviewsSection__review-card {
                 max-width: 370px;
                 min-height: 767px;
-                margin-top: 2px;
 
                 .reviewsSection__review-card__footer {
 
                     .reviewsSection__footer-content {
                         min-width: 295px;
+                        gap: 13px;
                     }
                 }
             }

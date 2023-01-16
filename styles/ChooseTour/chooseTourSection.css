@@ -80,7 +80,7 @@
   border-radius: 50px;
 }
 .chooseTourSection .chooseTourSection__content .chooseTour__card .chooseTour__card-content .chooseTour__text-container {
-  max-width: 270px;
+  max-width: 245px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -136,6 +136,7 @@
 @media (max-width: 1024px) {
   .chooseTourSection {
     max-height: 1871px;
+    min-height: 1871px;
   }
   .chooseTourSection .chooseTourSection__content {
     max-width: 920px;

@@ -88,10 +88,10 @@
   .reviewsSection .reviewsSection__content .reviewsSection__review-card {
     max-width: 370px;
     min-height: 767px;
-    margin-top: 2px;
   }
   .reviewsSection .reviewsSection__content .reviewsSection__review-card .reviewsSection__review-card__footer .reviewsSection__footer-content {
     min-width: 295px;
+    gap: 13px;
   }
 }
 @media (max-width: 360px) {

@@ -71,11 +71,6 @@ $gainsboro: #D9DFDB;
         padding: 0px;
         gap: 30px;
 
-            // .chooseTour__card:hover .chooseTour__card__background {
-            //     transform: scale(1.2);
-            //     transition: all 300ms ease;
-            // }
-
             .chooseTour__card {
                 min-width: 370px;
                 min-height: 531px;
@@ -108,7 +103,7 @@ $gainsboro: #D9DFDB;
                     border-radius: 50px;
 
                     .chooseTour__text-container {
-                        max-width: 270px;
+                        max-width: 245px;
                         display: flex;
                         flex-direction: column;
                         justify-content: flex-end;
@@ -207,6 +202,7 @@ $gainsboro: #D9DFDB;
 @media (max-width: 1024px) {
     .chooseTourSection {
         max-height: 1871px;
+        min-height: 1871px;
 
         .chooseTourSection__content {
             max-width: 920px;
