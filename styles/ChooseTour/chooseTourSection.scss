@@ -231,7 +231,8 @@ $gainsboro: #D9DFDB;
     .chooseTourSection {
         min-height: auto;
         gap: 35px;
-        max-height: 2172px;
+        min-height: 2172px;
+        margin-left: -2px;
 
         .chooseTourSection__content {
             max-width: 318px;

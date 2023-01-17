@@ -164,13 +164,10 @@ $gainsboro: #D9DFDB;
                 z-index: 2;
 
                 .travelStoriesSection__content-block__title {
-                    // width: 554px;
-                    // height: 43px;
                 }
 
                 .travelStoriesSection__content-block__text {
                     max-width: 554px;
-                    // height: 224px;
                     font-family: 'Roboto';
                     font-style: normal;
                     font-weight: 400;
@@ -240,12 +237,20 @@ $gainsboro: #D9DFDB;
     .travelStoriesSection {
         gap: 50px;
         max-width: 360px;
+        min-height: 1597px;
+        margin-left: -3px;
 
         .travelStoriesSection__header {
             padding: 0px 21px;
+            gap: 21px;
 
             .travelStoriesSection__header__title {
                 max-width: 319px;
+                letter-spacing: 0.02em;
+            }
+
+            .travelStoriesSection__header__subtitle {
+        
             }
         }
 
@@ -275,18 +280,29 @@ $gainsboro: #D9DFDB;
                     padding: 30px;
                     gap: 20px;
 
+                    .travelStoriesSection__content-block__title {
+                        max-width: 150px;
+                        font-size: 22.5px;
+                    }
+
                     .travelStoriesSection__content-block__text {
                         max-width: 263px;
-                        font-size: 16px;
+                        font-size: 16.5px;
                     }
 
                     .travelStoriesSection__content-block__list {
                         font-size: 16px;
+                        margin-top: 4px;
+                        margin-left: 0px;
                     }
                 }
 
                 .travelStoriesSection__content-block__footer {
 
+                    .travelStoriesSection__footer-details-link {
+                        left: 28px;
+                        top: 36px;
+                    }
 
 
                     .travelStoriesSection__footer-social-networks {

@@ -442,81 +442,136 @@ input:focus:-ms-input-placeholder {
 }
 @media (max-width: 360px) {
   .formSection {
-    margin-top: 922px;
     max-width: 360px;
-    max-width: 1254px;
+    min-height: 1254px;
     gap: 40px;
-    padding: 0px 12px;
   }
   .formSection .formSection__header {
     gap: 20px;
+  }
+  .formSection .formSection__header .formSection__header__title {
+    letter-spacing: 0.7px;
   }
   .formSection .formSection__header .formSection__header__subtitle {
     max-width: 318px;
   }
   .formSection .formSection__content-form {
-    padding: 20px 20px 40px;
     border-radius: 30px;
     gap: 30px;
-    max-width: 278px;
+    max-width: 318px;
+    min-height: 1110px;
+    border-radius: 20px;
+    padding: 0px;
   }
-  .formSection .formSection__content-form .formSection__input-name {
+  .formSection .formSection__content-form .form-cont {
+    gap: 28px;
+    margin-top: 16px;
+    margin-right: 31px;
+  }
+  .formSection .formSection__content-form .form-cont .formSection__input-name {
     font-size: 16px;
     margin-top: 0px;
   }
-  .formSection .formSection__content-form .formSection__input-fields-container {
-    flex-wrap: wrap;
-    max-height: 300px;
+  .formSection .formSection__content-form .form-cont .formSection__input-fields-container {
+    max-height: 74px;
   }
-  .formSection .formSection__content-form .formSection__input-fields-container .formSection__input-field-container {
+  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container {
     max-width: 250px;
     max-height: 74px;
   }
-  .formSection .formSection__content-form .formSection__input-fields-container .formSection__input-field-container .formSection__input-field {
+  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__input-field {
+    padding: 8px;
+  }
+  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__select-field {
+    min-width: 278px;
+    min-height: 43px;
+    font-size: 16px;
+  }
+  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__select-field .formSection__input-field {
+    max-width: 250px;
+    padding: 8px;
+  }
+  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__input-field {
     min-width: 278px;
     max-width: 278px;
     min-height: 43px;
   }
-  .formSection .formSection__content-form .formSection__input-fields-container .formSection__input-field-container .formSection__input-field::-moz-placeholder {
+  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__input-field::-moz-placeholder {
     font-size: 16px;
   }
-  .formSection .formSection__content-form .formSection__input-fields-container .formSection__input-field-container .formSection__input-field:-ms-input-placeholder {
+  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__input-field:-ms-input-placeholder {
     font-size: 16px;
   }
-  .formSection .formSection__content-form .formSection__input-fields-container .formSection__input-field-container .formSection__input-field::placeholder {
+  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__input-field::placeholder {
     font-size: 16px;
   }
   .formSection .formSection__content-form .formSection__input-comment-container {
     max-width: 278px;
     max-height: 163px;
+    margin-left: 17px;
+  }
+  .formSection .formSection__content-form .formSection__input-comment-container .formSection__input-name {
+    font-size: 16px;
+    margin-top: 0px;
   }
   .formSection .formSection__content-form .formSection__input-comment-container .formSection__input-field-comment {
     max-width: 278px;
     min-width: 278px;
     min-height: 132px;
   }
+  .formSection .formSection__content-form .formSection__ageCheck-container {
+    margin-left: 17px;
+  }
+  .formSection .formSection__content-form .formSection__ageCheck-container .formSection__input-ageCheck-container {
+    gap: 8px;
+  }
+  .formSection .formSection__content-form .formSection__ageCheck-container .formSection__input-ageCheck-container .formSection__input-name {
+    font-size: 16px;
+  }
+  .formSection .formSection__content-form .formSection__ageCheck-container .formSection__input-ageCheck-container .formSection__radio-buttons-container {
+    gap: 27px;
+  }
+  .formSection .formSection__content-form .formSection__ageCheck-container .formSection__input-ageCheck-container .formSection__radio-buttons-container .formSection__radio-button-container .radio__border {
+    min-width: 17px;
+    min-height: 17px;
+  }
+  .formSection .formSection__content-form .formSection__agreement-container {
+    margin-left: 17px;
+  }
   .formSection .formSection__content-form .formSection__agreement-container .formSection__accept {
     font-size: 16px;
     gap: 0;
   }
   .formSection .formSection__content-form .formSection__agreement-container .formSection__accept .checkbox__border {
-    margin-bottom: 38px;
+    margin-bottom: 45px;
+    min-width: 16px;
+    min-height: 16px;
   }
   .formSection .formSection__content-form .formSection__agreement-container .formSection__accept .agreement-text {
-    margin-left: 4px;
+    margin-left: 12px;
+    font-size: 16px;
+    max-width: 248px;
   }
   .formSection .formSection__content-form .formSection__agreement-container .formSection__accept .agreement-text .formSection__agreement-text-link {
-    margin-left: 3px;
+    margin-left: 1px;
+    font-size: 16px;
   }
   .formSection .formSection__content-form .formSection__buttons-container {
     gap: 10px;
+    margin-left: 17px;
   }
   .formSection .formSection__content-form .formSection__buttons-container .formSection__submit-button {
     min-width: 134px;
     min-height: 47px;
   }
+  .formSection .formSection__content-form .formSection__buttons-container .formSection__submit-button .formSection__submit-button-text {
+    font-size: 16px;
+  }
   .formSection .formSection__content-form .formSection__buttons-container .formSection__reset-button {
     min-width: 134px;
     min-height: 47px;
+  }
+  .formSection .formSection__content-form .formSection__buttons-container .formSection__reset-button .formSection__reset-button-text {
+    font-size: 16px;
   }
 }/*# sourceMappingURL=form.css.map */
