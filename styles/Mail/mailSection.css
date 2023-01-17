@@ -51,6 +51,8 @@
     max-width: 360px;
     min-height: 285px;
     flex-direction: column;
+    margin-left: -2.5px;
+    margin-top: 1px;
   }
   .mailSection .mailSection__photo {
     max-width: 130px;
@@ -59,11 +61,13 @@
   }
   .mailSection .mailSection__content {
     max-width: 291px;
+    gap: 24px;
   }
   .mailSection .mailSection__content .mailSection__content__header {
     font-size: 23px;
     line-height: 120%;
     text-align: center;
+    letter-spacing: 0.045em;
   }
   .mailSection .mailSection__content .mailSection__content__text {
     font-size: 16px;

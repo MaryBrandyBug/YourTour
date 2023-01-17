@@ -157,7 +157,8 @@
   .chooseTourSection {
     min-height: auto;
     gap: 35px;
-    max-height: 2172px;
+    min-height: 2172px;
+    margin-left: -2px;
   }
   .chooseTourSection .chooseTourSection__content {
     max-width: 318px;

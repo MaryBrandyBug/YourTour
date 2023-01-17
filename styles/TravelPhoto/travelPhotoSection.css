@@ -66,9 +66,23 @@
     min-height: 558px;
     gap: 50px;
   }
+  .travelPhotoSection .travelPhotoSection__header {
+    gap: 20px;
+  }
+  .travelPhotoSection .travelPhotoSection__header .travelPhotoSection__header__title {
+    letter-spacing: 0.02em;
+  }
+  .travelPhotoSection .travelPhotoSection__header .travelPhotoSection__header__subtitle {
+    max-width: 318px;
+  }
   .travelPhotoSection .travelPhotoSection__content {
     gap: 18px;
-    padding: 0px 21px;
+  }
+  .travelPhotoSection .travelPhotoSection__content .small {
+    gap: 10px;
+  }
+  .travelPhotoSection .travelPhotoSection__content .big {
+    gap: 18px;
   }
   .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container {
     max-width: 318px;
@@ -77,6 +91,7 @@
   .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .travelPhotoSection__big-photo {
     max-width: 150px;
     min-height: 110px;
+    max-height: 110px;
     border-radius: 20px;
   }
   .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .max-middle-size {

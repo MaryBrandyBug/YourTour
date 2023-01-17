@@ -22,7 +22,6 @@ $gainsboro: #D9DFDB;
 
         .reviewsSection__header__title {
             max-width: 529px;
-            // height: 146px;
         }
 
         .reviewsSection__header__subtitle {
@@ -62,8 +61,6 @@ $gainsboro: #D9DFDB;
                 flex-direction: row;
                 align-items: flex-end;
                 padding: 70px 0px 0px;
-                // width: 490px;
-                // height: 145px;
 
                 .reviewsSection__footer-content {
                     display: flex;
@@ -135,10 +132,20 @@ $gainsboro: #D9DFDB;
     .reviewsSection {
         max-width: 360px;
         min-height: 1210px;
+        max-height: 1210px;
         gap: 50px;
+        margin-left: -3.5px;
 
         .reviewsSection__header {
             gap: 20px;
+
+            .reviewsSection__header__title {
+                letter-spacing: 0.7px;
+            }
+
+            .reviewsSection__header__subtitle {
+                max-width: 318px;
+            }
         }
 
         .reviewsSection__content {
@@ -148,13 +155,11 @@ $gainsboro: #D9DFDB;
 
             .reviewsSection__review-card {
                 padding: 20px;
-                min-height: 408px;
-                max-width: 278px;
+                min-height: 290px;
+                max-width: 318px;
                 border-radius: 20px;
-
-                .card-txt-first {
-                    max-height: 408px;
-                }
+                align-items: flex-start;
+                justify-content: flex-start;
 
                 .reviewsSection__review-card-text {
                     font-size: 16px;
@@ -162,11 +167,11 @@ $gainsboro: #D9DFDB;
                 }
 
                 .reviewsSection__review-card__footer {
-                    padding: 40px 0px 0px;
-                    max-width: 280px;
+                    padding: 43px 0px 0px;
 
                     .reviewsSection__footer-content {
-                        min-width: 200px;
+                        min-width: 203px;
+                        gap: 8px;
 
                         .reviewsSection__reviewer-name {
                             font-weight: 700;

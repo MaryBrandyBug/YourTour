@@ -112,8 +112,10 @@ $gainsboro: #D9DFDB;
 
             .footer__content__social-networks-links {
                 max-width: 314px;
+                gap: 20px;
 
                 .footer__link-block {
+                    gap: 1px;
 
                     .footer__link-icon {
                         max-width: 20px;

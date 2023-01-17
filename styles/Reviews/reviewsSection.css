@@ -98,10 +98,18 @@
   .reviewsSection {
     max-width: 360px;
     min-height: 1210px;
+    max-height: 1210px;
     gap: 50px;
+    margin-left: -3.5px;
   }
   .reviewsSection .reviewsSection__header {
     gap: 20px;
+  }
+  .reviewsSection .reviewsSection__header .reviewsSection__header__title {
+    letter-spacing: 0.7px;
+  }
+  .reviewsSection .reviewsSection__header .reviewsSection__header__subtitle {
+    max-width: 318px;
   }
   .reviewsSection .reviewsSection__content {
     max-width: 360px;
@@ -110,23 +118,22 @@
   }
   .reviewsSection .reviewsSection__content .reviewsSection__review-card {
     padding: 20px;
-    min-height: 408px;
-    max-width: 278px;
+    min-height: 290px;
+    max-width: 318px;
     border-radius: 20px;
-  }
-  .reviewsSection .reviewsSection__content .reviewsSection__review-card .card-txt-first {
-    max-height: 408px;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
   .reviewsSection .reviewsSection__content .reviewsSection__review-card .reviewsSection__review-card-text {
     font-size: 16px;
     line-height: 142%;
   }
   .reviewsSection .reviewsSection__content .reviewsSection__review-card .reviewsSection__review-card__footer {
-    padding: 40px 0px 0px;
-    max-width: 280px;
+    padding: 43px 0px 0px;
   }
   .reviewsSection .reviewsSection__content .reviewsSection__review-card .reviewsSection__review-card__footer .reviewsSection__footer-content {
-    min-width: 200px;
+    min-width: 203px;
+    gap: 8px;
   }
   .reviewsSection .reviewsSection__content .reviewsSection__review-card .reviewsSection__review-card__footer .reviewsSection__footer-content .reviewsSection__reviewer-name {
     font-weight: 700;
