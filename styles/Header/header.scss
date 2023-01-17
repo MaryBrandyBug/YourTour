@@ -60,7 +60,6 @@ $lightOrange: #F8E6BE;
                 min-height: 28px;
 
                 .menu__item {
-                    // width: 114px;
                     min-height: 28px;
                     font-family: 'Roboto';
                     font-style: normal;
@@ -117,7 +116,6 @@ $lightOrange: #F8E6BE;
 
         .header__content__subtitle {
             max-width: 562px;
-            // min-height: 56px;
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 400;
@@ -127,17 +125,20 @@ $lightOrange: #F8E6BE;
             color: $whiteColor;
         }
 
-        .header__content__button:hover {
-            background: $orangeColor;
-            .findTourBtn {
-                color: $whiteColor;
-            }
-        }
+        @media (min-width: 361px) {
 
-        .header__content__button:active {
-            background: $lightOrange;
-            .findTourBtn {
-                color: $blackColor;
+            .header__content__button:hover {
+                background: $orangeColor;
+                .findTourBtn {
+                    color: $whiteColor;
+                }
+            }
+    
+            .header__content__button:active {
+                background: $lightOrange;
+                .findTourBtn {
+                    color: $blackColor;
+                }
             }
         }
 
@@ -150,8 +151,6 @@ $lightOrange: #F8E6BE;
             gap: 10px;
             background: $whiteColor;
             border-radius: 10px;
-            // width: 118px;
-            // height: 34px;
             cursor: pointer;
 
             .findTourBtn {
@@ -228,7 +227,6 @@ $lightOrange: #F8E6BE;
             }
 
             .header__content__button {
-                // max-width: 90px;
 
                 .findTourBtn {
                     font-size: 16px;

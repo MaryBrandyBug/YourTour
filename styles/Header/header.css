@@ -109,17 +109,19 @@
   text-align: center;
   color: #FFFFFF;
 }
-.header .header__content .header__content__button:hover {
-  background: #EFA501;
-}
-.header .header__content .header__content__button:hover .findTourBtn {
-  color: #FFFFFF;
-}
-.header .header__content .header__content__button:active {
-  background: #F8E6BE;
-}
-.header .header__content .header__content__button:active .findTourBtn {
-  color: #1B1F2B;
+@media (min-width: 361px) {
+  .header .header__content .header__content__button:hover {
+    background: #EFA501;
+  }
+  .header .header__content .header__content__button:hover .findTourBtn {
+    color: #FFFFFF;
+  }
+  .header .header__content .header__content__button:active {
+    background: #F8E6BE;
+  }
+  .header .header__content .header__content__button:active .findTourBtn {
+    color: #1B1F2B;
+  }
 }
 .header .header__content .header__content__button {
   display: flex;
