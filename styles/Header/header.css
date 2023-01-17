@@ -178,6 +178,7 @@
     min-height: 488px;
     gap: 40px;
     margin-top: -47px;
+    margin-left: -4px;
   }
   .header .header__content .header__content__title {
     font-size: 34px;
@@ -195,6 +196,7 @@
   }
   .header .header__navbar {
     max-width: 360px;
+    margin-left: 2px;
   }
   .header .header__navbar .navbar {
     max-width: 320px;

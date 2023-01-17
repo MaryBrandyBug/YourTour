@@ -492,11 +492,9 @@ input:focus:-ms-input-placeholder {
   .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__select-field {
     min-width: 278px;
     min-height: 43px;
-    font-size: 16px;
-  }
-  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__select-field .formSection__input-field {
-    max-width: 250px;
-    padding: 8px;
+    font-size: 15px;
+    padding: 3px;
+    letter-spacing: 0.4px;
   }
   .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__input-field {
     min-width: 278px;

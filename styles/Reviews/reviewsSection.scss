@@ -69,7 +69,6 @@ $gainsboro: #D9DFDB;
                     padding: 0px;
                     gap: 8px;
                     min-width: 415px;
-                    // height: 75px;
 
                     .reviewsSection__reviewer-name {
                         font-family: 'Roboto';
@@ -120,7 +119,11 @@ $gainsboro: #D9DFDB;
 
                     .reviewsSection__footer-content {
                         min-width: 295px;
-                        gap: 13px;
+                        gap: 6px;
+
+                        .reviewsSection__reviewer-tour {
+                            margin-bottom: 6px;
+                        }
                     }
                 }
             }
@@ -163,7 +166,7 @@ $gainsboro: #D9DFDB;
 
                 .reviewsSection__review-card-text {
                     font-size: 16px;
-                    line-height: 142%;
+                    line-height: 143%;
                 }
 
                 .reviewsSection__review-card__footer {
@@ -183,6 +186,7 @@ $gainsboro: #D9DFDB;
                         .reviewsSection__reviewer-tour {
                             font-size: 16px;
                             letter-spacing: -0.01em;
+                            margin-bottom: 1px;
                         }
                     }
 
