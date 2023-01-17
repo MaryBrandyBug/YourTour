@@ -113,6 +113,10 @@ body {
         align-items: flex-start;
     }
 
+    .stories__info-link__text {
+        
+    }
+
     .info-link__text {
         max-width: 120px;
         max-height: 28px;
@@ -127,12 +131,8 @@ body {
     .info-link__arrow {
         max-width: 24px;
         max-height: 26px;
-        // position: relative;
         
         img {
-            // position: absolute;
-            // left: 4.17%;
-            // top: 21.15%;
             margin-top: 21%;
             color: white;
             z-index: 0;
@@ -151,7 +151,6 @@ body {
 
 @media (max-width: 360px) {
     .section {
-        // gap: 50px;
 
         .info-link__text {
             max-width: 84px;

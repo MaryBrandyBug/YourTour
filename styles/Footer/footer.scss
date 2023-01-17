@@ -76,10 +76,13 @@ $gainsboro: #D9DFDB;
                     cursor: pointer;
                 }
 
-                .footer__social-network:hover {
-                    text-decoration-line: underline;
-                    text-underline-offset: 7px;
-                    text-decoration-thickness: 1px;
+                @media (min-width: 361px) {
+
+                    .footer__social-network:hover {
+                        text-decoration-line: underline;
+                        text-underline-offset: 7px;
+                        text-decoration-thickness: 1px;
+                    }
                 }
             }
         }

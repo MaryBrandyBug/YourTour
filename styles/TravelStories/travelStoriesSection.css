@@ -59,23 +59,23 @@
   position: absolute;
   left: 60px;
 }
-.travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block .travelStoriesSection__content-block__footer .travelStoriesSection__footer-details-link:hover {
-  width: 199px;
-  height: 42px;
-  background: #286562;
-  border-radius: 50px;
-  position: absolute;
-  top: 23px;
-  left: 40px;
-}
-.travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block .travelStoriesSection__content-block__footer .travelStoriesSection__footer-details-link:active {
-  width: 199px;
-  height: 42px;
-  background: #EFA501;
-  border-radius: 50px;
-  position: absolute;
-  top: 23px;
-  left: 40px;
+@media (min-width: 361px) {
+  .travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block .travelStoriesSection__content-block__footer .travelStoriesSection__footer-details-link:hover {
+    width: 199px;
+    height: 42px;
+    background: #286562;
+    border-radius: 50px;
+    position: absolute;
+    left: 40px;
+  }
+  .travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block .travelStoriesSection__content-block__footer .travelStoriesSection__footer-details-link:active {
+    width: 199px;
+    height: 42px;
+    background: #EFA501;
+    border-radius: 50px;
+    position: absolute;
+    left: 40px;
+  }
 }
 .travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block .travelStoriesSection__content-block__footer .travelStoriesSection__footer-social-networks {
   display: flex;
@@ -97,18 +97,20 @@
   color: #FFFFFF;
   cursor: pointer;
 }
-.travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block .travelStoriesSection__content-block__footer .travelStoriesSection__footer-social-networks .travelStoriesSection__social-network:hover {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 7px;
-}
-.travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block .travelStoriesSection__content-block__footer .travelStoriesSection__footer-social-networks .travelStoriesSection__social-network:active {
-  color: #EFA501;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 7px;
+@media (min-width: 361px) {
+  .travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block .travelStoriesSection__content-block__footer .travelStoriesSection__footer-social-networks .travelStoriesSection__social-network:hover {
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 7px;
+  }
+  .travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block .travelStoriesSection__content-block__footer .travelStoriesSection__footer-social-networks .travelStoriesSection__social-network:active {
+    color: #EFA501;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 7px;
+  }
 }
 .travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block .travelStoriesSection__content-block__content {
   display: flex;

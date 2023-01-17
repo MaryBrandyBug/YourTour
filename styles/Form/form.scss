@@ -80,8 +80,6 @@ $gainsboro: #D9DFDB;
                     opacity: 0;
                 } 
 
-                option::selection {color: #ccc;}
-
                 .formSection__select-field {
                     min-width: 500px;
                     max-width: 500px;
@@ -97,6 +95,12 @@ $gainsboro: #D9DFDB;
                     gap: 10px;
                     padding: 20px;
                     cursor: pointer;
+                }
+
+                @media (min-width: 361px) {
+                    .formSection__select-field:hover {
+                        background: $lightBeigeColor;
+                    }
                 }
 
                 .formSection__input-field {
@@ -121,13 +125,16 @@ $gainsboro: #D9DFDB;
                     cursor: pointer;
                 }
 
-                .formSection__input-field:focus{
-                    border: 1px solid $greyColor;
-                    background: $lightBeigeColor;
-                }
+                @media (min-width: 361px) {
 
-                .formSection__input-field:hover {
-                    background: $lightBeigeColor;
+                    .formSection__input-field:focus{
+                        border: 1px solid $greyColor;
+                        background: $lightBeigeColor;
+                    }
+    
+                    .formSection__input-field:hover {
+                        background: $lightBeigeColor;
+                    }
                 }
 
                 .formSection__input-field::placeholder {
@@ -242,12 +249,12 @@ $gainsboro: #D9DFDB;
                         .radio__border::before {
                             content: "";
                             position: absolute;
-                            top: 50%;
-                            left: 50%;
+                            top: 48%;
+                            left: 48%;
                             transform: translate(-50%, -50%);
                             display: block;
-                            width: 12px;
-                            height: 12px;
+                            min-width: 12px;
+                            min-height: 12px;
                             background-color: $blackColor;
                             border-radius: 50%;
                             transition: .2s;
@@ -337,19 +344,15 @@ $gainsboro: #D9DFDB;
                     opacity: 1;
                 }
 
-                // .formSection__agreement-text-link {
-                //     color: $blackColor;
-                //     text-decoration: none;
-                //     cursor: pointer;
-                //     margin-left: -13px;
-                // }
+                @media (min-width: 361px) {
 
-                .formSection__agreement-text-link:hover {
-                    text-decoration: underline;
-                }
-
-                .formSection__agreement-text-link:active {
-                    color: $darkGreen;
+                    .formSection__agreement-text-link:hover {
+                        text-decoration: underline;
+                    }
+    
+                    .formSection__agreement-text-link:active {
+                        color: $darkGreen;
+                    }
                 }
             }
         }
@@ -384,12 +387,15 @@ $gainsboro: #D9DFDB;
                 }
             }
 
-            .formSection__submit-button:hover {
-                background: $greenColor;
-            }
+            @media (min-width: 361px) {
 
-            .formSection__submit-button:active {
-                background: $oliveGreenColor;
+                .formSection__submit-button:hover {
+                    background: $greenColor;
+                }
+    
+                .formSection__submit-button:active {
+                    background: $oliveGreenColor;
+                }
             }
 
             .formSection__reset-button {
@@ -414,13 +420,17 @@ $gainsboro: #D9DFDB;
                 }
             }
 
-            .formSection__reset-button:hover {
-                background: $whiteSmoke;
+            @media (min-width: 361px) {
+
+                .formSection__reset-button:hover {
+                    background: $whiteSmoke;
+                }
+    
+                .formSection__reset-button:active {
+                    background: $gainsboro;
+                }
             }
 
-            .formSection__reset-button:active {
-                background: $gainsboro;
-            }
         }
     }
 }
@@ -510,7 +520,6 @@ input:focus:-ms-input-placeholder { color:transparent; };
         max-width: 360px;
         min-height: 1254px;
         gap: 40px;
-        // padding: 0px 12px;
 
         .formSection__header {
             gap: 20px;
@@ -525,10 +534,8 @@ input:focus:-ms-input-placeholder { color:transparent; };
         }
 
         .formSection__content-form {
-            // padding: 20px 20px 40px;
             border-radius: 30px;
             gap: 30px;
-            // max-width: 278px;
             max-width: 318px;
             min-height: 1110px;
             border-radius: 20px;
@@ -615,6 +622,11 @@ input:focus:-ms-input-placeholder { color:transparent; };
                             .radio__border {
                                 min-width: 17px;
                                 min-height: 17px;
+                            }
+
+                            .radio__border::before {
+                                min-width: 10px;
+                                min-height: 9px;
                             }
                         }
                     }

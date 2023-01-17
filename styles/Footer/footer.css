@@ -59,11 +59,13 @@
   color: #1B1F2B;
   cursor: pointer;
 }
-.footer .footer__content .footer__content__social-networks-links .footer__link-block .footer__social-network:hover {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-  text-underline-offset: 7px;
-  text-decoration-thickness: 1px;
+@media (min-width: 361px) {
+  .footer .footer__content .footer__content__social-networks-links .footer__link-block .footer__social-network:hover {
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 1px;
+  }
 }
 
 @media (max-width: 1024px) {
