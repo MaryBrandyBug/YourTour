@@ -75,6 +75,18 @@
   border-radius: 100px;
 }
 
+@media (max-width: 1175px) {
+  .reviewsSection .reviewsSection__content {
+    max-width: 100%;
+  }
+  .reviewsSection .reviewsSection__content .reviewsSection__review-card .reviewsSection__review-card__footer {
+    min-width: 100%;
+    padding: 0;
+  }
+  .reviewsSection .reviewsSection__content .reviewsSection__review-card .reviewsSection__review-card__footer .reviewsSection__footer-content {
+    min-width: 70%;
+  }
+}
 @media (max-width: 1024px) {
   .reviewsSection {
     max-width: 1024px;

@@ -54,6 +54,8 @@ ul, li {
 body {
   position: relative;
   background: #F9F7F4;
+  overflow-x: hidden;
+  margin: 0 auto;
 }
 body .wrapper {
   display: flex;
@@ -62,21 +64,24 @@ body .wrapper {
   align-items: center;
   padding: 0px;
   gap: 135px;
-  position: absolute;
-  left: 0px;
-  top: 1px;
-  margin: 0;
+  margin: 0 auto;
+  overflow-x: hidden;
 }
 
+@media (max-width: 1920px) {
+  body {
+    max-width: 1920px;
+  }
+  body .wrapper {
+    max-width: 100%;
+  }
+}
 @media (max-width: 1024px) {
   body {
     max-width: 1024px;
   }
   body .wrapper {
-    max-width: 1024px;
-    position: absolute;
-    left: 0px;
-    top: 0px;
+    max-width: 100%;
   }
 }
 @media (max-width: 360px) {
@@ -148,6 +153,11 @@ body .wrapper {
   color: white;
 }
 
+@media (max-width: 1175px) {
+  .section .section__content__flex {
+    align-items: center;
+  }
+}
 @media (max-width: 360px) {
   .section .info-link__text {
     max-width: 84px;

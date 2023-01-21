@@ -133,6 +133,15 @@
     left: 30px;
   }
 }
+@media (max-width: 1175px) {
+  .chooseTourSection .chooseTourSection__content {
+    gap: 11px;
+    justify-content: center;
+  }
+  .chooseTourSection .chooseTourSection__content .chooseTour__card {
+    min-width: 332px;
+  }
+}
 @media (max-width: 1024px) {
   .chooseTourSection {
     max-height: 1871px;
