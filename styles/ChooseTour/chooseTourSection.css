@@ -144,7 +144,6 @@
 }
 @media (max-width: 1024px) {
   .chooseTourSection {
-    max-height: 1871px;
     min-height: 1871px;
   }
   .chooseTourSection .chooseTourSection__content {
@@ -160,6 +159,124 @@
   }
   .chooseTourSection .chooseTourSection__content .chooseTour__card .chooseTour__card-content .chooseTour__text-container {
     max-width: 350px;
+  }
+}
+@media (max-width: 920px) and (min-width: 720px) {
+  .chooseTourSection .chooseTourSection__content {
+    max-width: 100%;
+  }
+  .chooseTourSection .chooseTourSection__content .chooseTour__card {
+    min-width: calc(350px - 1.0869565217vw);
+  }
+  .chooseTourSection .chooseTourSection__content .chooseTour__card .chooseTour__card__background {
+    min-width: calc(350px - 1.0869565217vw);
+  }
+}
+@media (max-width: 719px) {
+  .chooseTourSection {
+    min-height: auto;
+  }
+  .chooseTourSection .chooseTourSection__content {
+    letter-spacing: 0.04em;
+    gap: 18px;
+  }
+  .chooseTourSection .chooseTourSection__content .chooseTour__card {
+    min-width: 318px;
+    min-width: calc(270px - 1.3908205841vw);
+    min-height: 318px;
+    border-radius: 20px;
+  }
+  .chooseTourSection .chooseTourSection__content .chooseTour__card .chooseTour__card__background {
+    min-width: calc(270px - 1.3908205841vw);
+    border-radius: 20px;
+  }
+  .chooseTourSection .chooseTourSection__content .chooseTour__card .chooseTour__card-content {
+    padding: 25px;
+    left: -2px;
+    top: 2px;
+  }
+  .chooseTourSection .chooseTourSection__content .chooseTour__card .chooseTour__card-content .chooseTour__text-container {
+    max-width: 268px;
+    gap: 13px;
+  }
+  .chooseTourSection .chooseTourSection__content .chooseTour__card .chooseTour__card-content .chooseTour__text-container .chooseTour__card__subtitle {
+    font-size: 16px;
+  }
+  .chooseTourSection .chooseTourSection__content .chooseTour__card .chooseTour__card-content .chooseTour__link {
+    top: 269px;
+    left: 26px;
+  }
+  .chooseTourSection .chooseTourSection__header {
+    max-width: 360px;
+    min-width: 360px;
+    gap: 30px;
+  }
+  .chooseTourSection .chooseTourSection__header .chooseTourSection__header__title {
+    letter-spacing: 0.65px;
+  }
+  .chooseTourSection .chooseTourSection__header .chooseTourSection__header__menu {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .chooseTourSection .chooseTourSection__header .chooseTourSection__header__menu .chooseTourSection_menu__item .chooseTourSection_menu__item-name {
+    font-size: 20px;
+    line-height: 142%;
+  }
+}
+@media (max-width: 550px) {
+  .chooseTourSection {
+    min-height: auto;
+    gap: 35px;
+    min-height: 2172px;
+    margin-left: -2px;
+  }
+  .chooseTourSection .chooseTourSection__content {
+    max-width: 318px;
+    letter-spacing: 0.04em;
+    gap: 18px;
+  }
+  .chooseTourSection .chooseTourSection__content .chooseTour__card {
+    min-width: 318px;
+    min-height: 318px;
+    border-radius: 20px;
+  }
+  .chooseTourSection .chooseTourSection__content .chooseTour__card .chooseTour__card__background {
+    min-width: 318px;
+    border-radius: 20px;
+  }
+  .chooseTourSection .chooseTourSection__content .chooseTour__card .chooseTour__card-content {
+    padding: 25px;
+    left: -2px;
+    top: 2px;
+  }
+  .chooseTourSection .chooseTourSection__content .chooseTour__card .chooseTour__card-content .chooseTour__text-container {
+    max-width: 268px;
+    gap: 13px;
+  }
+  .chooseTourSection .chooseTourSection__content .chooseTour__card .chooseTour__card-content .chooseTour__text-container .chooseTour__card__subtitle {
+    font-size: 16px;
+  }
+  .chooseTourSection .chooseTourSection__content .chooseTour__card .chooseTour__card-content .chooseTour__link {
+    top: 269px;
+    left: 26px;
+  }
+  .chooseTourSection .chooseTourSection__header {
+    max-width: 360px;
+    min-width: 360px;
+    gap: 30px;
+  }
+  .chooseTourSection .chooseTourSection__header .chooseTourSection__header__title {
+    letter-spacing: 0.65px;
+  }
+  .chooseTourSection .chooseTourSection__header .chooseTourSection__header__menu {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .chooseTourSection .chooseTourSection__header .chooseTourSection__header__menu .chooseTourSection_menu__item .chooseTourSection_menu__item-name {
+    font-size: 20px;
+    line-height: 142%;
   }
 }
 @media (max-width: 360px) {

@@ -101,10 +101,60 @@ $gainsboro: #D9DFDB;
 
 @media (max-width: 1024px) {
     .footer {
-        max-width: 1024px;
+        max-width: 100%;
 
         .footer__content {
-            min-width: 918px;
+            min-width: 0px;
+        }
+    }
+}
+
+@media (max-width: 870px) {
+    .footer {
+
+        .footer__content {
+            gap: 25px;
+        }
+    }
+}
+
+@media (max-width: 690px) {
+    .footer {
+        max-width: 100%;
+        min-height: 95px;
+
+        .footer__content {
+            flex-direction: column;
+            gap: 7px;
+
+            .footer__content__text {
+                font-size: 20px;
+            }
+
+            .footer__content__social-networks-links {
+                gap: 20px;
+
+                .footer__link-block {
+                    gap: 1px;
+
+                    .footer__link-icon {
+                        max-width: 20px;
+                    }
+
+                    img {
+                        max-width: 20px;
+                    }
+                    .inst-icon {
+                        max-width: 20px;
+                        max-height: 20px;
+
+                    }
+
+                    .footer__social-network {
+                        font-size: 18px;
+                    }
+                }
+            }
         }
     }
 }
