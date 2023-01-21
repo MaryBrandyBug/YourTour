@@ -238,7 +238,8 @@ $gainsboro: #D9DFDB;
 
             .travelStoriesSection__content-block {
                 max-width: 918px;
-                min-height: 567px;
+                min-height: 435px;
+                max-height: 435px;
 
                 .travelStoriesSection__content-block__footer {
                     height: 33px;
@@ -249,7 +250,7 @@ $gainsboro: #D9DFDB;
                 }
 
                 .travelStoriesSection__content-block__content {
-                    gap: 37px;
+                    gap: 15px;
 
                     .travelStoriesSection__content-block__list {
                         margin-top: -12px;
@@ -258,7 +259,8 @@ $gainsboro: #D9DFDB;
                 }
 
                 .travelStoriesSection__card__background {
-                    min-height: 100%;
+                    min-height: 435px;
+                    max-height: 435px;
                 }
             }
 
