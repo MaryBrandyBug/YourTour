@@ -24,18 +24,43 @@
 }
 .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .travelPhotoSection__big-photo {
   max-width: 442.5px;
-  max-height: 300px;
+  max-height: auto;
   border-radius: 50px;
 }
 .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .travelPhotoSection__small-photo {
   max-width: 349.16px;
-  height: 301px;
+  min-height: 301px;
   border-radius: 50px;
 }
 
+@media (max-width: 1730px) {
+  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .travelPhotoSection__big-photo {
+    max-width: 370.67px;
+    min-height: 300px;
+  }
+  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .max-size {
+    display: none;
+  }
+  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .travelPhotoSection__small-photo {
+    max-width: 270px;
+  }
+}
+@media (max-width: 1175px) {
+  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .travelPhotoSection__big-photo {
+    max-width: 314.67px;
+    min-height: 300px;
+  }
+  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .max-size {
+    display: none;
+  }
+  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .travelPhotoSection__small-photo {
+    max-width: 231px;
+  }
+}
 @media (max-width: 1024px) {
   .travelPhotoSection {
-    max-width: 1024px;
+    max-width: 100%;
+    margin: 0 auto;
   }
   .travelPhotoSection .travelPhotoSection__header {
     gap: 25px;

@@ -393,10 +393,46 @@ input:focus:-ms-input-placeholder {
   color: transparent;
 }
 
+@media (max-width: 1175px) {
+  .formSection .formSection__content-form {
+    max-width: 95%;
+    min-width: 95%;
+  }
+  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container {
+    max-width: 410px;
+  }
+  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__select-field {
+    max-width: 410px;
+    min-width: 410px;
+  }
+  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__input-field {
+    min-width: 410px;
+  }
+  .formSection .formSection__content-form .formSection__input-comment-container {
+    margin-left: 0;
+  }
+  .formSection .formSection__content-form .formSection__input-comment-container .formSection__input-field-comment {
+    max-width: 870px;
+    min-width: 860px;
+  }
+  .formSection .formSection__content-form .formSection__ageCheck-container {
+    min-width: 90%;
+  }
+  .formSection .formSection__content-form .formSection__agreement-container {
+    min-width: 90%;
+  }
+  .formSection .formSection__content-form .formSection__agreement-container .formSection__accept {
+    justify-content: flex-start;
+  }
+  .formSection .formSection__content-form .formSection__buttons-container {
+    min-width: 90%;
+  }
+}
 @media (max-width: 1024px) {
   .formSection {
     max-height: 1225px;
     gap: 100px;
+    margin: 0 auto;
   }
   .formSection .formSection__content-form {
     max-width: 815px;

@@ -7,11 +7,11 @@ $lightOrange: #F8E6BE;
 .header {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    // align-items: flex-start;
     padding: 0px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 39.9%), linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('header.png');
     background-size: cover;
-    max-width: 100%;
+    width: 100%;
     max-height: 831px;
 
     .header__navbar {
@@ -21,7 +21,7 @@ $lightOrange: #F8E6BE;
         justify-content: center;
         padding: 0px;
         gap: 214px;
-        max-width: 1168px;
+        // max-width: 1168px;
         min-height: 88px;
 
         .navbar {
@@ -30,12 +30,12 @@ $lightOrange: #F8E6BE;
             justify-content: space-between;
             align-items: center;
             padding: 0px;            
-            margin-left: 376px;
-            max-width: 1168px;
+            // margin-left: 376px;
+            // max-width: 1168px;
             min-height: 30.24px;
 
             gap: 180px;
-            margin-left: 752px;
+            // margin-left: 752px;
 
             .navbar__logo {
                 min-width: 181.84px;
@@ -43,7 +43,7 @@ $lightOrange: #F8E6BE;
                 min-height: 30.24px;
 
                 .YourTourLogo {
-                    position: absolute;
+                    // position: absolute;
                     left: 376px;
                     top: 28.88px;
                 }
@@ -99,7 +99,7 @@ $lightOrange: #F8E6BE;
         align-items: center;
         padding: 0px;
         gap: 50px;
-        min-width: 1920px;
+        // min-width: 1920px;
         min-height: 743px;
 
         .header__content__title {
@@ -163,6 +163,18 @@ $lightOrange: #F8E6BE;
                 line-height: 142%;
                 letter-spacing: -0.01em;
                 color: $blackColor;
+            }
+        }
+    }
+}
+
+@media (max-width: 1175px) {
+    .header {
+
+        .header__navbar {
+
+            .navbar {
+                gap: 60px;
             }
         }
     }
