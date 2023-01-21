@@ -1,11 +1,10 @@
 .header {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   padding: 0px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 39.9%), linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("header.png");
   background-size: cover;
-  max-width: 100%;
+  width: 100%;
   max-height: 831px;
 }
 .header .header__navbar {
@@ -15,7 +14,6 @@
   justify-content: center;
   padding: 0px;
   gap: 214px;
-  max-width: 1168px;
   min-height: 88px;
 }
 .header .header__navbar .navbar {
@@ -24,11 +22,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 0px;
-  margin-left: 376px;
-  max-width: 1168px;
   min-height: 30.24px;
   gap: 180px;
-  margin-left: 752px;
 }
 .header .header__navbar .navbar .navbar__logo {
   min-width: 181.84px;
@@ -36,7 +31,6 @@
   min-height: 30.24px;
 }
 .header .header__navbar .navbar .navbar__logo .YourTourLogo {
-  position: absolute;
   left: 376px;
   top: 28.88px;
 }
@@ -85,7 +79,6 @@
   align-items: center;
   padding: 0px;
   gap: 50px;
-  min-width: 1920px;
   min-height: 743px;
 }
 .header .header__content .header__content__title {
@@ -146,6 +139,11 @@
   color: #1B1F2B;
 }
 
+@media (max-width: 1175px) {
+  .header .header__navbar .navbar {
+    gap: 60px;
+  }
+}
 @media (max-width: 1024px) {
   .header .header__navbar {
     max-width: 1024px;

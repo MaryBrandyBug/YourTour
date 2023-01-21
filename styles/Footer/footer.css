@@ -68,6 +68,14 @@
   }
 }
 
+@media (max-width: 1175px) {
+  .footer {
+    max-width: 100%;
+  }
+  .footer .footer__content {
+    min-width: 90%;
+  }
+}
 @media (max-width: 1024px) {
   .footer {
     max-width: 1024px;
