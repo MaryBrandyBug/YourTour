@@ -202,6 +202,7 @@ $gainsboro: #D9DFDB;
             margin: 0 auto;
             
             .travelStoriesSection__content-block {
+                max-width: 1010px;
 
                 .travelStoriesSection__content-block__content {
                     gap: 18px;
@@ -215,7 +216,6 @@ $gainsboro: #D9DFDB;
                 }
 
                 .travelStoriesSection__card__background {
-                    max-width: 1010px;
                 }
             }
         }
