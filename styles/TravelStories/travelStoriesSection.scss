@@ -202,7 +202,7 @@ $gainsboro: #D9DFDB;
             margin: 0 auto;
             
             .travelStoriesSection__content-block {
-                max-width: 90%;
+                max-width: 1010px;
 
                 .travelStoriesSection__content-block__content {
                     gap: 18px;
@@ -216,7 +216,6 @@ $gainsboro: #D9DFDB;
                 }
 
                 .travelStoriesSection__card__background {
-                    max-width: 100%;
                 }
             }
         }
@@ -238,8 +237,7 @@ $gainsboro: #D9DFDB;
 
             .travelStoriesSection__content-block {
                 max-width: 918px;
-                min-height: 435px;
-                max-height: 435px;
+                min-height: 567px;
 
                 .travelStoriesSection__content-block__footer {
                     height: 33px;
@@ -250,7 +248,7 @@ $gainsboro: #D9DFDB;
                 }
 
                 .travelStoriesSection__content-block__content {
-                    gap: 15px;
+                    gap: 37px;
 
                     .travelStoriesSection__content-block__list {
                         margin-top: -12px;
@@ -259,8 +257,7 @@ $gainsboro: #D9DFDB;
                 }
 
                 .travelStoriesSection__card__background {
-                    min-height: 435px;
-                    max-height: 435px;
+                    min-height: 100%;
                 }
             }
 
