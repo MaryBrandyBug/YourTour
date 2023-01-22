@@ -155,9 +155,9 @@ $gainsboro: #D9DFDB;
 @media (max-width: 940px) {
     .reviewsSection {
         max-width: 100%;
-        
-        max-height: 1210px;
-        gap: 50px;
+        min-height: auto;
+        max-height: auto;
+        gap: 100px;
 
         .reviewsSection__header {
             gap: 20px;
@@ -190,6 +190,7 @@ $gainsboro: #D9DFDB;
                 }
 
                 .reviewsSection__review-card__footer {
+                    padding: 70px 0px 0px;
 
                     .reviewsSection__footer-content {
                         min-width: 270px;
