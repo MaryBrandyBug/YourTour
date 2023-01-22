@@ -67,6 +67,37 @@ $gainsboro: #D9DFDB;
     }
 }
 
+@media (max-width: 650px) {
+    .mailSection {
+        min-height: auto;
+        flex-direction: column;
+
+
+        .mailSection__photo {
+            max-width: 250px;
+            max-height: auto;
+            border-radius: 20px;
+        }
+
+        .mailSection__content {
+            max-width: 291px;
+            gap: 24px;
+
+            .mailSection__content__header {
+                font-size: 25px;
+                line-height: 120%;
+                text-align: center;
+                letter-spacing: 0.045em;
+            }
+
+            .mailSection__content__text {
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+    }
+}
+
 @media (max-width: 360px) {
     .mailSection {
         max-width: 360px;

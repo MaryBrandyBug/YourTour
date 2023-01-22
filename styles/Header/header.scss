@@ -7,7 +7,6 @@ $lightOrange: #F8E6BE;
 .header {
     display: flex;
     flex-direction: column;
-    // align-items: flex-start;
     padding: 0px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 39.9%), linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('header.png');
     background-size: cover;
@@ -184,33 +183,84 @@ $lightOrange: #F8E6BE;
     .header {
         
         .header__navbar {
-            max-width: 1024px;
+            max-width: 100%;
 
             .navbar {
-                max-width: 910px;
-                gap: 85px;
-                margin-left: 54px;
-
-                .navbar__logo {
-
-                    .YourTourLogo {
-                        left: 60px;
-                    }
-                }
+                max-width: 100%;
+                // gap: 85px;
+                gap: calc(30px + 55 * (100vw / 1024));
 
                 .navbar__menu {
-                    max-width: 408px;
-                    gap: 30px;
+                    // gap: 30px;
+                    gap: calc(10px + 20 * (100vw / 1024))
                 }
             }
         }
 
         .header__content {
-            min-width: 1024px;
-
             
             .header__content__subtitle {
                 max-width: 442px;
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) and (min-width: 781px) {
+    .header {
+
+        .header__navbar {
+            
+            .navbar {
+                gap: calc(-22px + 5.37109375vw);
+            }
+        }
+    }
+}
+
+@media (max-width: 780px) {
+    .header {
+
+        .header__navbar {
+            
+            .navbar {
+                min-width: 90%;
+
+                .navbar__menu {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 630px) {
+    .header {
+
+        .header__navbar {
+
+            .navbar {
+                justify-content: space-around;
+
+                .telephone {
+                    max-width: 124px;
+                    min-height: 23px;
+                    font-size: 16px;
+                }
+
+                .navbar__logo {
+                    min-width: 124px;
+                    max-width: 124px;
+                }
+            }
+        }
+
+        .header__content {
+            min-height: 550px;
+
+            .header__content__title {
+                font-size: 50px;
+                min-height: 190px;
             }
         }
     }

@@ -231,12 +231,13 @@ $gainsboro: #D9DFDB;
         }
 
         .travelStoriesSection__content {
-            max-width: 1024px;
+            max-width: 100%;
             padding: 0px 53px;
             margin-top: -2px;
 
             .travelStoriesSection__content-block {
                 max-width: 918px;
+                min-height: 567px;
 
                 .travelStoriesSection__content-block__footer {
                     height: 33px;
@@ -254,11 +255,19 @@ $gainsboro: #D9DFDB;
                         margin-left: 5px;
                     }
                 }
+
+                .travelStoriesSection__card__background {
+                    min-height: 100%;
+                }
             }
 
         }
     }
 }
+
+// @media () {
+
+// }
 
 @media (max-width: 360px) {
     .travelStoriesSection {

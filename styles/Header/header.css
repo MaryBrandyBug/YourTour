@@ -146,25 +146,51 @@
 }
 @media (max-width: 1024px) {
   .header .header__navbar {
-    max-width: 1024px;
+    max-width: 100%;
   }
   .header .header__navbar .navbar {
-    max-width: 910px;
-    gap: 85px;
-    margin-left: 54px;
-  }
-  .header .header__navbar .navbar .navbar__logo .YourTourLogo {
-    left: 60px;
+    max-width: 100%;
+    gap: calc(30px + 5.37109375vw);
   }
   .header .header__navbar .navbar .navbar__menu {
-    max-width: 408px;
-    gap: 30px;
-  }
-  .header .header__content {
-    min-width: 1024px;
+    gap: calc(10px + 1.953125vw);
   }
   .header .header__content .header__content__subtitle {
     max-width: 442px;
+  }
+}
+@media (max-width: 900px) and (min-width: 781px) {
+  .header .header__navbar .navbar {
+    gap: calc(-22px + 5.37109375vw);
+  }
+}
+@media (max-width: 780px) {
+  .header .header__navbar .navbar {
+    min-width: 90%;
+  }
+  .header .header__navbar .navbar .navbar__menu {
+    display: none;
+  }
+}
+@media (max-width: 630px) {
+  .header .header__navbar .navbar {
+    justify-content: space-around;
+  }
+  .header .header__navbar .navbar .telephone {
+    max-width: 124px;
+    min-height: 23px;
+    font-size: 16px;
+  }
+  .header .header__navbar .navbar .navbar__logo {
+    min-width: 124px;
+    max-width: 124px;
+  }
+  .header .header__content {
+    min-height: 550px;
+  }
+  .header .header__content .header__content__title {
+    font-size: 50px;
+    min-height: 190px;
   }
 }
 @media (max-width: 360px) {
