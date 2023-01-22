@@ -31,7 +31,7 @@ $gainsboro: #D9DFDB;
         padding: 0px;
         gap: 50px;
 
-        @media (min-width: 361px) {
+        @media (min-width: 616px) {
 
             .travelStoriesSection__content-block:hover .travelStoriesSection__card__background {
                 transform: scale(1.2);
@@ -379,7 +379,7 @@ $gainsboro: #D9DFDB;
 
             .travelStoriesSection__content-block {
                 max-width: 318px;
-                max-height: 455px;
+                min-height: 455px;
                 border-radius: 20px;
 
                 .stories__img-cont {

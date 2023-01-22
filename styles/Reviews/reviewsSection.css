@@ -245,7 +245,7 @@
     flex-direction: column;
   }
   .reviewsSection .reviewsSection__content .reviewsSection__review-card {
-    padding: 20px;
+    padding-left: 42px;
     min-height: 290px;
     max-width: 318px;
     border-radius: 20px;
@@ -255,9 +255,10 @@
   .reviewsSection .reviewsSection__content .reviewsSection__review-card .reviewsSection__review-card-text {
     font-size: 16px;
     line-height: 143%;
+    max-width: 273px;
   }
   .reviewsSection .reviewsSection__content .reviewsSection__review-card .reviewsSection__review-card__footer {
-    padding: 43px 0px 0px;
+    padding: 42px 0px 0px;
   }
   .reviewsSection .reviewsSection__content .reviewsSection__review-card .reviewsSection__review-card__footer .reviewsSection__footer-content {
     min-width: 203px;

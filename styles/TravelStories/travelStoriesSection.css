@@ -10,7 +10,7 @@
   padding: 0px;
   gap: 50px;
 }
-@media (min-width: 361px) {
+@media (min-width: 616px) {
   .travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block:hover .travelStoriesSection__card__background {
     transform: scale(1.2);
     transition: all 300ms ease;
@@ -262,7 +262,7 @@
   }
   .travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block {
     max-width: 318px;
-    max-height: 455px;
+    min-height: 455px;
     border-radius: 20px;
   }
   .travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block .stories__img-cont .stories__img {

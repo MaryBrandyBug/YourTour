@@ -317,7 +317,7 @@ $gainsboro: #D9DFDB;
             flex-direction: column;
 
             .reviewsSection__review-card {
-                padding: 20px;
+                padding-left: 42px;
                 min-height: 290px;
                 max-width: 318px;
                 border-radius: 20px;
@@ -327,14 +327,16 @@ $gainsboro: #D9DFDB;
                 .reviewsSection__review-card-text {
                     font-size: 16px;
                     line-height: 143%;
+                    max-width: 273px;
                 }
 
                 .reviewsSection__review-card__footer {
-                    padding: 43px 0px 0px;
+                    padding: 42px 0px 0px;
 
                     .reviewsSection__footer-content {
                         min-width: 203px;
                         gap: 8px;
+                        // padding-left: 42px;
 
                         .reviewsSection__reviewer-name {
                             font-weight: 700;
