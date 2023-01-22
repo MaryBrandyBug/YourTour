@@ -225,17 +225,16 @@
   .header .header__navbar .navbar {
     max-width: 320px;
     gap: 33px;
+    justify-content: space-between;
   }
   .header .header__navbar .navbar .navbar__menu {
     display: none;
   }
   .header .header__navbar .navbar .navbar__logo {
     min-width: 124px;
-    max-width: 124px;
   }
   .header .header__navbar .navbar .navbar__logo .YourTourLogo {
     max-width: 133px;
-    left: 20px;
   }
   .header .header__navbar .navbar .telephone {
     max-width: 124px;

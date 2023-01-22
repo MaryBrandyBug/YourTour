@@ -306,6 +306,7 @@ $lightOrange: #F8E6BE;
             .navbar {
                 max-width: 320px;
                 gap: 33px;
+                justify-content: space-between;
 
                 .navbar__menu {
                     display: none;
@@ -313,11 +314,9 @@ $lightOrange: #F8E6BE;
 
                 .navbar__logo {
                     min-width: 124px;
-                    max-width: 124px;
 
                     .YourTourLogo {
                         max-width: 133px;
-                        left: 20px;
                     }
                 }
 
