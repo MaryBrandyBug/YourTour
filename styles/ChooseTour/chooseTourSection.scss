@@ -223,7 +223,7 @@ $gainsboro: #D9DFDB;
     }
 }
 
-@media (max-width: 920px) and (min-width: 720px) {
+@media (max-width: 992px) and (min-width: 780px) {
     .chooseTourSection {
 
         .chooseTourSection__content {
@@ -240,7 +240,7 @@ $gainsboro: #D9DFDB;
     }
 };
 
-@media (max-width: 719px) {
+@media (max-width: 780px) {
     .chooseTourSection {
         min-height: auto;
 
@@ -308,7 +308,7 @@ $gainsboro: #D9DFDB;
     }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 576px) {
     .chooseTourSection {
         min-height: auto;
         gap: 35px;

@@ -13,7 +13,6 @@ $whiteSmoke: #F1F3F2;
 $gainsboro: #D9DFDB;
 
 .formSection {
-    // max-height: 1245px;
     gap: 100px;
 
     .formSection__header {
@@ -567,10 +566,12 @@ input:focus:-ms-input-placeholder { color:transparent; };
     }
 }
 
-@media (max-width: 920px) {
+@media (max-width: 992px) {
     .formSection {
 
         .formSection__content-form {
+            max-width: 85%;
+            min-width: 85%;
 
             .form-cont {
 
@@ -602,7 +603,7 @@ input:focus:-ms-input-placeholder { color:transparent; };
     }
 }
 
-@media (max-width: 731px) {
+@media (max-width: 780px) {
     .formSection  {
         max-width: 360px;
         gap: 40px;
