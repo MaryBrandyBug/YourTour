@@ -89,7 +89,7 @@ $gainsboro: #D9DFDB;
                     left: 60px;
                 }
 
-                @media (min-width: 361px) {
+                @media (min-width: 781px) {
 
                     .travelStoriesSection__footer-details-link:hover {
                         width: 199px;
@@ -132,7 +132,7 @@ $gainsboro: #D9DFDB;
                         cursor: pointer;
                     }
 
-                    @media (min-width: 361px) {
+                    @media (min-width: 781px) {
 
                         .travelStoriesSection__social-network:hover {
                             text-decoration-line: underline;
@@ -260,7 +260,7 @@ $gainsboro: #D9DFDB;
     }
 }
 
-@media (max-width: 940px) {
+@media (max-width: 992px) {
     .travelStoriesSection {
 
         .travelStoriesSection__header {
@@ -310,7 +310,7 @@ $gainsboro: #D9DFDB;
     }
 }
 
-@media (max-width: 615px) {
+@media (max-width: 780px) {
     .travelStoriesSection {
         max-width: 360px;
 

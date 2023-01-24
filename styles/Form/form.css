@@ -473,7 +473,11 @@ input:focus:-ms-input-placeholder {
     margin-top: 0px;
   }
 }
-@media (max-width: 920px) {
+@media (max-width: 992px) {
+  .formSection .formSection__content-form {
+    max-width: 85%;
+    min-width: 85%;
+  }
   .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container {
     max-width: 300px;
   }
@@ -489,7 +493,7 @@ input:focus:-ms-input-placeholder {
     min-width: 630px;
   }
 }
-@media (max-width: 731px) {
+@media (max-width: 780px) {
   .formSection {
     max-width: 360px;
     gap: 40px;
