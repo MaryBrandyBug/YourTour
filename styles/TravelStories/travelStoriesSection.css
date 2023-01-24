@@ -99,7 +99,7 @@
   color: #FFFFFF;
   cursor: pointer;
 }
-@media (min-width: 781px) {
+@media (min-width: 992px) {
   .travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block .travelStoriesSection__content-block__footer .travelStoriesSection__footer-social-networks .travelStoriesSection__social-network:hover {
     -webkit-text-decoration-line: underline;
             text-decoration-line: underline;
