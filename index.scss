@@ -7,6 +7,11 @@
 @import './styles/Mail/mailSection.css';
 @import './styles/Footer/footer.css';
 
+$beigeColor: #F9F7F4;
+$blackColor: #1B1F2B;
+$greyColor: #A6A6A6;
+$whiteColor:  #FFFFFF;
+
 *{
     padding: 0;
     margin: 0;
@@ -32,7 +37,7 @@ ul, li{list-style: none;}
 
 body {
     position: relative;
-    background: #F9F7F4;
+    background: $beigeColor;
     overflow-x: hidden;
     margin: 0 auto;
 
@@ -100,7 +105,7 @@ body {
             font-size: 59px;
             line-height: 124%;
             text-align: center;
-            color: black;
+            color: $blackColor;
         }
 
         .section__header__subtitle {
@@ -110,7 +115,7 @@ body {
             font-size: 20px;
             line-height: 142%;
             text-align: center;
-            color: #A6A6A6;
+            color: $greyColor;
         }
     }
 
@@ -132,7 +137,7 @@ body {
         font-weight: 700;
         font-size: 23px;
         line-height: 122%;
-        color: white;
+        color: $whiteColor;
     }
 
     .info-link__arrow {
@@ -141,7 +146,7 @@ body {
         
         img {
             margin-top: 21%;
-            color: white;
+            color: $whiteColor;
             z-index: 0;
         }
     }
@@ -152,7 +157,7 @@ body {
         font-weight: 500;
         font-size: 35px;
         line-height: 122%;
-        color: white;
+        color: $whiteColor;
     }
 }
 
