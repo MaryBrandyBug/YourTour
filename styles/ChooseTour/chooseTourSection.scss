@@ -1,5 +1,6 @@
 $orangeColor: #EFA501;
 $darkGreen: #286562;
+$whiteColor:  #FFFFFF;
 
 .chooseTourSection {
     gap: 100px;
@@ -32,6 +33,19 @@ $darkGreen: #286562;
                     cursor: pointer;
                 }
 
+                .chooseTourSection_menu__active-item {
+                    text-decoration-line: underline;
+                    text-decoration-thickness: 2px;
+                    text-underline-offset: 7px;
+                    color: $orangeColor;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 23px;
+                    line-height: 122%;
+                    cursor: pointer;
+                }
+
                 .chooseTourSection_menu__item-name:hover {
                     text-decoration-line: underline;
                     text-decoration-thickness: 2px;
@@ -54,9 +68,11 @@ $darkGreen: #286562;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 30px;
+        max-width: 1170px;
 
             .chooseTour__card {
                 min-width: 370px;
+                min-height: 531px;
                 border-radius: 50px;
                 position: relative;
                 background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%);
