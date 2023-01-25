@@ -24,7 +24,6 @@ $lightBeigeColor: #F4F0E9;
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-        padding: 0px;
         gap: 30px;
 
         .reviewsSection__review-card {
@@ -56,7 +55,6 @@ $lightBeigeColor: #F4F0E9;
                     display: flex;
                     flex-direction: column;
                     align-items: flex-start;
-                    padding: 0px;
                     gap: 8px;
                     min-width: 415px;
 
@@ -81,9 +79,7 @@ $lightBeigeColor: #F4F0E9;
                 }
 
                 .footer-content__reviewer {
-                    max-width: 75px;
-                    max-height: 75px;
-                    border-radius: 100px;;
+                    border-radius: 100px;
                 }
             }
         }
@@ -214,17 +210,10 @@ $lightBeigeColor: #F4F0E9;
 @media (max-width: 576px) {
     .reviewsSection {
         max-width: 360px;
-        min-height: 1210px;
-        max-height: 1210px;
         gap: 50px;
-        margin-left: -3.5px;
 
         .reviewsSection__header {
             gap: 20px;
-
-            .reviewsSection__header__title {
-                letter-spacing: 0.7px;
-            }
 
             .reviewsSection__header__subtitle {
                 max-width: 318px;
@@ -233,12 +222,10 @@ $lightBeigeColor: #F4F0E9;
 
         .reviewsSection__content {
             max-width: 360px;
-            padding: 0px 21px;
             flex-direction: column;
 
             .reviewsSection__review-card {
                 padding: 20px;
-                min-height: 290px;
                 max-width: 318px;
                 border-radius: 20px;
                 align-items: flex-start;
@@ -260,13 +247,10 @@ $lightBeigeColor: #F4F0E9;
                             font-weight: 700;
                             font-size: 23px;
                             line-height: 120%;
-                            letter-spacing: 0.04em;
                         }
 
                         .reviewsSection__reviewer-tour {
                             font-size: 16px;
-                            letter-spacing: -0.01em;
-                            margin-bottom: 1px;
                         }
                     }
 
@@ -305,9 +289,9 @@ $lightBeigeColor: #F4F0E9;
             max-width: 360px;
             padding: 0px 21px;
             flex-direction: column;
+            align-items: center;
 
             .reviewsSection__review-card {
-                padding-left: 42px;
                 min-height: 290px;
                 max-width: 318px;
                 border-radius: 20px;
