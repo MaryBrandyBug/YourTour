@@ -114,7 +114,7 @@
     max-width: 100%;
     min-height: auto;
     max-height: auto;
-    gap: 100px;
+    gap: 50px;
   }
   .reviewsSection .reviewsSection__header {
     gap: 20px;
@@ -123,7 +123,7 @@
     letter-spacing: 0.7px;
   }
   .reviewsSection .reviewsSection__header .reviewsSection__header__subtitle {
-    max-width: 318px;
+    max-width: 400px;
   }
   .reviewsSection .reviewsSection__content {
     justify-content: center;

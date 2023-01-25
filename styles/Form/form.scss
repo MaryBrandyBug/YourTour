@@ -82,7 +82,7 @@ $gainsboro: #D9DFDB;
                     max-width: 500px;
                     min-height: 68px;
                     background: $beigeColor;
-                    border: 1px solid #F4F0E9;
+                    border: 1px solid $lightBeigeColor;
                     border-radius: 10px;
                     font-family: 'Roboto';
                     font-style: normal;
@@ -111,7 +111,7 @@ $gainsboro: #D9DFDB;
                     padding: 20px;
                     gap: 10px;
                     background: $beigeColor;
-                    border: 1px solid #F4F0E9;
+                    border: 1px solid $lightBeigeColor;
                     border-radius: 10px;
 
                     font-family: 'Roboto';
@@ -120,6 +120,7 @@ $gainsboro: #D9DFDB;
                     font-size: 20px;
                     line-height: 142%;
                     cursor: pointer;
+                    font-size: 20px;
                 }
 
                 @media (min-width: 361px) {
@@ -186,8 +187,9 @@ $gainsboro: #D9DFDB;
                 padding: 20px;
                 gap: 10px;
                 background: $beigeColor;
-                border: 1px solid #F4F0E9;
+                border: 1px solid $lightBeigeColor;
                 border-radius: 10px;
+                font-size: 20px;
             }
         }
 
@@ -238,7 +240,7 @@ $gainsboro: #D9DFDB;
                         .radio__border {
                             min-width: 21px;
                             min-height: 21px;
-                            border: 2px solid black;
+                            border: 2px solid $blackColor;
                             border-radius: 50%;
                             position: relative;
                         }
@@ -303,7 +305,7 @@ $gainsboro: #D9DFDB;
                     display: inline-block;
                     min-width: 20px;
                     min-height: 20px;
-                    border: 2px solid black;
+                    border: 2px solid $blackColor;
                     border-radius: 20%;
                     position: relative;
                 }
@@ -566,6 +568,7 @@ input:focus:-ms-input-placeholder { color:transparent; };
 
 @media (max-width: 992px) {
     .formSection {
+        gap: 50px;
 
         .formSection__content-form {
             max-width: 85%;
@@ -614,7 +617,7 @@ input:focus:-ms-input-placeholder { color:transparent; };
             }
 
             .formSection__header__subtitle {
-                max-width: 318px;
+                min-width: 400px;
             }
         }
 
@@ -645,6 +648,7 @@ input:focus:-ms-input-placeholder { color:transparent; };
 
                     .formSection__input-field {
                         padding: 8px;
+                        font-size: 16px;
                     }
 
                     .formSection__select-field {
@@ -682,6 +686,7 @@ input:focus:-ms-input-placeholder { color:transparent; };
                     max-width: 278px;
                     min-width: 278px;
                     min-height: 132px;
+                    font-size: 16px;
                 }
             }
 
@@ -769,21 +774,21 @@ input:focus:-ms-input-placeholder { color:transparent; };
 
 // @media (max-width: 360px) {
 //     .formSection  {
-//         max-width: 360px;
-//         min-height: 1254px;
-//         gap: 40px;
+//         // max-width: 360px;
+//         // min-height: 1254px;
+//         // gap: 40px;
 
-//         .formSection__header {
-//             gap: 20px;
+//         // .formSection__header {
+//         //     // gap: 20px;
 
-//             .formSection__header__title {
-//                 letter-spacing: 0.7px;
-//             }
+//         //     .formSection__header__title {
+//         //         // letter-spacing: 0.7px;
+//         //     }
 
-//             .formSection__header__subtitle {
-//                 max-width: 318px;
-//             }
-//         }
+//         //     .formSection__header__subtitle {
+//         //         // max-width: 318px;
+//         //     }
+//         // }
 
 //         .formSection__content-form {
 //             border-radius: 30px;
@@ -794,9 +799,9 @@ input:focus:-ms-input-placeholder { color:transparent; };
 //             padding: 0px;
 
 //             .form-cont {
-//                 gap: 28px;
-//                 margin-top: 16px;
-//                 margin-right: 31px;
+//                 // gap: 28px;
+//                 // margin-top: 16px;
+//                 // margin-right: 31px;
 
 //             .formSection__input-name {
 //                 font-size: 16px;
@@ -812,6 +817,7 @@ input:focus:-ms-input-placeholder { color:transparent; };
 
 //                     .formSection__input-field {
 //                         padding: 8px;
+//                         font-size: 16px;
 //                     }
 
 //                     .formSection__select-field {

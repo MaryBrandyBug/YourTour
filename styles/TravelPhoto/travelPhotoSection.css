@@ -97,7 +97,7 @@
     letter-spacing: 0.02em;
   }
   .travelPhotoSection .travelPhotoSection__header .travelPhotoSection__header__subtitle {
-    max-width: 318px;
+    max-width: 400px;
   }
   .travelPhotoSection .travelPhotoSection__content {
     gap: 18px;
@@ -137,9 +137,6 @@
   }
   .travelPhotoSection .travelPhotoSection__header .travelPhotoSection__header__title {
     letter-spacing: 0.02em;
-  }
-  .travelPhotoSection .travelPhotoSection__header .travelPhotoSection__header__subtitle {
-    max-width: 318px;
   }
   .travelPhotoSection .travelPhotoSection__content {
     gap: 18px;

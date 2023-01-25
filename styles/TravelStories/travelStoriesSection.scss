@@ -246,6 +246,7 @@ $darkGreen: #286562;
 
 @media (max-width: 992px) {
     .travelStoriesSection {
+        gap: 50px;
 
         .travelStoriesSection__content {
 
@@ -295,10 +296,6 @@ $darkGreen: #286562;
                     padding: 30px;
                     gap: 20px;
 
-                    .travelStoriesSection__content-block__title {
-                        font-size: 22px;
-                    }
-
                     .travelStoriesSection__content-block__text {
                         max-width: 263px;
                         font-size: 18px;
@@ -312,10 +309,17 @@ $darkGreen: #286562;
                         top: 36px;
 
                         p {
-                            font-size: 20px;
+                            font-size: 23px;
                         }
                     }
                 }
+            }
+        }
+
+        .travelStoriesSection__header {
+
+            .travelStoriesSection__header__subtitle {
+                min-width: 440px;
             }
         }
     }
@@ -360,6 +364,7 @@ $darkGreen: #286562;
 
                         .travelStoriesSection__card__background {
                             border-radius: 20px;
+                            object-fit: cover;
                         }
                     }
                 }

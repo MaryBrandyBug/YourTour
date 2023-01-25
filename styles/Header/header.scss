@@ -222,10 +222,19 @@ $lightOrange: #F8E6BE;
                 }
             }
         }
+
+        .header__content {
+
+            .header__content__title {
+                font-size: 80px;
+                max-width: 540px;
+                text-align: center;
+            }
+        }
     }
 }
 
-@media (max-width: 630px) {
+@media (max-width: 576px) {
     .header {
 
         .header__navbar {
@@ -252,6 +261,11 @@ $lightOrange: #F8E6BE;
             .header__content__title {
                 font-size: 50px;
                 min-height: 190px;
+            }
+
+            .header__content__subtitle {
+                font-size: 18px;
+                max-width: 350px;
             }
         }
     }

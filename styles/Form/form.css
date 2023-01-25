@@ -98,6 +98,7 @@
   font-size: 20px;
   line-height: 142%;
   cursor: pointer;
+  font-size: 20px;
 }
 @media (min-width: 361px) {
   .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__input-field:focus {
@@ -171,6 +172,7 @@
   background: #F9F7F4;
   border: 1px solid #F4F0E9;
   border-radius: 10px;
+  font-size: 20px;
 }
 .formSection .formSection__content-form .formSection__ageCheck-container {
   display: flex;
@@ -217,7 +219,7 @@
 .formSection .formSection__content-form .formSection__ageCheck-container .formSection__input-ageCheck-container .formSection__radio-buttons-container .formSection__radio-button-container .radio__border {
   min-width: 21px;
   min-height: 21px;
-  border: 2px solid black;
+  border: 2px solid #1B1F2B;
   border-radius: 50%;
   position: relative;
 }
@@ -269,7 +271,7 @@
   display: inline-block;
   min-width: 20px;
   min-height: 20px;
-  border: 2px solid black;
+  border: 2px solid #1B1F2B;
   border-radius: 20%;
   position: relative;
 }
@@ -474,6 +476,9 @@ input:focus:-ms-input-placeholder {
   }
 }
 @media (max-width: 992px) {
+  .formSection {
+    gap: 50px;
+  }
   .formSection .formSection__content-form {
     max-width: 85%;
     min-width: 85%;
@@ -505,7 +510,7 @@ input:focus:-ms-input-placeholder {
     letter-spacing: 0.7px;
   }
   .formSection .formSection__header .formSection__header__subtitle {
-    max-width: 318px;
+    min-width: 400px;
   }
   .formSection .formSection__content-form {
     border-radius: 30px;
@@ -533,6 +538,7 @@ input:focus:-ms-input-placeholder {
   }
   .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__input-field {
     padding: 8px;
+    font-size: 16px;
   }
   .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__select-field {
     min-width: 278px;
@@ -568,6 +574,7 @@ input:focus:-ms-input-placeholder {
     max-width: 278px;
     min-width: 278px;
     min-height: 132px;
+    font-size: 16px;
   }
   .formSection .formSection__content-form .formSection__ageCheck-container {
     margin-left: 0;
