@@ -11,6 +11,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
   <title>YourTour</title>
   <link rel="stylesheet" href="./index.css">
+  <link rel="icon" type="images/x-icon" href="./styles/png/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="./styles/png/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./styles/png/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./styles/png/android-chrome-192x192.png">
 </head>
 <body>
   <div class="wrapper">
@@ -148,7 +152,6 @@
             <img src="./styles/png/TourPh2.png" class="chooseTour__card__background" alt="">
           </div>
         
-      
       </div>
     </div>
 
@@ -158,54 +161,52 @@
         <p class="formSection__header__subtitle section__header__subtitle">Идейные соображения высшего порядка,<br> а также рамки и место обучения кадров</p>
       </div>
       <div class="formSection__content-form section__content__flex">
-
         <div class="form-cont">
+          <div class="formSection__input-fields-container">
+            <div class="formSection__input-field-container">
+              <p class="formSection__input-name">Имя</p>
+              <input type="text" class="formSection__input-field" placeholder="Введите Ваше имя">
+            </div>
+          </div>
 
-        <div class="formSection__input-fields-container">
-          <div class="formSection__input-field-container">
-            <p class="formSection__input-name">Имя</p>
-            <input type="text" class="formSection__input-field" placeholder="Введите Ваше имя">
+          <div class="formSection__input-fields-container">
+            <div class="formSection__input-field-container">
+              <p class="formSection__input-name">Направление</p>
+              <select class="formSection__select-field">
+                <option value="" disabled selected>Куда хотите ехать</option>
+                <option value="">Едем сюда!</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="formSection__input-fields-container">
+            <div class="formSection__input-field-container">
+              <p class="formSection__input-name">Email</p>
+              <input type="email" class="formSection__input-field" placeholder="example@mail.com">
+            </div>
+          </div>
+
+          <div class="formSection__input-fields-container">
+            <div class="formSection__input-field-container">
+              <p class="formSection__input-name">Телефон</p>
+              <input type="tel" class="formSection__input-field" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _">
+            </div>
+          </div>
+
+          <div class="formSection__input-fields-container">
+            <div class="formSection__input-field-container">
+              <p class="formSection__input-name">Дата от</p>
+              <input type="text" class="formSection__input-field" placeholder="ДД.ММ.ГГГГ">
+            </div>
+          </div>
+
+          <div class="formSection__input-fields-container">
+            <div class="formSection__input-field-container">
+              <p class="formSection__input-name">Дата до</p>
+              <input type="text" class="formSection__input-field" placeholder="ДД.ММ.ГГГГ">
+            </div>
           </div>
         </div>
-
-        <div class="formSection__input-fields-container">
-          <div class="formSection__input-field-container">
-            <p class="formSection__input-name">Направление</p>
-            <select class="formSection__select-field">
-              <option value="" disabled selected>Куда хотите ехать</option>
-              <option value="">Едем сюда!</option>
-            </select>
-          </div>
-        </div>
-
-        <div class="formSection__input-fields-container">
-          <div class="formSection__input-field-container">
-            <p class="formSection__input-name">Email</p>
-            <input type="email" class="formSection__input-field" placeholder="example@mail.com">
-          </div>
-        </div>
-
-        <div class="formSection__input-fields-container">
-          <div class="formSection__input-field-container">
-            <p class="formSection__input-name">Телефон</p>
-            <input type="tel" class="formSection__input-field" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _">
-          </div>
-        </div>
-
-        <div class="formSection__input-fields-container">
-          <div class="formSection__input-field-container">
-            <p class="formSection__input-name">Дата от</p>
-            <input type="text" class="formSection__input-field" placeholder="ДД.ММ.ГГГГ">
-          </div>
-        </div>
-
-        <div class="formSection__input-fields-container">
-          <div class="formSection__input-field-container">
-            <p class="formSection__input-name">Дата до</p>
-            <input type="text" class="formSection__input-field" placeholder="ДД.ММ.ГГГГ">
-          </div>
-        </div>
-      </div>
       
         <div class="formSection__input-comment-container">
           <p class="formSection__input-name">Комментарий</p>
