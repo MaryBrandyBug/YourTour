@@ -166,6 +166,17 @@ $gainsboro: #D9DFDB;
                 resize: none;
             }
 
+            @media (min-width: 361px) {
+                .formSection__input-field-comment:focus {
+                    border: 1px solid $greyColor;
+                    background: $lightBeigeColor;
+                }
+
+                .formSection__input-field-comment:hover {
+                    background: $lightBeigeColor;
+                }
+            }
+
             .formSection__input-field-comment {
                 max-width: 1030px;
                 min-width: 1030px;
@@ -180,6 +191,7 @@ $gainsboro: #D9DFDB;
                 border: 1px solid $lightBeigeColor;
                 border-radius: 10px;
                 font-size: 20px;
+                cursor: pointer;
             }
         }
 
