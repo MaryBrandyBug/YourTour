@@ -1,6 +1,4 @@
 .travelPhotoSection {
-    max-width: 1920px;
-    min-height: 1222px;
     gap: 100px;
 
     .travelPhotoSection__header {
@@ -15,7 +13,6 @@
     }
 
     .travelPhotoSection__content {
-        padding: 0px 30px;
         gap: 30px;
 
         .travelPhotoSection__photo-container {

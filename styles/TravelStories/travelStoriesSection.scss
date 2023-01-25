@@ -4,14 +4,12 @@ $darkGreen: #286562;
 
 .travelStoriesSection {
     gap: 100px;
-    max-width: 1170px;
 
     .travelStoriesSection__header {
         gap: 30px;
     }
 
     .travelStoriesSection__content {
-        max-width: 1170px;
         padding: 0px;
         gap: 50px;
 
@@ -24,7 +22,6 @@ $darkGreen: #286562;
         }
 
         .travelStoriesSection__content-block {
-            max-width: 1170px;
             max-height: 567px;
             border-radius: 50px;
             position: relative;
@@ -35,8 +32,6 @@ $darkGreen: #286562;
                 position: absolute;
 
                 .stories__img {
-                    max-width: 1170px;
-                    max-height: 567px;
                     position: relative;
 
                     .travelStoriesSection__card__background {
@@ -65,7 +60,6 @@ $darkGreen: #286562;
                     flex-direction: row;
                     align-items: center;
                     justify-content: center;
-                    padding: 0px;
                     gap: 15px;
                     cursor: pointer;
 

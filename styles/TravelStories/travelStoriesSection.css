@@ -1,12 +1,10 @@
 .travelStoriesSection {
   gap: 100px;
-  max-width: 1170px;
 }
 .travelStoriesSection .travelStoriesSection__header {
   gap: 30px;
 }
 .travelStoriesSection .travelStoriesSection__content {
-  max-width: 1170px;
   padding: 0px;
   gap: 50px;
 }
@@ -17,7 +15,6 @@
   }
 }
 .travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block {
-  max-width: 1170px;
   max-height: 567px;
   border-radius: 50px;
   position: relative;
@@ -28,8 +25,6 @@
   position: absolute;
 }
 .travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block .stories__img-cont .stories__img {
-  max-width: 1170px;
-  max-height: 567px;
   position: relative;
 }
 .travelStoriesSection .travelStoriesSection__content .travelStoriesSection__content-block .stories__img-cont .stories__img .travelStoriesSection__card__background {
@@ -55,7 +50,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 0px;
   gap: 15px;
   cursor: pointer;
   position: absolute;

@@ -7,11 +7,9 @@ $lightOrange: #F8E6BE;
 .header {
     display: flex;
     flex-direction: column;
-    padding: 0px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 39.9%), linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('header.png');
     background-size: cover;
     width: 100%;
-    max-height: 831px;
 
     .header__navbar {
         display: flex;
@@ -19,7 +17,6 @@ $lightOrange: #F8E6BE;
         align-items: center;
         justify-content: center;
         padding: 0px;
-        gap: 214px;
         min-height: 88px;
 
         .navbar {
@@ -27,7 +24,6 @@ $lightOrange: #F8E6BE;
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
-            padding: 0px;            
             min-height: 30.24px;
             gap: 180px;
 
@@ -47,9 +43,8 @@ $lightOrange: #F8E6BE;
                 flex-direction: row;
                 justify-content: center;
                 align-items: center;
-                padding: 0px;
                 gap: 50px;
-                max-width: 468px;
+                // max-width: 468px;
                 min-height: 28px;
 
                 .menu__item {
@@ -90,7 +85,6 @@ $lightOrange: #F8E6BE;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 0px;
         gap: 50px;
         min-height: 743px;
 
