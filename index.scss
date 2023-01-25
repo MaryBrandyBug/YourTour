@@ -170,13 +170,31 @@ body {
     }
 }
 
+@media (max-width: 780px) {
+    .section {
+
+        .info-link__text {
+            font-size: 20px;
+        }
+
+        .info-cards__header {
+            font-size: 23px;
+        }
+    }
+}
+
 @media (max-width: 576px) {
     .section {
 
         .section__header__flex {
 
             .section__header__title {
-                font-size: 40px;
+                font-size: 34px;
+                line-height: 112%;
+            }
+
+            .section__header__subtitle {
+                font-size: 16px;
             }
         }
     }
