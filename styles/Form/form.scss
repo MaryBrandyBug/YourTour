@@ -91,6 +91,14 @@ $gainsboro: #D9DFDB;
                     }
                 }
 
+                input[type=date]::-webkit-calendar-picker-indicator {
+                    opacity: 0;
+                }
+
+                input[type=date] {
+                    color: $beigeColor;
+                }
+
                 .formSection__input-field {
                     min-width: 500px;
                     max-width: 500px;
@@ -112,6 +120,7 @@ $gainsboro: #D9DFDB;
                     line-height: 142%;
                     cursor: pointer;
                     font-size: 20px;
+                    -webkit-appearance: none;
                 }
 
                 @media (min-width: 361px) {
@@ -119,6 +128,14 @@ $gainsboro: #D9DFDB;
                     .formSection__input-field:focus{
                         border: 1px solid $greyColor;
                         background: $lightBeigeColor;
+                    }
+
+                    input[type=date]:hover {
+                        color: $lightBeigeColor;
+                    }
+
+                    input[type=date]:focus {
+                        color: $lightBeigeColor;
                     }
     
                     .formSection__input-field:hover {
