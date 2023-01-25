@@ -20,7 +20,6 @@ $lightOrange: #F8E6BE;
         justify-content: center;
         padding: 0px;
         gap: 214px;
-        // max-width: 1168px;
         min-height: 88px;
 
         .navbar {
@@ -29,12 +28,8 @@ $lightOrange: #F8E6BE;
             justify-content: space-between;
             align-items: center;
             padding: 0px;            
-            // margin-left: 376px;
-            // max-width: 1168px;
             min-height: 30.24px;
-
             gap: 180px;
-            // margin-left: 752px;
 
             .navbar__logo {
                 min-width: 181.84px;
@@ -42,7 +37,6 @@ $lightOrange: #F8E6BE;
                 min-height: 30.24px;
 
                 .YourTourLogo {
-                    // position: absolute;
                     left: 376px;
                     top: 28.88px;
                 }
@@ -98,7 +92,6 @@ $lightOrange: #F8E6BE;
         align-items: center;
         padding: 0px;
         gap: 50px;
-        // min-width: 1920px;
         min-height: 743px;
 
         .header__content__title {
@@ -187,11 +180,9 @@ $lightOrange: #F8E6BE;
 
             .navbar {
                 max-width: 100%;
-                // gap: 85px;
                 gap: calc(30px + 55 * (100vw / 1024));
 
                 .navbar__menu {
-                    // gap: 30px;
                     gap: calc(10px + 20 * (100vw / 1024))
                 }
             }
@@ -206,7 +197,7 @@ $lightOrange: #F8E6BE;
     }
 }
 
-@media (max-width: 900px) and (min-width: 781px) {
+@media (max-width: 990px) and (min-width: 781px) {
     .header {
 
         .header__navbar {

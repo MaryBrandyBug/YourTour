@@ -159,7 +159,7 @@
     max-width: 442px;
   }
 }
-@media (max-width: 900px) and (min-width: 781px) {
+@media (max-width: 990px) and (min-width: 781px) {
   .header .header__navbar .navbar {
     gap: calc(-22px + 5.37109375vw);
   }

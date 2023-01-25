@@ -111,7 +111,7 @@
   left: 50px;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 780px) {
   .chooseTourSection .chooseTourSection__content .chooseTour__card:hover .chooseTour__card__background {
     transform: scale(1.2);
     transition: all 300ms ease;
@@ -161,7 +161,7 @@
     max-width: 350px;
   }
 }
-@media (max-width: 920px) and (min-width: 720px) {
+@media (max-width: 992px) and (min-width: 780px) {
   .chooseTourSection .chooseTourSection__content {
     max-width: 100%;
   }
@@ -172,7 +172,7 @@
     min-width: calc(350px - 1.0869565217vw);
   }
 }
-@media (max-width: 719px) {
+@media (max-width: 780px) {
   .chooseTourSection {
     min-height: auto;
   }
@@ -224,7 +224,7 @@
     line-height: 142%;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 576px) {
   .chooseTourSection {
     min-height: auto;
     gap: 35px;
