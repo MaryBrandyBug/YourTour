@@ -2,7 +2,6 @@ $orangeColor: #EFA501;
 $darkGreen: #286562;
 
 .chooseTourSection {
-    min-height: 1334px;
     gap: 100px;
 
     .chooseTourSection__header {
@@ -16,14 +15,12 @@ $darkGreen: #286562;
             display: flex;
             flex-direction: row;
             align-items: flex-start;
-            padding: 0px;
             gap: 30px;
 
             .chooseTourSection_menu__item {
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
-                padding: 0px;
                 gap: 6px;
 
                 .chooseTourSection_menu__item-name {
@@ -56,13 +53,10 @@ $darkGreen: #286562;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        max-width: 1170px;
-        padding: 0px;
         gap: 30px;
 
             .chooseTour__card {
                 min-width: 370px;
-                min-height: 531px;
                 border-radius: 50px;
                 position: relative;
                 background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%);
@@ -96,11 +90,7 @@ $darkGreen: #286562;
                         flex-direction: column;
                         justify-content: flex-end;
                         align-items: flex-start;
-                        padding: 0px;
                         gap: 16px;
-
-                        .chooseTour__card__title {
-                        }
 
                         .chooseTour__card__subtitle {
                             font-family: 'Roboto';
@@ -118,7 +108,6 @@ $darkGreen: #286562;
                         flex-direction: row;
                         align-items: center;
                         justify-content: center;
-                        padding: 0px;
                         gap: 15px;
                         cursor: pointer;
                         border-radius: 50px;
