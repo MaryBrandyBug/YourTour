@@ -147,11 +147,12 @@ $whiteColor:  #FFFFFF;
                 transition: all 300ms ease;
             }
 
-            .chooseTour__card {
+            .chooseTour__card:hover {
+                cursor: pointer;
 
                 .chooseTour__card-content {
 
-                    .chooseTour__link:hover {
+                    .chooseTour__link {
                         width: 199px;
                         height: 42px;
                         background: $darkGreen;
