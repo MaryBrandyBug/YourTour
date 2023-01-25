@@ -98,6 +98,7 @@
   font-size: 20px;
   line-height: 142%;
   cursor: pointer;
+  font-size: 20px;
 }
 @media (min-width: 361px) {
   .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__input-field:focus {
@@ -171,6 +172,7 @@
   background: #F9F7F4;
   border: 1px solid #F4F0E9;
   border-radius: 10px;
+  font-size: 20px;
 }
 .formSection .formSection__content-form .formSection__ageCheck-container {
   display: flex;
@@ -217,7 +219,7 @@
 .formSection .formSection__content-form .formSection__ageCheck-container .formSection__input-ageCheck-container .formSection__radio-buttons-container .formSection__radio-button-container .radio__border {
   min-width: 21px;
   min-height: 21px;
-  border: 2px solid black;
+  border: 2px solid #1B1F2B;
   border-radius: 50%;
   position: relative;
 }
@@ -269,7 +271,7 @@
   display: inline-block;
   min-width: 20px;
   min-height: 20px;
-  border: 2px solid black;
+  border: 2px solid #1B1F2B;
   border-radius: 20%;
   position: relative;
 }
@@ -376,22 +378,6 @@
   }
 }
 
-input:focus::-webkit-input-placeholder {
-  z-index: -1;
-}
-
-input:focus:-moz-placeholder {
-  color: transparent;
-}
-
-input:focus::-moz-placeholder {
-  color: transparent;
-}
-
-input:focus:-ms-input-placeholder {
-  color: transparent;
-}
-
 @media (max-width: 1175px) {
   .formSection .formSection__content-form {
     max-width: 95%;
@@ -416,15 +402,22 @@ input:focus:-ms-input-placeholder {
   }
   .formSection .formSection__content-form .formSection__ageCheck-container {
     min-width: 90%;
+    justify-content: center;
+    margin-right: 767px;
   }
   .formSection .formSection__content-form .formSection__agreement-container {
     min-width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-right: 376px;
   }
   .formSection .formSection__content-form .formSection__agreement-container .formSection__accept {
     justify-content: flex-start;
   }
   .formSection .formSection__content-form .formSection__buttons-container {
     min-width: 90%;
+    justify-content: center;
+    margin-right: 430px;
   }
 }
 @media (max-width: 1024px) {
@@ -460,11 +453,17 @@ input:focus:-ms-input-placeholder {
   .formSection .formSection__content-form .formSection__input-comment-container {
     max-width: 798px;
     max-height: 183.4px;
-    margin-left: 11px;
+    margin-left: 0px;
   }
   .formSection .formSection__content-form .formSection__input-comment-container .formSection__input-field-comment {
     max-width: 798px;
     min-width: 798px;
+  }
+  .formSection .formSection__content-form .formSection__ageCheck-container {
+    margin-right: 700px;
+  }
+  .formSection .formSection__content-form .formSection__agreement-container {
+    margin-right: 316px;
   }
   .formSection .formSection__content-form .formSection__agreement-container .formSection__accept {
     gap: 12px;
@@ -472,8 +471,14 @@ input:focus:-ms-input-placeholder {
   .formSection .formSection__content-form .formSection__agreement-container .formSection__accept .agreement-text .formSection__agreement-text-link {
     margin-top: 0px;
   }
+  .formSection .formSection__content-form .formSection__buttons-container {
+    margin-right: 364px;
+  }
 }
 @media (max-width: 992px) {
+  .formSection {
+    gap: 50px;
+  }
   .formSection .formSection__content-form {
     max-width: 85%;
     min-width: 85%;
@@ -492,6 +497,15 @@ input:focus:-ms-input-placeholder {
     max-width: 630px;
     min-width: 630px;
   }
+  .formSection .formSection__content-form .formSection__ageCheck-container {
+    margin-right: 540px;
+  }
+  .formSection .formSection__content-form .formSection__agreement-container {
+    margin-right: 156px;
+  }
+  .formSection .formSection__content-form .formSection__buttons-container {
+    margin-right: 200px;
+  }
 }
 @media (max-width: 780px) {
   .formSection {
@@ -505,7 +519,7 @@ input:focus:-ms-input-placeholder {
     letter-spacing: 0.7px;
   }
   .formSection .formSection__header .formSection__header__subtitle {
-    max-width: 318px;
+    min-width: 400px;
   }
   .formSection .formSection__content-form {
     border-radius: 30px;
@@ -533,6 +547,7 @@ input:focus:-ms-input-placeholder {
   }
   .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__input-field {
     padding: 8px;
+    font-size: 16px;
   }
   .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__select-field {
     min-width: 278px;
@@ -558,7 +573,6 @@ input:focus:-ms-input-placeholder {
   .formSection .formSection__content-form .formSection__input-comment-container {
     max-width: 278px;
     max-height: 163px;
-    margin-left: 0;
   }
   .formSection .formSection__content-form .formSection__input-comment-container .formSection__input-name {
     font-size: 16px;
@@ -568,9 +582,11 @@ input:focus:-ms-input-placeholder {
     max-width: 278px;
     min-width: 278px;
     min-height: 132px;
+    font-size: 16px;
   }
   .formSection .formSection__content-form .formSection__ageCheck-container {
     margin-left: 0;
+    margin-right: 140px;
   }
   .formSection .formSection__content-form .formSection__ageCheck-container .formSection__input-ageCheck-container {
     gap: 8px;
@@ -591,6 +607,7 @@ input:focus:-ms-input-placeholder {
   }
   .formSection .formSection__content-form .formSection__agreement-container {
     margin-left: 0;
+    margin-right: 0px;
   }
   .formSection .formSection__content-form .formSection__agreement-container .formSection__accept {
     font-size: 16px;
@@ -613,6 +630,7 @@ input:focus:-ms-input-placeholder {
   .formSection .formSection__content-form .formSection__buttons-container {
     gap: 10px;
     margin-left: 0;
+    margin-right: 0px;
   }
   .formSection .formSection__content-form .formSection__buttons-container .formSection__submit-button {
     min-width: 134px;
