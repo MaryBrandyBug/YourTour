@@ -40,7 +40,7 @@ $gainsboro: #D9DFDB;
             flex-wrap: wrap;
             justify-content: center;
             gap: 33px;
-            margin-top: 70px;
+            margin-top: 77px;
 
         .formSection__input-name {
             font-family: 'Roboto';
@@ -49,7 +49,7 @@ $gainsboro: #D9DFDB;
             font-size: 20px;
             line-height: 142%;
             color: $blackColor;
-            margin-top: -5px;
+            // margin-top: -5px;
         }
 
         .formSection__input-fields-container {
@@ -58,7 +58,7 @@ $gainsboro: #D9DFDB;
             flex-direction: row;
             align-items: flex-start;
             gap: 30px;
-            margin-top: 3px;
+            // margin-top: 3px;
 
             .formSection__input-field-container {
                 max-width: 500px;
@@ -67,6 +67,20 @@ $gainsboro: #D9DFDB;
                 flex-direction: column;
                 align-items: flex-start;
                 gap: 8px;
+
+                position: relative;
+                display: inline-block;
+
+                .select-wrapper::before {
+                    content: url('../png/Rectangle.png');
+                    position: absolute;
+                    top: 55%;
+                    right: 25px;
+                    display: block;
+                    width: 20px;
+                    height: 100%;
+                    pointer-events: none;
+                }
 
                 .formSection__select-field {
                     min-width: 500px;
@@ -83,12 +97,24 @@ $gainsboro: #D9DFDB;
                     gap: 10px;
                     padding: 20px;
                     cursor: pointer;
+
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    appearance: none;
                 }
 
                 @media (min-width: 361px) {
                     .formSection__select-field:hover {
                         background: $lightBeigeColor;
                     }
+                }
+
+                input[type=date]::-webkit-calendar-picker-indicator {
+                    opacity: 0;
+                }
+
+                input[type=date] {
+                    color: $beigeColor;
                 }
 
                 .formSection__input-field {
@@ -112,6 +138,7 @@ $gainsboro: #D9DFDB;
                     line-height: 142%;
                     cursor: pointer;
                     font-size: 20px;
+                    -webkit-appearance: none;
                 }
 
                 @media (min-width: 361px) {
@@ -119,6 +146,14 @@ $gainsboro: #D9DFDB;
                     .formSection__input-field:focus{
                         border: 1px solid $greyColor;
                         background: $lightBeigeColor;
+                    }
+
+                    input[type=date]:hover {
+                        color: $lightBeigeColor;
+                    }
+
+                    input[type=date]:focus {
+                        color: $lightBeigeColor;
                     }
     
                     .formSection__input-field:hover {
@@ -159,11 +194,22 @@ $gainsboro: #D9DFDB;
                 font-size: 20px;
                 line-height: 142%;
                 color: $blackColor;
-                margin-top: -5px;
+                margin-top: 7px;
             }
 
             .input-comment {
                 resize: none;
+            }
+
+            @media (min-width: 361px) {
+                .formSection__input-field-comment:focus {
+                    border: 1px solid $greyColor;
+                    background: $lightBeigeColor;
+                }
+
+                .formSection__input-field-comment:hover {
+                    background: $lightBeigeColor;
+                }
             }
 
             .formSection__input-field-comment {
@@ -180,6 +226,7 @@ $gainsboro: #D9DFDB;
                 border: 1px solid $lightBeigeColor;
                 border-radius: 10px;
                 font-size: 20px;
+                cursor: pointer;
             }
         }
 
@@ -188,7 +235,7 @@ $gainsboro: #D9DFDB;
             flex-direction: row;
             align-items: flex-start;
             gap: 30px;
-            margin-top: 5px;
+            margin-top: 6px;
             margin-left: 70px;
 
             .formSection__input-ageCheck-container {
@@ -196,6 +243,7 @@ $gainsboro: #D9DFDB;
                 flex-direction: column;
                 align-items: flex-start;
                 gap: 12px;
+                margin-top: 0px;
 
                 .formSection__input-name {
                     font-family: 'Roboto';
@@ -204,7 +252,7 @@ $gainsboro: #D9DFDB;
                     font-size: 20px;
                     line-height: 142%;
                     color: $blackColor;
-                    margin-top: -5px;
+                    // margin-top: -5px;
                 }
 
                 .formSection__radio-buttons-container {

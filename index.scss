@@ -17,6 +17,8 @@ $whiteColor:  #FFFFFF;
     margin: 0;
     border: 0;
     font-family: 'Roboto';
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 :focus, :active{outline: none;}

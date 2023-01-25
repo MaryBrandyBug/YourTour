@@ -11,6 +11,10 @@
   margin: 0;
   border: 0;
   font-family: "Roboto";
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
 }
 
 :focus, :active {

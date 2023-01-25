@@ -172,10 +172,12 @@
           <div class="formSection__input-fields-container">
             <div class="formSection__input-field-container">
               <p class="formSection__input-name">Направление</p>
+              <div class="select-wrapper">
               <select class="formSection__select-field">
                 <option value="" disabled selected>Куда хотите ехать</option>
                 <option value="">Едем сюда!</option>
               </select>
+            </div>
             </div>
           </div>
 
@@ -189,14 +191,14 @@
           <div class="formSection__input-fields-container">
             <div class="formSection__input-field-container">
               <p class="formSection__input-name">Телефон</p>
-              <input type="tel" class="formSection__input-field" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _">
+              <input type="tel" class="formSection__input-field" pattern="[+]7\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" maxlength="11" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _">
             </div>
           </div>
 
           <div class="formSection__input-fields-container">
             <div class="formSection__input-field-container">
               <p class="formSection__input-name">Дата от</p>
-              <input type="text" class="formSection__input-field" placeholder="ДД.ММ.ГГГГ">
+              <input type="date" onclick="(this.style='-webkit-user-select: none')" class="formSection__input-field" placeholder="ДД.ММ.ГГГГ">
             </div>
           </div>
 
