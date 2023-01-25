@@ -378,22 +378,6 @@
   }
 }
 
-input:focus::-webkit-input-placeholder {
-  z-index: -1;
-}
-
-input:focus:-moz-placeholder {
-  color: transparent;
-}
-
-input:focus::-moz-placeholder {
-  color: transparent;
-}
-
-input:focus:-ms-input-placeholder {
-  color: transparent;
-}
-
 @media (max-width: 1175px) {
   .formSection .formSection__content-form {
     max-width: 95%;
@@ -418,15 +402,22 @@ input:focus:-ms-input-placeholder {
   }
   .formSection .formSection__content-form .formSection__ageCheck-container {
     min-width: 90%;
+    justify-content: center;
+    margin-right: 767px;
   }
   .formSection .formSection__content-form .formSection__agreement-container {
     min-width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-right: 376px;
   }
   .formSection .formSection__content-form .formSection__agreement-container .formSection__accept {
     justify-content: flex-start;
   }
   .formSection .formSection__content-form .formSection__buttons-container {
     min-width: 90%;
+    justify-content: center;
+    margin-right: 430px;
   }
 }
 @media (max-width: 1024px) {
@@ -462,17 +453,26 @@ input:focus:-ms-input-placeholder {
   .formSection .formSection__content-form .formSection__input-comment-container {
     max-width: 798px;
     max-height: 183.4px;
-    margin-left: 11px;
+    margin-left: 0px;
   }
   .formSection .formSection__content-form .formSection__input-comment-container .formSection__input-field-comment {
     max-width: 798px;
     min-width: 798px;
+  }
+  .formSection .formSection__content-form .formSection__ageCheck-container {
+    margin-right: 700px;
+  }
+  .formSection .formSection__content-form .formSection__agreement-container {
+    margin-right: 316px;
   }
   .formSection .formSection__content-form .formSection__agreement-container .formSection__accept {
     gap: 12px;
   }
   .formSection .formSection__content-form .formSection__agreement-container .formSection__accept .agreement-text .formSection__agreement-text-link {
     margin-top: 0px;
+  }
+  .formSection .formSection__content-form .formSection__buttons-container {
+    margin-right: 364px;
   }
 }
 @media (max-width: 992px) {
@@ -496,6 +496,15 @@ input:focus:-ms-input-placeholder {
   .formSection .formSection__content-form .formSection__input-comment-container .formSection__input-field-comment {
     max-width: 630px;
     min-width: 630px;
+  }
+  .formSection .formSection__content-form .formSection__ageCheck-container {
+    margin-right: 540px;
+  }
+  .formSection .formSection__content-form .formSection__agreement-container {
+    margin-right: 156px;
+  }
+  .formSection .formSection__content-form .formSection__buttons-container {
+    margin-right: 200px;
   }
 }
 @media (max-width: 780px) {
@@ -564,7 +573,6 @@ input:focus:-ms-input-placeholder {
   .formSection .formSection__content-form .formSection__input-comment-container {
     max-width: 278px;
     max-height: 163px;
-    margin-left: 0;
   }
   .formSection .formSection__content-form .formSection__input-comment-container .formSection__input-name {
     font-size: 16px;
@@ -578,6 +586,7 @@ input:focus:-ms-input-placeholder {
   }
   .formSection .formSection__content-form .formSection__ageCheck-container {
     margin-left: 0;
+    margin-right: 140px;
   }
   .formSection .formSection__content-form .formSection__ageCheck-container .formSection__input-ageCheck-container {
     gap: 8px;
@@ -598,6 +607,7 @@ input:focus:-ms-input-placeholder {
   }
   .formSection .formSection__content-form .formSection__agreement-container {
     margin-left: 0;
+    margin-right: 0px;
   }
   .formSection .formSection__content-form .formSection__agreement-container .formSection__accept {
     font-size: 16px;
@@ -620,6 +630,7 @@ input:focus:-ms-input-placeholder {
   .formSection .formSection__content-form .formSection__buttons-container {
     gap: 10px;
     margin-left: 0;
+    margin-right: 0px;
   }
   .formSection .formSection__content-form .formSection__buttons-container .formSection__submit-button {
     min-width: 134px;

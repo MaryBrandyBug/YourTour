@@ -434,11 +434,6 @@ $gainsboro: #D9DFDB;
     }
 }
 
-input:focus::-webkit-input-placeholder { z-index: -1 };
-input:focus:-moz-placeholder { color:transparent; };
-input:focus::-moz-placeholder { color:transparent; };
-input:focus:-ms-input-placeholder { color:transparent; };
-
 @media (max-width: 1175px) {
     .formSection {
 
@@ -477,10 +472,16 @@ input:focus:-ms-input-placeholder { color:transparent; };
 
             .formSection__ageCheck-container {
                 min-width: 90%;
+
+                justify-content: center;
+                margin-right: 767px;
             }
 
             .formSection__agreement-container {
                 min-width: 90%;
+                display: flex;
+                justify-content: center;
+                margin-right: 376px;
 
                 .formSection__accept {
                     justify-content: flex-start;
@@ -489,6 +490,8 @@ input:focus:-ms-input-placeholder { color:transparent; };
 
             .formSection__buttons-container {
                 min-width: 90%;
+                justify-content: center;
+                margin-right: 430px;
             }
         }
     }
@@ -535,7 +538,7 @@ input:focus:-ms-input-placeholder { color:transparent; };
             .formSection__input-comment-container {
                 max-width: 798px;
                 max-height: 183.4px;
-                margin-left: 11px;
+                margin-left: 0px;
 
                 .formSection__input-field-comment {
                     max-width: 798px;
@@ -544,9 +547,11 @@ input:focus:-ms-input-placeholder { color:transparent; };
             }
 
             .formSection__ageCheck-container {
+                margin-right: 700px;
             }
 
             .formSection__agreement-container {
+                margin-right: 316px;
 
                 .formSection__accept {
                     gap: 12px;
@@ -561,6 +566,7 @@ input:focus:-ms-input-placeholder { color:transparent; };
             }
 
             .formSection__buttons-container  {
+                margin-right: 364px;
             }
         }
     }
@@ -599,6 +605,18 @@ input:focus:-ms-input-placeholder { color:transparent; };
                     max-width: 630px;
                     min-width: 630px;
                 }
+            }
+
+            .formSection__ageCheck-container {
+                margin-right: 540px;
+            }
+
+            .formSection__agreement-container {
+                margin-right: 156px;
+            }
+
+            .formSection__buttons-container {
+                margin-right: 200px;
             }
         }
     }
@@ -675,7 +693,6 @@ input:focus:-ms-input-placeholder { color:transparent; };
             .formSection__input-comment-container {
                 max-width: 278px;
                 max-height: 163px;
-                margin-left: 0;
 
                 .formSection__input-name {
                     font-size: 16px;
@@ -692,6 +709,7 @@ input:focus:-ms-input-placeholder { color:transparent; };
 
             .formSection__ageCheck-container {
                 margin-left: 0;
+                margin-right: 140px;
 
                 .formSection__input-ageCheck-container {
                     gap: 8px;
@@ -722,6 +740,7 @@ input:focus:-ms-input-placeholder { color:transparent; };
 
             .formSection__agreement-container {
                 margin-left: 0;
+                margin-right: 0px;
 
                 .formSection__accept {
                     font-size: 16px;
@@ -749,6 +768,7 @@ input:focus:-ms-input-placeholder { color:transparent; };
             .formSection__buttons-container {
                 gap: 10px;
                 margin-left: 0;
+                margin-right: 0px;
 
                 .formSection__submit-button {
                     min-width: 134px;
