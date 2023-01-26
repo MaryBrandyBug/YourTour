@@ -85,6 +85,7 @@ $whiteColor:  #FFFFFF;
                     z-index: -1;
                     border-radius: 50px;
                     transition: all 0.3s;
+                    object-fit: cover;
                 }
 
                 .chooseTour__card-content {
@@ -295,6 +296,11 @@ $whiteColor:  #FFFFFF;
                         font-size: 20px;
                         line-height: 142%;
                     }
+
+                    .chooseTourSection_menu__active-item {
+                        font-size: 20px;
+                        line-height: 142%;
+                    }
                 }
             }
         }
@@ -434,6 +440,11 @@ $whiteColor:  #FFFFFF;
                 .chooseTourSection_menu__item {
 
                     .chooseTourSection_menu__item-name {
+                        font-size: 16px;
+                        line-height: 142%;
+                    }
+
+                    .chooseTourSection_menu__active-item {
                         font-size: 16px;
                         line-height: 142%;
                     }

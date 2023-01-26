@@ -28,12 +28,14 @@
                 max-width: 442.5px;
                 max-height: auto;
                 border-radius: 50px;
+                object-fit: cover;
             }
 
             .travelPhotoSection__small-photo {
                 max-width: 349.16px;
                 min-height: 301px;
                 border-radius: 50px;
+                object-fit: cover;
             }
         }
     }
@@ -272,7 +274,7 @@
 
                 .travelPhotoSection__small-photo {
                     max-width: 110px;
-                    min-height: 190px;
+                    min-height: 130px;
                     border-radius: 20px;
                 }
             }

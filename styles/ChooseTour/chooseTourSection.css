@@ -74,6 +74,8 @@
   z-index: -1;
   border-radius: 50px;
   transition: all 0.3s;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .chooseTourSection .chooseTourSection__content .chooseTour__card .chooseTour__card-content {
   display: flex;
@@ -233,6 +235,10 @@
     font-size: 20px;
     line-height: 142%;
   }
+  .chooseTourSection .chooseTourSection__header .chooseTourSection__header__menu .chooseTourSection_menu__item .chooseTourSection_menu__active-item {
+    font-size: 20px;
+    line-height: 142%;
+  }
 }
 @media (max-width: 576px) {
   .chooseTourSection {
@@ -341,6 +347,10 @@
     max-width: 300px;
   }
   .chooseTourSection .chooseTourSection__header .chooseTourSection__header__menu .chooseTourSection_menu__item .chooseTourSection_menu__item-name {
+    font-size: 16px;
+    line-height: 142%;
+  }
+  .chooseTourSection .chooseTourSection__header .chooseTourSection__header__menu .chooseTourSection_menu__item .chooseTourSection_menu__active-item {
     font-size: 16px;
     line-height: 142%;
   }
