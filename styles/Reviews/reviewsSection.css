@@ -131,8 +131,8 @@
     min-height: 290px;
     border-radius: 20px;
     align-items: flex-start;
-    justify-content: flex-start;
     max-width: calc(300px + 7.4468085106vw);
+    min-height: 558px;
   }
   .reviewsSection .reviewsSection__content .reviewsSection__review-card .reviewsSection__review-card-text {
     font-size: 18px;
@@ -181,7 +181,7 @@
     max-width: 318px;
     border-radius: 20px;
     align-items: flex-start;
-    justify-content: flex-start;
+    min-height: auto;
   }
   .reviewsSection .reviewsSection__content .reviewsSection__review-card .reviewsSection__review-card-text {
     font-size: 16px;
