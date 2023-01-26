@@ -584,7 +584,7 @@
   .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .select-wrapper::before {
     content: url("../png/Rectangle.png");
     position: absolute;
-    top: 55%;
+    top: 59%;
     right: 0px;
     display: block;
     width: 10px;
