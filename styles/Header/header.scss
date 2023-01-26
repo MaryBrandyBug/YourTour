@@ -1,8 +1,4 @@
-$whiteColor:  #FFFFFF;
-$blackColor: #1B1F2B;
-$orangeColor: #EFA501;
-$lightOrange: #F8E6BE;
-
+@import '../Colors/colors.scss';
 
 .header {
     display: flex;
