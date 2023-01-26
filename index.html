@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
+  <meta name="description" content="Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции позволяет оценить значение модели развития.">
   <meta name="keywords" content="тур, путешествия, идейные соображения">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,7 +47,7 @@
         <h2 class="chooseTourSection__header__title section__header__title">Выбери свой тур</h2>
         <div class="chooseTourSection__header__menu">
           <div class="chooseTourSection_menu__item">
-            <p class="chooseTourSection_menu__item-name">Популярные</p>
+            <p class="chooseTourSection_menu__active-item">Популярные</p>
             <div class="chooseTourSection_menu__item-line"></div>
           </div>
           <div class="chooseTourSection_menu__item">
@@ -83,7 +83,7 @@
                 </div>
               </div>
             </div>
-            <img src="./styles/png/TourPh6.png" class="chooseTour__card__background" alt="">
+            <img src="./styles/png/cardTourPh-1.png" class="chooseTour__card__background" alt="">
           </div>
           <div class="chooseTour__card">
             <div class="chooseTour__card-content">
@@ -96,7 +96,7 @@
                 <div class="info-link__arrow"><img src="./styles/png/Vector.png" alt="arrow"></div>
               </div>
             </div>
-            <img src="./styles/png/TourPh4.png" class="chooseTour__card__background" alt="">
+            <img src="./styles/png/cardTourPh-2.png" class="chooseTour__card__background" alt="">
           </div>
           <div class="chooseTour__card">
             <div class="chooseTour__card-content">
@@ -109,7 +109,7 @@
                 <div class="info-link__arrow"><img src="./styles/png/Vector.png" alt="arrow"></div>
               </div>
             </div>
-            <img src="./styles/png/TourPh5.png" class="chooseTour__card__background" alt="">
+            <img src="./styles/png/cardTourPh-3.png" class="chooseTour__card__background" alt="">
           </div>
         
           <div class="chooseTour__card">
@@ -123,7 +123,7 @@
                 <div class="info-link__arrow"><img src="./styles/png/Vector.png" alt="arrow"></div>
               </div>
             </div>
-            <img src="./styles/png/TourPh1.png" class="chooseTour__card__background" alt="">
+            <img src="./styles/png/cardTourPh-5.png" class="chooseTour__card__background" alt="">
           </div>
           <div class="chooseTour__card">
             <div class="chooseTour__card-content">
@@ -136,7 +136,7 @@
                 <div class="info-link__arrow"><img src="./styles/png/Vector.png" alt="arrow"></div>
               </div>
             </div>
-            <img src="./styles/png/TourPh3.jpg" class="chooseTour__card__background" alt="">
+            <img src="./styles/png/cardTourPh-4.png" class="chooseTour__card__background" alt="">
           </div>
           <div class="chooseTour__card">
             <div class="chooseTour__card-content">
@@ -149,7 +149,7 @@
                 <div class="info-link__arrow"><img src="./styles/png/Vector.png" alt="arrow"></div>
               </div>
             </div>
-            <img src="./styles/png/TourPh2.png" class="chooseTour__card__background" alt="">
+            <img src="./styles/png/cardTourPh-6.png" class="chooseTour__card__background" alt="">
           </div>
         
       </div>
@@ -172,10 +172,12 @@
           <div class="formSection__input-fields-container">
             <div class="formSection__input-field-container">
               <p class="formSection__input-name">Направление</p>
+              <div class="select-wrapper">
               <select class="formSection__select-field">
                 <option value="" disabled selected>Куда хотите ехать</option>
                 <option value="">Едем сюда!</option>
               </select>
+            </div>
             </div>
           </div>
 
@@ -189,21 +191,21 @@
           <div class="formSection__input-fields-container">
             <div class="formSection__input-field-container">
               <p class="formSection__input-name">Телефон</p>
-              <input type="tel" class="formSection__input-field" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _">
+              <input type="tel" class="formSection__input-field" pattern="[+]7\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" maxlength="11" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _">
             </div>
           </div>
 
           <div class="formSection__input-fields-container">
             <div class="formSection__input-field-container">
               <p class="formSection__input-name">Дата от</p>
-              <input type="text" class="formSection__input-field" placeholder="ДД.ММ.ГГГГ">
+              <input type="date" class="formSection__input-field">
             </div>
           </div>
 
           <div class="formSection__input-fields-container">
             <div class="formSection__input-field-container">
               <p class="formSection__input-name">Дата до</p>
-              <input type="text" class="formSection__input-field" placeholder="ДД.ММ.ГГГГ">
+              <input type="date" class="formSection__input-field">
             </div>
           </div>
         </div>
@@ -288,23 +290,23 @@
       </div>
       <div class="travelPhotoSection__content section__content__flex">
         <div class="travelPhotoSection__photo-container big">
-          <img src="./styles/png/travel photo-1.png" alt="travel photo" class="travelPhotoSection__big-photo">
-          <img src="./styles/png/travel photo-2.png" alt="travel photo" class="travelPhotoSection__big-photo max-size">
-          <img src="./styles/png/travel photo-3.png" alt="travel photo" class="travelPhotoSection__big-photo max-middle-size">
-          <img src="./styles/png/travel photo-4.png" alt="travel photo" class="travelPhotoSection__big-photo">
+          <img src="./styles/png/travelphoto-1.png" alt="travel photo" class="travelPhotoSection__big-photo">
+          <img src="./styles/png/travelphoto-2.png" alt="travel photo" class="travelPhotoSection__big-photo max-size">
+          <img src="./styles/png/travelphoto-3.png" alt="travel photo" class="travelPhotoSection__big-photo max-middle-size">
+          <img src="./styles/png/travelphoto-4.png" alt="travel photo" class="travelPhotoSection__big-photo">
         </div>
         <div class="travelPhotoSection__photo-container small">
-          <img src="./styles/png/travel photo-5.png" alt="travel photo" class="travelPhotoSection__small-photo">
-          <img src="./styles/png/travel photo-6.png" alt="travel photo" class="travelPhotoSection__small-photo max-middle-size">
-          <img src="./styles/png/travel photo-7.png" alt="travel photo" class="travelPhotoSection__small-photo max-size">
-          <img src="./styles/png/travel photo-8.png" alt="travel photo" class="travelPhotoSection__small-photo">
-          <img src="./styles/png/travel photo-13.png" alt="travel photo" class="travelPhotoSection__small-photo">
+          <img src="./styles/png/travelphoto-5.png" alt="travel photo" class="travelPhotoSection__small-photo">
+          <img src="./styles/png/travelphoto-6.png" alt="travel photo" class="travelPhotoSection__small-photo max-middle-size">
+          <img src="./styles/png/travelphoto-7.png" alt="travel photo" class="travelPhotoSection__small-photo max-size">
+          <img src="./styles/png/travelphoto-8.png" alt="travel photo" class="travelPhotoSection__small-photo">
+          <img src="./styles/png/travelphoto-13.png" alt="travel photo" class="travelPhotoSection__small-photo">
         </div>
         <div class="travelPhotoSection__photo-container big">
-          <img src="./styles/png/travel photo-9.png" alt="travel photo" class="travelPhotoSection__big-photo">
-          <img src="./styles/png/travel photo-10.png" alt="travel photo" class="travelPhotoSection__big-photo">
-          <img src="./styles/png/travel photo-11.png" alt="travel photo" class="travelPhotoSection__big-photo max-middle-size">
-          <img src="./styles/png/travel photo-12.png" alt="travel photo" class="travelPhotoSection__big-photo max-size">
+          <img src="./styles/png/travelphoto-9.png" alt="travel photo" class="travelPhotoSection__big-photo">
+          <img src="./styles/png/travelphoto-10.png" alt="travel photo" class="travelPhotoSection__big-photo">
+          <img src="./styles/png/travelphoto-11.png" alt="travel photo" class="travelPhotoSection__big-photo max-middle-size">
+          <img src="./styles/png/travelphoto-12.png" alt="travel photo" class="travelPhotoSection__big-photo max-size">
         </div>
       </div>
     </div>
@@ -315,7 +317,7 @@
         <p class="travelStoriesSection__header__subtitle section__header__subtitle">Идейные соображения высшего порядка, а <br>также рамки и место обучения кадров</p>
       </div>
       <div class="travelStoriesSection__content section__content__flex">
-        <div class="travelStoriesSection__content-block">
+        <div class="travelStoriesSection__content-block first-story-card">
           <div class="travelStoriesSection__content-block__footer">
             <div class="travelStoriesSection__footer-details-link">
               <p class="info-link__text">Подробнее</p>
@@ -338,7 +340,7 @@
           </div>
           <img src="./styles/png/imgStory.png" alt="" class="travelStoriesSection__card__background">
         </div>
-        <div class="travelStoriesSection__content-block">
+        <div class="travelStoriesSection__content-block second-story-card">
           <div class="travelStoriesSection__content-block__footer">
             <div class="travelStoriesSection__footer-details-link">
               <p class="info-link__text">Подробнее</p>
@@ -357,7 +359,7 @@
           <div class="stories__img"></div>
           <img src="./styles/png/image 46.png" alt="" class="travelStoriesSection__card__background">
         </div>
-        <div class="travelStoriesSection__content-block">
+        <div class="travelStoriesSection__content-block third-story-card">
           <div class="travelStoriesSection__content-block__footer">
             <div class="travelStoriesSection__footer-details-link">
               <p class="info-link__text">Подробнее</p>

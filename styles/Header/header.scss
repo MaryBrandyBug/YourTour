@@ -9,6 +9,7 @@ $lightOrange: #F8E6BE;
     flex-direction: column;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 39.9%), linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('header.png');
     background-size: cover;
+    background-position: center;
     width: 100%;
 
     .header__navbar {

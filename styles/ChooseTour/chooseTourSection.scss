@@ -1,5 +1,6 @@
 $orangeColor: #EFA501;
 $darkGreen: #286562;
+$whiteColor:  #FFFFFF;
 
 .chooseTourSection {
     gap: 100px;
@@ -32,6 +33,19 @@ $darkGreen: #286562;
                     cursor: pointer;
                 }
 
+                .chooseTourSection_menu__active-item {
+                    text-decoration-line: underline;
+                    text-decoration-thickness: 2px;
+                    text-underline-offset: 7px;
+                    color: $orangeColor;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 23px;
+                    line-height: 122%;
+                    cursor: pointer;
+                }
+
                 .chooseTourSection_menu__item-name:hover {
                     text-decoration-line: underline;
                     text-decoration-thickness: 2px;
@@ -54,9 +68,11 @@ $darkGreen: #286562;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 30px;
+        max-width: 1170px;
 
             .chooseTour__card {
                 min-width: 370px;
+                min-height: 531px;
                 border-radius: 50px;
                 position: relative;
                 background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%);
@@ -69,6 +85,7 @@ $darkGreen: #286562;
                     z-index: -1;
                     border-radius: 50px;
                     transition: all 0.3s;
+                    object-fit: cover;
                 }
 
                 .chooseTour__card-content {
@@ -131,11 +148,12 @@ $darkGreen: #286562;
                 transition: all 300ms ease;
             }
 
-            .chooseTour__card {
+            .chooseTour__card:hover {
+                cursor: pointer;
 
                 .chooseTour__card-content {
 
-                    .chooseTour__link:hover {
+                    .chooseTour__link {
                         width: 199px;
                         height: 42px;
                         background: $darkGreen;
@@ -278,6 +296,11 @@ $darkGreen: #286562;
                         font-size: 20px;
                         line-height: 142%;
                     }
+
+                    .chooseTourSection_menu__active-item {
+                        font-size: 20px;
+                        line-height: 142%;
+                    }
                 }
             }
         }
@@ -417,6 +440,11 @@ $darkGreen: #286562;
                 .chooseTourSection_menu__item {
 
                     .chooseTourSection_menu__item-name {
+                        font-size: 16px;
+                        line-height: 142%;
+                    }
+
+                    .chooseTourSection_menu__active-item {
                         font-size: 16px;
                         line-height: 142%;
                     }

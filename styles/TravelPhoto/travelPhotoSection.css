@@ -23,11 +23,15 @@
   max-width: 442.5px;
   max-height: auto;
   border-radius: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .travelPhotoSection__small-photo {
   max-width: 349.16px;
   min-height: 301px;
   border-radius: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media (max-width: 1730px) {
@@ -202,7 +206,7 @@
   }
   .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .travelPhotoSection__small-photo {
     max-width: 110px;
-    min-height: 190px;
+    min-height: 130px;
     border-radius: 20px;
   }
 }

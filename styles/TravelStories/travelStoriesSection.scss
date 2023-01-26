@@ -13,14 +13,6 @@ $darkGreen: #286562;
         padding: 0px;
         gap: 50px;
 
-        @media (min-width: 780px) {
-
-            .travelStoriesSection__content-block:hover .travelStoriesSection__card__background {
-                transform: scale(1.2);
-                transition: all 300ms ease;
-            }
-        }
-
         .travelStoriesSection__content-block {
             max-height: 567px;
             border-radius: 50px;
@@ -65,27 +57,6 @@ $darkGreen: #286562;
 
                     position: absolute;
                     left: 60px;
-                }
-
-                @media (min-width: 781px) {
-
-                    .travelStoriesSection__footer-details-link:hover {
-                        width: 199px;
-                        height: 42px;
-                        background: $darkGreen;
-                        border-radius: 50px;
-                        position: absolute;
-                        left: 40px
-                    }
-    
-                    .travelStoriesSection__footer-details-link:active {
-                        width: 199px;
-                        height: 42px;
-                        background: $orangeColor;
-                        border-radius: 50px;
-                        position: absolute;
-                        left: 40px
-                    }
                 }
 
                 .travelStoriesSection__footer-social-networks {
@@ -172,6 +143,43 @@ $darkGreen: #286562;
     }
 }
 
+@media (min-width: 780px) {
+    .travelStoriesSection {
+
+        .travelStoriesSection__content {
+            
+            .travelStoriesSection__content-block:hover {
+                cursor: pointer;
+
+                .travelStoriesSection__content-block__footer {
+
+                    .travelStoriesSection__footer-details-link {
+                        width: 199px;
+                        height: 42px;
+                        background: $darkGreen;
+                        border-radius: 50px;
+                        position: absolute;
+                        left: 38px;
+                    }
+
+                    .travelStoriesSection__footer-details-link:active {
+                        width: 199px;
+                        height: 42px;
+                        background: $orangeColor;
+                        border-radius: 50px;
+                        position: absolute;
+                    }
+                }
+            }
+
+            .travelStoriesSection__content-block:hover .travelStoriesSection__card__background {
+                transform: scale(1.2);
+                transition: all 300ms ease;
+            }
+        }
+    }
+}
+
 @media (max-width: 1175px) {
     .travelStoriesSection {
 
@@ -202,7 +210,7 @@ $darkGreen: #286562;
         max-width: 1024px;
 
         .travelStoriesSection__header {
-            gap: 25px;
+            gap: 33px;
         }
 
         .travelStoriesSection__content {
@@ -281,6 +289,36 @@ $darkGreen: #286562;
 
         .travelStoriesSection__content {
 
+            .first-story-card {
+                background: url('../png/imgStory.png') 0 0 no-repeat scroll;
+                background-size: cover;
+                background-position: center;
+
+                        .travelStoriesSection__card__background {
+                            visibility: hidden;
+                        }
+            }
+
+            .second-story-card {
+                background: url('../png/image\ 46.png') 0 0 no-repeat scroll;
+                background-size: cover;
+                background-position: center;
+
+                        .travelStoriesSection__card__background {
+                            visibility: hidden;
+                        }
+            }
+
+            .third-story-card {
+                background: url('../png/imgStory2.png') 0 0 no-repeat scroll;
+                background-size: cover;
+                background-position: center;
+
+                        .travelStoriesSection__card__background {
+                            visibility: hidden;
+                        }
+            }
+
             .travelStoriesSection__content-block {
                 max-width: calc(318px + 102 * (100vw / 615));
                 max-height: 455px;
@@ -319,7 +357,7 @@ $darkGreen: #286562;
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 435px) {
     .travelStoriesSection {
         gap: 50px;
         max-width: 360px;
