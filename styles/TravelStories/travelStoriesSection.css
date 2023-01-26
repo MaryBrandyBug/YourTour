@@ -234,7 +234,7 @@
     min-width: 440px;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   .travelStoriesSection {
     gap: 50px;
     max-width: 360px;

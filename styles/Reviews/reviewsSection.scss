@@ -167,8 +167,8 @@ $lightBeigeColor: #F4F0E9;
                 min-height: 290px;
                 border-radius: 20px;
                 align-items: flex-start;
-                justify-content: flex-start;
                 max-width: calc(300px + 70 * (100vw / 940));
+                min-height: 558px;
 
                 .reviewsSection__review-card-text {
                     font-size: 18px;
@@ -229,7 +229,7 @@ $lightBeigeColor: #F4F0E9;
                 max-width: 318px;
                 border-radius: 20px;
                 align-items: flex-start;
-                justify-content: flex-start;
+                min-height: auto;
 
                 .reviewsSection__review-card-text {
                     font-size: 16px;
