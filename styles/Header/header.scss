@@ -96,14 +96,14 @@
 
             .header__content__button:hover {
                 background: $orangeColor;
-                .findTourBtn {
+                .find-tour-btn {
                     color: $whiteColor;
                 }
             }
     
             .header__content__button:active {
                 background: $lightOrange;
-                .findTourBtn {
+                .find-tour-btn {
                     color: $blackColor;
                 }
             }
@@ -120,7 +120,7 @@
             border-radius: 10px;
             cursor: pointer;
 
-            .findTourBtn {
+            .find-tour-btn {
                 max-width: 78px;
                 min-height: 24px;
                 font-family: 'Roboto';
@@ -271,7 +271,7 @@
 
             .header__content__button {
 
-                .findTourBtn {
+                .find-tour-btn {
                     font-size: 16px;
                     min-height: 19px;
                 }
