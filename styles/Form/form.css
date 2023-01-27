@@ -170,7 +170,7 @@
   font-size: 20px;
   cursor: pointer;
 }
-.form-section .form-section__content-form .form-section__ageCheck-container {
+.form-section .form-section__content-form .form-section__age-check {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -178,39 +178,39 @@
   margin-top: 6px;
   margin-left: 70px;
 }
-.form-section .form-section__content-form .form-section__ageCheck-container .form-section__input-ageCheck-container {
+.form-section .form-section__content-form .form-section__age-check .form-section__age-check__input-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
   margin-top: 0px;
 }
-.form-section .form-section__content-form .form-section__ageCheck-container .form-section__input-ageCheck-container .form-section__input-name {
+.form-section .form-section__content-form .form-section__age-check .form-section__age-check__input-container .form-section__input-name {
   color: #1B1F2B;
 }
-.form-section .form-section__content-form .form-section__ageCheck-container .form-section__input-ageCheck-container .form-section__radio-buttons-container {
+.form-section .form-section__content-form .form-section__age-check .form-section__age-check__input-container .age-check__radio-buttons-container {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 31px;
 }
-.form-section .form-section__content-form .form-section__ageCheck-container .form-section__input-ageCheck-container .form-section__radio-buttons-container .form-section__radio-button-container {
+.form-section .form-section__content-form .form-section__age-check .form-section__age-check__input-container .age-check__radio-buttons-container .age-check__radio-button-container {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 11px;
 }
-.form-section .form-section__content-form .form-section__ageCheck-container .form-section__input-ageCheck-container .form-section__radio-buttons-container .form-section__radio-button-container .form-section__age-radio-button {
+.form-section .form-section__content-form .form-section__age-check .form-section__age-check__input-container .age-check__radio-buttons-container .age-check__radio-button-container .age-check__radio-button {
   display: none;
 }
-.form-section .form-section__content-form .form-section__ageCheck-container .form-section__input-ageCheck-container .form-section__radio-buttons-container .form-section__radio-button-container .radio__border {
+.form-section .form-section__content-form .form-section__age-check .form-section__age-check__input-container .age-check__radio-buttons-container .age-check__radio-button-container .radio__border {
   min-width: 21px;
   min-height: 21px;
   border: 2px solid #1B1F2B;
   border-radius: 50%;
   position: relative;
 }
-.form-section .form-section__content-form .form-section__ageCheck-container .form-section__input-ageCheck-container .form-section__radio-buttons-container .form-section__radio-button-container .radio__border::before {
+.form-section .form-section__content-form .form-section__age-check .form-section__age-check__input-container .age-check__radio-buttons-container .age-check__radio-button-container .radio__border::before {
   content: "";
   position: absolute;
   top: 48%;
@@ -224,7 +224,7 @@
   transition: 0.2s;
   z-index: -1;
 }
-.form-section .form-section__content-form .form-section__ageCheck-container .form-section__input-ageCheck-container .form-section__radio-buttons-container .form-section__radio-button-container .form-section__age-radio-button:checked + .radio__border::before {
+.form-section .form-section__content-form .form-section__age-check .form-section__age-check__input-container .age-check__radio-buttons-container .age-check__radio-button-container .age-check__radio-button:checked + .radio__border::before {
   z-index: 1;
 }
 .form-section .form-section__content-form .form-section__agreement-container {
@@ -375,7 +375,7 @@
     max-width: 870px;
     min-width: 860px;
   }
-  .form-section .form-section__content-form .form-section__ageCheck-container {
+  .form-section .form-section__content-form .form-section__age-check {
     min-width: 90%;
     justify-content: center;
     margin-right: 767px;
@@ -435,7 +435,7 @@
     max-width: 798px;
     min-width: 798px;
   }
-  .form-section .form-section__content-form .form-section__ageCheck-container {
+  .form-section .form-section__content-form .form-section__age-check {
     margin-right: 700px;
   }
   .form-section .form-section__content-form .form-section__agreement-container {
@@ -473,7 +473,7 @@
     max-width: 630px;
     min-width: 630px;
   }
-  .form-section .form-section__content-form .form-section__ageCheck-container {
+  .form-section .form-section__content-form .form-section__age-check {
     margin-right: 540px;
   }
   .form-section .form-section__content-form .form-section__agreement-container {
@@ -575,24 +575,24 @@
     min-height: 132px;
     font-size: 16px;
   }
-  .form-section .form-section__content-form .form-section__ageCheck-container {
+  .form-section .form-section__content-form .form-section__age-check {
     margin-left: 0;
     margin-right: 140px;
   }
-  .form-section .form-section__content-form .form-section__ageCheck-container .form-section__input-ageCheck-container {
+  .form-section .form-section__content-form .form-section__age-check .form-section__age-check__input-container {
     gap: 8px;
   }
-  .form-section .form-section__content-form .form-section__ageCheck-container .form-section__input-ageCheck-container .form-section__input-name {
+  .form-section .form-section__content-form .form-section__age-check .form-section__age-check__input-container .form-section__input-name {
     font-size: 16px;
   }
-  .form-section .form-section__content-form .form-section__ageCheck-container .form-section__input-ageCheck-container .form-section__radio-buttons-container {
+  .form-section .form-section__content-form .form-section__age-check .form-section__age-check__input-container .age-check__radio-buttons-container {
     gap: 27px;
   }
-  .form-section .form-section__content-form .form-section__ageCheck-container .form-section__input-ageCheck-container .form-section__radio-buttons-container .form-section__radio-button-container .radio__border {
+  .form-section .form-section__content-form .form-section__age-check .form-section__age-check__input-container .age-check__radio-buttons-container .age-check__radio-button-container .radio__border {
     min-width: 17px;
     min-height: 17px;
   }
-  .form-section .form-section__content-form .form-section__ageCheck-container .form-section__input-ageCheck-container .form-section__radio-buttons-container .form-section__radio-button-container .radio__border::before {
+  .form-section .form-section__content-form .form-section__age-check .form-section__age-check__input-container .age-check__radio-buttons-container .age-check__radio-button-container .radio__border::before {
     min-width: 10px;
     min-height: 9px;
   }
