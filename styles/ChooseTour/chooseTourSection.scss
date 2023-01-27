@@ -1,28 +1,28 @@
 @import '../Colors/colors.scss';
 
-.chooseTourSection {
+.choose-tour-section {
     gap: 100px;
 
-    .chooseTourSection__header {
+    .choose-tour-section__header {
         max-width: 700px;
         gap: 35px;
 
-        .chooseTourSection__header__title {
+        .choose-tour-section__header__title {
         }
 
-        .chooseTourSection__header__menu {
+        .choose-tour-section__header__menu {
             display: flex;
             flex-direction: row;
             align-items: flex-start;
             gap: 30px;
 
-            .chooseTourSection_menu__item {
+            .choose-tour-section_menu__item {
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
                 gap: 6px;
 
-                .chooseTourSection_menu__item-name {
+                .choose-tour-section_menu__item-name {
                     font-family: 'Roboto';
                     font-style: normal;
                     font-weight: 700;
@@ -31,7 +31,7 @@
                     cursor: pointer;
                 }
 
-                .chooseTourSection_menu__active-item {
+                .choose-tour-section_menu__active-item {
                     text-decoration-line: underline;
                     text-decoration-thickness: 2px;
                     text-underline-offset: 7px;
@@ -44,13 +44,13 @@
                     cursor: pointer;
                 }
 
-                .chooseTourSection_menu__item-name:hover {
+                .choose-tour-section_menu__item-name:hover {
                     text-decoration-line: underline;
                     text-decoration-thickness: 2px;
                     text-underline-offset: 7px;
                 }
 
-                .chooseTourSection_menu__item-name:active {
+                .choose-tour-section_menu__item-name:active {
                     text-decoration-line: underline;
                     text-decoration-thickness: 2px;
                     text-underline-offset: 7px;
@@ -60,7 +60,7 @@
         }
     }
 
-    .chooseTourSection__content {
+    .choose-tour-section__content {
         max-height: 1092px;
         display: flex;
         flex-direction: row;
@@ -132,9 +132,9 @@
 }
 
 @media (min-width: 780px) {
-    .chooseTourSection {
+    .choose-tour-section {
 
-        .chooseTourSection__content {
+        .choose-tour-section__content {
 
             .chooseTour__card:hover .chooseTour__card__background {
                 transform: scale(1.2);
@@ -170,9 +170,9 @@
 }
 
 @media (max-width: 1175px) {
-    .chooseTourSection {
+    .choose-tour-section {
 
-        .chooseTourSection__content {
+        .choose-tour-section__content {
             gap: 11px;
             justify-content: center;
             
@@ -184,10 +184,10 @@
 }
 
 @media (max-width: 1024px) {
-    .chooseTourSection {
+    .choose-tour-section {
         min-height: 1871px;
 
-        .chooseTourSection__content {
+        .choose-tour-section__content {
             max-width: 920px;
             justify-content: center;
             gap: 20px;
@@ -211,9 +211,9 @@
 }
 
 @media (max-width: 992px) and (min-width: 780px) {
-    .chooseTourSection {
+    .choose-tour-section {
 
-        .chooseTourSection__content {
+        .choose-tour-section__content {
             max-width: 100%;
 
             .chooseTour__card {
@@ -228,10 +228,10 @@
 };
 
 @media (max-width: 780px) {
-    .chooseTourSection {
+    .choose-tour-section {
         min-height: auto;
 
-        .chooseTourSection__content {
+        .choose-tour-section__content {
             letter-spacing: 0.04em;
             gap: 18px;
 
@@ -269,28 +269,28 @@
             }
         }
 
-        .chooseTourSection__header {
+        .choose-tour-section__header {
             max-width: 360px;
             min-width: 360px;
             gap: 30px;
 
-            .chooseTourSection__header__title {
+            .choose-tour-section__header__title {
                 letter-spacing: 0.65px;
             }
 
-            .chooseTourSection__header__menu {
+            .choose-tour-section__header__menu {
                 gap: 10px;
                 flex-wrap: wrap;
                 justify-content: center;
 
-                .chooseTourSection_menu__item {
+                .choose-tour-section_menu__item {
 
-                    .chooseTourSection_menu__item-name {
+                    .choose-tour-section_menu__item-name {
                         font-size: 20px;
                         line-height: 142%;
                     }
 
-                    .chooseTourSection_menu__active-item {
+                    .choose-tour-section_menu__active-item {
                         font-size: 20px;
                         line-height: 142%;
                     }
@@ -301,13 +301,13 @@
 }
 
 @media (max-width: 576px) {
-    .chooseTourSection {
+    .choose-tour-section {
         min-height: auto;
         gap: 35px;
         min-height: 2172px;
         margin-left: -2px;
 
-        .chooseTourSection__content {
+        .choose-tour-section__content {
             max-width: 318px;
             letter-spacing: 0.04em;
             gap: 18px;
@@ -344,23 +344,23 @@
             }
         }
 
-        .chooseTourSection__header {
+        .choose-tour-section__header {
             max-width: 360px;
             min-width: 360px;
             gap: 30px;
 
-            .chooseTourSection__header__title {
+            .choose-tour-section__header__title {
                 letter-spacing: 0.65px;
             }
 
-            .chooseTourSection__header__menu {
+            .choose-tour-section__header__menu {
                 gap: 10px;
                 flex-wrap: wrap;
                 justify-content: center;
 
-                .chooseTourSection_menu__item {
+                .choose-tour-section_menu__item {
 
-                    .chooseTourSection_menu__item-name {
+                    .choose-tour-section_menu__item-name {
                         font-size: 20px;
                         line-height: 142%;
                     }
@@ -371,13 +371,13 @@
 }
 
 @media (max-width: 360px) {
-    .chooseTourSection {
+    .choose-tour-section {
         min-height: auto;
         gap: 35px;
         min-height: 2172px;
         margin-left: -2px;
 
-        .chooseTourSection__content {
+        .choose-tour-section__content {
             max-width: 318px;
             letter-spacing: 0.04em;
             gap: 18px;
@@ -415,29 +415,29 @@
             }
         }
 
-        .chooseTourSection__header {
+        .choose-tour-section__header {
             max-width: 360px;
             min-width: 360px;
             gap: 30px;
 
-            .chooseTourSection__header__title {
+            .choose-tour-section__header__title {
                 letter-spacing: 0.65px;
             }
 
-            .chooseTourSection__header__menu {
+            .choose-tour-section__header__menu {
                 gap: 10px;
                 flex-wrap: wrap;
                 justify-content: center;
                 max-width: 300px;
 
-                .chooseTourSection_menu__item {
+                .choose-tour-section_menu__item {
 
-                    .chooseTourSection_menu__item-name {
+                    .choose-tour-section_menu__item-name {
                         font-size: 16px;
                         line-height: 142%;
                     }
 
-                    .chooseTourSection_menu__active-item {
+                    .choose-tour-section_menu__active-item {
                         font-size: 16px;
                         line-height: 142%;
                     }
