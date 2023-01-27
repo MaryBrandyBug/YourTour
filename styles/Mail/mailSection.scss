@@ -1,6 +1,4 @@
-$blackColor: #1B1F2B;
-$greyColor: #A6A6A6;
-$darkGreen: #286562;
+@import '../Colors/colors.scss';
 
 .mailSection {
     max-width: 771px;
@@ -34,11 +32,6 @@ $darkGreen: #286562;
         }
 
         .mailSection__content__text {
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 20px;
-            line-height: 142%;
             color: $greyColor;
 
             .mailSection__content__mail {
@@ -114,7 +107,6 @@ $darkGreen: #286562;
             }
 
             .mailSection__content__text {
-                font-size: 16px;
                 text-align: center;
             }
         }

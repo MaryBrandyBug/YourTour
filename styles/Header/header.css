@@ -41,11 +41,6 @@
 }
 .header .header__navbar .navbar .navbar__menu .menu__item {
   min-height: 28px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 142%;
   color: #FFFFFF;
   white-space: nowrap;
   cursor: pointer;
@@ -59,11 +54,6 @@
 .header .header__navbar .navbar .telephone {
   max-width: 155px;
   min-height: 28px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 142%;
   color: #FFFFFF;
   white-space: nowrap;
 }
@@ -88,11 +78,6 @@
 }
 .header .header__content .header__content__subtitle {
   max-width: 562px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 142%;
   text-align: center;
   color: #FFFFFF;
 }

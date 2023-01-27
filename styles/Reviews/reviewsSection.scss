@@ -1,6 +1,4 @@
-$blackColor: #1B1F2B;
-$greyColor: #A6A6A6;
-$lightBeigeColor: #F4F0E9;
+@import '../Colors/colors.scss';
 
 .reviewsSection {
     max-width: 1170px;
@@ -319,7 +317,7 @@ $lightBeigeColor: #F4F0E9;
                         }
 
                         .reviewsSection__reviewer-tour {
-                            font-size: 16px;
+                            // font-size: 16px;
                             letter-spacing: -0.01em;
                             margin-bottom: 1px;
                         }

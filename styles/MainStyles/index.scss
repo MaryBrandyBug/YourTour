@@ -1,16 +1,14 @@
-@import './styles/Header/header.css';
-@import './styles/ChooseTour/chooseTourSection.css';
-@import './styles/Form/form.css';
-@import './styles/Reviews/reviewsSection.css';
-@import './styles/TravelPhoto/travelPhotoSection.css';
-@import './styles/TravelStories/travelStoriesSection.css';
-@import './styles/Mail/mailSection.css';
-@import './styles/Footer/footer.css';
+@import '../Colors/colors.scss';
 
-$beigeColor: #F9F7F4;
-$blackColor: #1B1F2B;
-$greyColor: #A6A6A6;
-$whiteColor:  #FFFFFF;
+@import '../FontParams/fontParams.css';
+@import '../Header/header.css';
+@import '../ChooseTour/chooseTourSection.css';
+@import '../Form/form.css';
+@import '../Reviews/reviewsSection.css';
+@import '../TravelPhoto/travelPhotoSection.css';
+@import '../TravelStories/travelStoriesSection.css';
+@import '../Mail/mailSection.css';
+@import '../Footer/footer.css';
 
 *{
     padding: 0;
