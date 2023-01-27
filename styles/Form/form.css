@@ -1,21 +1,21 @@
-.formSection {
+.form-section {
   gap: 100px;
 }
-.formSection .formSection__header {
+.form-section .form-section__header {
   gap: 30px;
 }
-.formSection .formSection__header .formSection__header__subtitle {
+.form-section .form-section__header .form-section__header__subtitle {
   max-width: 458px;
   text-align: center;
   color: #A6A6A6;
 }
-.formSection .formSection__content-form {
+.form-section .form-section__content-form {
   gap: 33px;
   background: #FFFFFF;
   border-radius: 50px;
   min-height: 986px;
 }
-.formSection .formSection__content-form .form-cont {
+.form-section .form-section__content-form .form-cont {
   display: flex;
   max-width: 1170px;
   flex-wrap: wrap;
@@ -23,17 +23,17 @@
   gap: 33px;
   margin-top: 77px;
 }
-.formSection .formSection__content-form .form-cont .formSection__input-name {
+.form-section .form-section__content-form .form-cont .form-section__input-name {
   color: #1B1F2B;
 }
-.formSection .formSection__content-form .form-cont .formSection__input-fields-container {
+.form-section .form-section__content-form .form-cont .form-section__input-fields-container {
   max-height: 104px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   gap: 30px;
 }
-.formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container {
+.form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container {
   max-width: 500px;
   max-height: 104px;
   display: flex;
@@ -42,15 +42,15 @@
   gap: 8px;
   position: relative;
 }
-.formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container input[type=date]::-webkit-calendar-picker-indicator {
+.form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container input[type=date]::-webkit-calendar-picker-indicator {
   opacity: 0;
 }
-.formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container input[type=date]::-webkit-datetime-edit {
+.form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container input[type=date]::-webkit-datetime-edit {
   color: #A6A6A6;
   font-size: 25px;
   font-weight: 300;
 }
-.formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .select-wrapper::before {
+.form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container .select-wrapper::before {
   content: url("../png/Rectangle.png");
   position: absolute;
   top: 55%;
@@ -60,7 +60,7 @@
   height: 100%;
   pointer-events: none;
 }
-.formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__select-field {
+.form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container .form-section__select-field {
   min-width: 500px;
   max-width: 500px;
   min-height: 68px;
@@ -75,17 +75,17 @@
        appearance: none;
 }
 @media (min-width: 361px) {
-  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__select-field:hover {
+  .form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container .form-section__select-field:hover {
     background: #F4F0E9;
   }
 }
-.formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .first-date-field {
+.form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container .first-date-field {
   color: #F9F7F4;
 }
-.formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .second-date-field::-webkit-calendar-picker-indicator {
+.form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container .second-date-field::-webkit-calendar-picker-indicator {
   opacity: 0;
 }
-.formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__input-field {
+.form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container .form-section__input-field {
   min-width: 500px;
   max-width: 500px;
   min-height: 68px;
@@ -103,34 +103,34 @@
   -webkit-appearance: none;
 }
 @media (min-width: 361px) {
-  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__input-field:focus {
+  .form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container .form-section__input-field:focus {
     border: 1px solid #A6A6A6;
     background: #F4F0E9;
   }
-  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .first-date-field:hover {
+  .form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container .first-date-field:hover {
     color: #F4F0E9;
   }
-  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .first-date-field:focus {
+  .form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container .first-date-field:focus {
     color: #F4F0E9;
   }
-  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__input-field:hover {
+  .form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container .form-section__input-field:hover {
     background: #F4F0E9;
   }
 }
-.formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__input-field::-moz-placeholder {
+.form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container .form-section__input-field::-moz-placeholder {
   color: #A6A6A6;
 }
-.formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__input-field:-ms-input-placeholder {
+.form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container .form-section__input-field:-ms-input-placeholder {
   color: #A6A6A6;
 }
-.formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__input-field::placeholder {
+.form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container .form-section__input-field::placeholder {
   color: #A6A6A6;
 }
-.formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container input[type=date]:not(.has-value):before {
+.form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container input[type=date]:not(.has-value):before {
   color: #A6A6A6;
   content: attr(placeholder);
 }
-.formSection .formSection__content-form .formSection__input-comment-container {
+.form-section .form-section__content-form .form-section__input-comment-container {
   max-width: 1030px;
   max-height: 188px;
   display: flex;
@@ -139,22 +139,22 @@
   gap: 8px;
   margin-left: 70px;
 }
-.formSection .formSection__content-form .formSection__input-comment-container .formSection__input-name {
+.form-section .form-section__content-form .form-section__input-comment-container .form-section__input-name {
   color: #1B1F2B;
 }
-.formSection .formSection__content-form .formSection__input-comment-container .input-comment {
+.form-section .form-section__content-form .form-section__input-comment-container .input-comment {
   resize: none;
 }
 @media (min-width: 361px) {
-  .formSection .formSection__content-form .formSection__input-comment-container .formSection__input-field-comment:focus {
+  .form-section .form-section__content-form .form-section__input-comment-container .form-section__input-field-comment:focus {
     border: 1px solid #A6A6A6;
     background: #F4F0E9;
   }
-  .formSection .formSection__content-form .formSection__input-comment-container .formSection__input-field-comment:hover {
+  .form-section .form-section__content-form .form-section__input-comment-container .form-section__input-field-comment:hover {
     background: #F4F0E9;
   }
 }
-.formSection .formSection__content-form .formSection__input-comment-container .formSection__input-field-comment {
+.form-section .form-section__content-form .form-section__input-comment-container .form-section__input-field-comment {
   max-width: 1030px;
   min-width: 1030px;
   min-height: 152px;
@@ -170,7 +170,7 @@
   font-size: 20px;
   cursor: pointer;
 }
-.formSection .formSection__content-form .formSection__ageCheck-container {
+.form-section .form-section__content-form .form-section__ageCheck-container {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -178,39 +178,39 @@
   margin-top: 6px;
   margin-left: 70px;
 }
-.formSection .formSection__content-form .formSection__ageCheck-container .formSection__input-ageCheck-container {
+.form-section .form-section__content-form .form-section__ageCheck-container .form-section__input-ageCheck-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
   margin-top: 0px;
 }
-.formSection .formSection__content-form .formSection__ageCheck-container .formSection__input-ageCheck-container .formSection__input-name {
+.form-section .form-section__content-form .form-section__ageCheck-container .form-section__input-ageCheck-container .form-section__input-name {
   color: #1B1F2B;
 }
-.formSection .formSection__content-form .formSection__ageCheck-container .formSection__input-ageCheck-container .formSection__radio-buttons-container {
+.form-section .form-section__content-form .form-section__ageCheck-container .form-section__input-ageCheck-container .form-section__radio-buttons-container {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 31px;
 }
-.formSection .formSection__content-form .formSection__ageCheck-container .formSection__input-ageCheck-container .formSection__radio-buttons-container .formSection__radio-button-container {
+.form-section .form-section__content-form .form-section__ageCheck-container .form-section__input-ageCheck-container .form-section__radio-buttons-container .form-section__radio-button-container {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 11px;
 }
-.formSection .formSection__content-form .formSection__ageCheck-container .formSection__input-ageCheck-container .formSection__radio-buttons-container .formSection__radio-button-container .formSection__age-radio-button {
+.form-section .form-section__content-form .form-section__ageCheck-container .form-section__input-ageCheck-container .form-section__radio-buttons-container .form-section__radio-button-container .form-section__age-radio-button {
   display: none;
 }
-.formSection .formSection__content-form .formSection__ageCheck-container .formSection__input-ageCheck-container .formSection__radio-buttons-container .formSection__radio-button-container .radio__border {
+.form-section .form-section__content-form .form-section__ageCheck-container .form-section__input-ageCheck-container .form-section__radio-buttons-container .form-section__radio-button-container .radio__border {
   min-width: 21px;
   min-height: 21px;
   border: 2px solid #1B1F2B;
   border-radius: 50%;
   position: relative;
 }
-.formSection .formSection__content-form .formSection__ageCheck-container .formSection__input-ageCheck-container .formSection__radio-buttons-container .formSection__radio-button-container .radio__border::before {
+.form-section .form-section__content-form .form-section__ageCheck-container .form-section__input-ageCheck-container .form-section__radio-buttons-container .form-section__radio-button-container .radio__border::before {
   content: "";
   position: absolute;
   top: 48%;
@@ -224,13 +224,13 @@
   transition: 0.2s;
   z-index: -1;
 }
-.formSection .formSection__content-form .formSection__ageCheck-container .formSection__input-ageCheck-container .formSection__radio-buttons-container .formSection__radio-button-container .formSection__age-radio-button:checked + .radio__border::before {
+.form-section .form-section__content-form .form-section__ageCheck-container .form-section__input-ageCheck-container .form-section__radio-buttons-container .form-section__radio-button-container .form-section__age-radio-button:checked + .radio__border::before {
   z-index: 1;
 }
-.formSection .formSection__content-form .formSection__agreement-container {
+.form-section .form-section__content-form .form-section__agreement-container {
   margin-left: 70px;
 }
-.formSection .formSection__content-form .formSection__agreement-container .formSection__accept {
+.form-section .form-section__content-form .form-section__agreement-container .form-section__accept {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -244,16 +244,16 @@
   align-items: center;
   gap: 19px;
 }
-.formSection .formSection__content-form .formSection__agreement-container .formSection__accept .formSection__agreement-radio-button {
+.form-section .form-section__content-form .form-section__agreement-container .form-section__accept .form-section__agreement-radio-button {
   display: none;
 }
-.formSection .formSection__content-form .formSection__agreement-container .formSection__accept .agreement-text .formSection__agreement-text-link {
+.form-section .form-section__content-form .form-section__agreement-container .form-section__accept .agreement-text .form-section__agreement-text-link {
   color: #1B1F2B;
   text-decoration: none;
   cursor: pointer;
   margin-left: 1px;
 }
-.formSection .formSection__content-form .formSection__agreement-container .formSection__accept .checkbox__border {
+.form-section .form-section__content-form .form-section__agreement-container .form-section__accept .checkbox__border {
   display: inline-block;
   min-width: 20px;
   min-height: 20px;
@@ -261,7 +261,7 @@
   border-radius: 20%;
   position: relative;
 }
-.formSection .formSection__content-form .formSection__agreement-container .formSection__accept .checkbox__border::before {
+.form-section .form-section__content-form .form-section__agreement-container .form-section__accept .checkbox__border::before {
   content: "";
   position: absolute;
   left: -1.3px;
@@ -274,7 +274,7 @@
   opacity: 0;
   transition: 0.2s;
 }
-.formSection .formSection__content-form .formSection__agreement-container .formSection__accept .checkbox__border::after {
+.form-section .form-section__content-form .form-section__agreement-container .form-section__accept .checkbox__border::after {
   position: absolute;
   left: 9%;
   bottom: 19%;
@@ -287,26 +287,26 @@
   opacity: 0;
   transition: 0.2s;
 }
-.formSection .formSection__content-form .formSection__agreement-container .formSection__accept .formSection__agreement-radio-button:checked + .checkbox__border::before,
-.formSection .formSection__content-form .formSection__agreement-container .formSection__accept .formSection__agreement-radio-button:checked + .checkbox__border::after {
+.form-section .form-section__content-form .form-section__agreement-container .form-section__accept .form-section__agreement-radio-button:checked + .checkbox__border::before,
+.form-section .form-section__content-form .form-section__agreement-container .form-section__accept .form-section__agreement-radio-button:checked + .checkbox__border::after {
   opacity: 1;
 }
 @media (min-width: 361px) {
-  .formSection .formSection__content-form .formSection__agreement-container .formSection__accept .formSection__agreement-text-link:hover {
+  .form-section .form-section__content-form .form-section__agreement-container .form-section__accept .form-section__agreement-text-link:hover {
     text-decoration: underline;
   }
-  .formSection .formSection__content-form .formSection__agreement-container .formSection__accept .formSection__agreement-text-link:active {
+  .form-section .form-section__content-form .form-section__agreement-container .form-section__accept .form-section__agreement-text-link:active {
     color: #286562;
   }
 }
-.formSection .formSection__content-form .formSection__buttons-container {
+.form-section .form-section__content-form .form-section__buttons-container {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   gap: 30px;
   margin-left: 70px;
 }
-.formSection .formSection__content-form .formSection__buttons-container .formSection__submit-button {
+.form-section .form-section__content-form .form-section__buttons-container .form-section__submit-button {
   min-width: 235px;
   min-height: 58px;
   display: flex;
@@ -318,18 +318,18 @@
   border-radius: 10px;
   cursor: pointer;
 }
-.formSection .formSection__content-form .formSection__buttons-container .formSection__submit-button .formSection__submit-button-text {
+.form-section .form-section__content-form .form-section__buttons-container .form-section__submit-button .form-section__submit-button-text {
   color: #FFFFFF;
 }
 @media (min-width: 361px) {
-  .formSection .formSection__content-form .formSection__buttons-container .formSection__submit-button:hover {
+  .form-section .form-section__content-form .form-section__buttons-container .form-section__submit-button:hover {
     background: #3B7E7B;
   }
-  .formSection .formSection__content-form .formSection__buttons-container .formSection__submit-button:active {
+  .form-section .form-section__content-form .form-section__buttons-container .form-section__submit-button:active {
     background: #627F7E;
   }
 }
-.formSection .formSection__content-form .formSection__buttons-container .formSection__reset-button {
+.form-section .form-section__content-form .form-section__buttons-container .form-section__reset-button {
   min-width: 235px;
   min-height: 58px;
   display: flex;
@@ -341,66 +341,66 @@
   border-radius: 10px;
   cursor: pointer;
 }
-.formSection .formSection__content-form .formSection__buttons-container .formSection__reset-button .formSection__reset-button-text {
+.form-section .form-section__content-form .form-section__buttons-container .form-section__reset-button .form-section__reset-button-text {
   color: #286562;
 }
 @media (min-width: 361px) {
-  .formSection .formSection__content-form .formSection__buttons-container .formSection__reset-button:hover {
+  .form-section .form-section__content-form .form-section__buttons-container .form-section__reset-button:hover {
     background: #F1F3F2;
   }
-  .formSection .formSection__content-form .formSection__buttons-container .formSection__reset-button:active {
+  .form-section .form-section__content-form .form-section__buttons-container .form-section__reset-button:active {
     background: #D9DFDB;
   }
 }
 
 @media (max-width: 1175px) {
-  .formSection .formSection__content-form {
+  .form-section .form-section__content-form {
     max-width: 95%;
     min-width: 95%;
   }
-  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container {
+  .form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container {
     max-width: 410px;
   }
-  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__select-field {
+  .form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container .form-section__select-field {
     max-width: 410px;
     min-width: 410px;
   }
-  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__input-field {
+  .form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container .form-section__input-field {
     min-width: 410px;
   }
-  .formSection .formSection__content-form .formSection__input-comment-container {
+  .form-section .form-section__content-form .form-section__input-comment-container {
     margin-left: 0;
   }
-  .formSection .formSection__content-form .formSection__input-comment-container .formSection__input-field-comment {
+  .form-section .form-section__content-form .form-section__input-comment-container .form-section__input-field-comment {
     max-width: 870px;
     min-width: 860px;
   }
-  .formSection .formSection__content-form .formSection__ageCheck-container {
+  .form-section .form-section__content-form .form-section__ageCheck-container {
     min-width: 90%;
     justify-content: center;
     margin-right: 767px;
   }
-  .formSection .formSection__content-form .formSection__agreement-container {
+  .form-section .form-section__content-form .form-section__agreement-container {
     min-width: 90%;
     display: flex;
     justify-content: center;
     margin-right: 376px;
   }
-  .formSection .formSection__content-form .formSection__agreement-container .formSection__accept {
+  .form-section .form-section__content-form .form-section__agreement-container .form-section__accept {
     justify-content: flex-start;
   }
-  .formSection .formSection__content-form .formSection__buttons-container {
+  .form-section .form-section__content-form .form-section__buttons-container {
     min-width: 90%;
     justify-content: center;
     margin-right: 430px;
   }
 }
 @media (max-width: 1024px) {
-  .formSection {
+  .form-section {
     gap: 100px;
     margin: 0 auto;
   }
-  .formSection .formSection__content-form {
+  .form-section .form-section__content-form {
     min-width: 90%;
     max-width: 90%;
     min-height: 844px;
@@ -408,96 +408,96 @@
     padding-bottom: 54px;
     gap: 33px;
   }
-  .formSection .formSection__content-form .form-cont {
+  .form-section .form-section__content-form .form-cont {
     gap: 35px;
     margin-top: 0px;
   }
-  .formSection .formSection__content-form .form-cont .formSection__input-fields-container {
+  .form-section .form-section__content-form .form-cont .form-section__input-fields-container {
     gap: 20px;
     max-height: 102px;
   }
-  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container {
+  .form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container {
     max-width: 389px;
   }
-  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__select-field {
+  .form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container .form-section__select-field {
     max-width: 389px;
     min-width: 389px;
   }
-  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__input-field {
+  .form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container .form-section__input-field {
     min-width: 389px;
   }
-  .formSection .formSection__content-form .formSection__input-comment-container {
+  .form-section .form-section__content-form .form-section__input-comment-container {
     max-width: 798px;
     max-height: 183.4px;
     margin-left: 0px;
   }
-  .formSection .formSection__content-form .formSection__input-comment-container .formSection__input-field-comment {
+  .form-section .form-section__content-form .form-section__input-comment-container .form-section__input-field-comment {
     max-width: 798px;
     min-width: 798px;
   }
-  .formSection .formSection__content-form .formSection__ageCheck-container {
+  .form-section .form-section__content-form .form-section__ageCheck-container {
     margin-right: 700px;
   }
-  .formSection .formSection__content-form .formSection__agreement-container {
+  .form-section .form-section__content-form .form-section__agreement-container {
     margin-right: 316px;
   }
-  .formSection .formSection__content-form .formSection__agreement-container .formSection__accept {
+  .form-section .form-section__content-form .form-section__agreement-container .form-section__accept {
     gap: 12px;
   }
-  .formSection .formSection__content-form .formSection__agreement-container .formSection__accept .agreement-text .formSection__agreement-text-link {
+  .form-section .form-section__content-form .form-section__agreement-container .form-section__accept .agreement-text .form-section__agreement-text-link {
     margin-top: 0px;
   }
-  .formSection .formSection__content-form .formSection__buttons-container {
+  .form-section .form-section__content-form .form-section__buttons-container {
     margin-right: 364px;
   }
 }
 @media (max-width: 992px) {
-  .formSection {
+  .form-section {
     gap: 50px;
   }
-  .formSection .formSection__content-form {
+  .form-section .form-section__content-form {
     max-width: 85%;
     min-width: 85%;
   }
-  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container {
+  .form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container {
     max-width: 300px;
   }
-  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__select-field {
+  .form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container .form-section__select-field {
     max-width: 300px;
     min-width: 300px;
   }
-  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__input-field {
+  .form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container .form-section__input-field {
     min-width: 300px;
   }
-  .formSection .formSection__content-form .formSection__input-comment-container .formSection__input-field-comment {
+  .form-section .form-section__content-form .form-section__input-comment-container .form-section__input-field-comment {
     max-width: 630px;
     min-width: 630px;
   }
-  .formSection .formSection__content-form .formSection__ageCheck-container {
+  .form-section .form-section__content-form .form-section__ageCheck-container {
     margin-right: 540px;
   }
-  .formSection .formSection__content-form .formSection__agreement-container {
+  .form-section .form-section__content-form .form-section__agreement-container {
     margin-right: 156px;
   }
-  .formSection .formSection__content-form .formSection__buttons-container {
+  .form-section .form-section__content-form .form-section__buttons-container {
     margin-right: 200px;
   }
 }
 @media (max-width: 780px) {
-  .formSection {
+  .form-section {
     max-width: 360px;
     gap: 40px;
   }
-  .formSection .formSection__header {
+  .form-section .form-section__header {
     gap: 20px;
   }
-  .formSection .formSection__header .formSection__header__title {
+  .form-section .form-section__header .form-section__header__title {
     letter-spacing: 0.7px;
   }
-  .formSection .formSection__header .formSection__header__subtitle {
+  .form-section .form-section__header .form-section__header__subtitle {
     min-width: 400px;
   }
-  .formSection .formSection__content-form {
+  .form-section .form-section__content-form {
     border-radius: 30px;
     gap: 30px;
     max-width: 318px;
@@ -505,28 +505,28 @@
     border-radius: 20px;
     padding: 0px;
   }
-  .formSection .formSection__content-form .form-cont {
+  .form-section .form-section__content-form .form-cont {
     gap: 32px;
     margin-top: 16px;
     margin-right: 31px;
   }
-  .formSection .formSection__content-form .form-cont .formSection__input-name {
+  .form-section .form-section__content-form .form-cont .form-section__input-name {
     font-size: 16px;
     margin-top: 0px;
   }
-  .formSection .formSection__content-form .form-cont .formSection__input-fields-container {
+  .form-section .form-section__content-form .form-cont .form-section__input-fields-container {
     max-height: 74px;
   }
-  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container {
+  .form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container {
     max-width: 250px;
     max-height: 74px;
   }
-  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container input[type=date]::-webkit-datetime-edit {
+  .form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container input[type=date]::-webkit-datetime-edit {
     color: #A6A6A6;
     font-size: 20px;
     font-weight: 300;
   }
-  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .select-wrapper::before {
+  .form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container .select-wrapper::before {
     content: url("../png/Rectangle.png");
     position: absolute;
     top: 59%;
@@ -536,105 +536,105 @@
     height: 70%;
     pointer-events: none;
   }
-  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__input-field {
+  .form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container .form-section__input-field {
     padding: 8px;
     font-size: 16px;
   }
-  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__select-field {
+  .form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container .form-section__select-field {
     min-width: 278px;
     min-height: 43px;
     font-size: 15px;
     padding: 10px;
     letter-spacing: 0.4px;
   }
-  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__input-field {
+  .form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container .form-section__input-field {
     min-width: 278px;
     max-width: 278px;
     min-height: 43px;
   }
-  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__input-field::-moz-placeholder {
+  .form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container .form-section__input-field::-moz-placeholder {
     font-size: 16px;
   }
-  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__input-field:-ms-input-placeholder {
+  .form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container .form-section__input-field:-ms-input-placeholder {
     font-size: 16px;
   }
-  .formSection .formSection__content-form .form-cont .formSection__input-fields-container .formSection__input-field-container .formSection__input-field::placeholder {
+  .form-section .form-section__content-form .form-cont .form-section__input-fields-container .form-section__input-field-container .form-section__input-field::placeholder {
     font-size: 16px;
   }
-  .formSection .formSection__content-form .formSection__input-comment-container {
+  .form-section .form-section__content-form .form-section__input-comment-container {
     max-width: 278px;
     max-height: 163px;
   }
-  .formSection .formSection__content-form .formSection__input-comment-container .formSection__input-name {
+  .form-section .form-section__content-form .form-section__input-comment-container .form-section__input-name {
     font-size: 16px;
     margin-top: 0px;
   }
-  .formSection .formSection__content-form .formSection__input-comment-container .formSection__input-field-comment {
+  .form-section .form-section__content-form .form-section__input-comment-container .form-section__input-field-comment {
     max-width: 278px;
     min-width: 278px;
     min-height: 132px;
     font-size: 16px;
   }
-  .formSection .formSection__content-form .formSection__ageCheck-container {
+  .form-section .form-section__content-form .form-section__ageCheck-container {
     margin-left: 0;
     margin-right: 140px;
   }
-  .formSection .formSection__content-form .formSection__ageCheck-container .formSection__input-ageCheck-container {
+  .form-section .form-section__content-form .form-section__ageCheck-container .form-section__input-ageCheck-container {
     gap: 8px;
   }
-  .formSection .formSection__content-form .formSection__ageCheck-container .formSection__input-ageCheck-container .formSection__input-name {
+  .form-section .form-section__content-form .form-section__ageCheck-container .form-section__input-ageCheck-container .form-section__input-name {
     font-size: 16px;
   }
-  .formSection .formSection__content-form .formSection__ageCheck-container .formSection__input-ageCheck-container .formSection__radio-buttons-container {
+  .form-section .form-section__content-form .form-section__ageCheck-container .form-section__input-ageCheck-container .form-section__radio-buttons-container {
     gap: 27px;
   }
-  .formSection .formSection__content-form .formSection__ageCheck-container .formSection__input-ageCheck-container .formSection__radio-buttons-container .formSection__radio-button-container .radio__border {
+  .form-section .form-section__content-form .form-section__ageCheck-container .form-section__input-ageCheck-container .form-section__radio-buttons-container .form-section__radio-button-container .radio__border {
     min-width: 17px;
     min-height: 17px;
   }
-  .formSection .formSection__content-form .formSection__ageCheck-container .formSection__input-ageCheck-container .formSection__radio-buttons-container .formSection__radio-button-container .radio__border::before {
+  .form-section .form-section__content-form .form-section__ageCheck-container .form-section__input-ageCheck-container .form-section__radio-buttons-container .form-section__radio-button-container .radio__border::before {
     min-width: 10px;
     min-height: 9px;
   }
-  .formSection .formSection__content-form .formSection__agreement-container {
+  .form-section .form-section__content-form .form-section__agreement-container {
     margin-left: 0;
     margin-right: 0px;
   }
-  .formSection .formSection__content-form .formSection__agreement-container .formSection__accept {
+  .form-section .form-section__content-form .form-section__agreement-container .form-section__accept {
     font-size: 16px;
     gap: 0;
   }
-  .formSection .formSection__content-form .formSection__agreement-container .formSection__accept .checkbox__border {
+  .form-section .form-section__content-form .form-section__agreement-container .form-section__accept .checkbox__border {
     margin-bottom: 45px;
     min-width: 16px;
     min-height: 16px;
   }
-  .formSection .formSection__content-form .formSection__agreement-container .formSection__accept .agreement-text {
+  .form-section .form-section__content-form .form-section__agreement-container .form-section__accept .agreement-text {
     margin-left: 12px;
     font-size: 16px;
     max-width: 248px;
   }
-  .formSection .formSection__content-form .formSection__agreement-container .formSection__accept .agreement-text .formSection__agreement-text-link {
+  .form-section .form-section__content-form .form-section__agreement-container .form-section__accept .agreement-text .form-section__agreement-text-link {
     margin-left: 1px;
     font-size: 16px;
   }
-  .formSection .formSection__content-form .formSection__buttons-container {
+  .form-section .form-section__content-form .form-section__buttons-container {
     gap: 10px;
     margin-left: 0;
     margin-right: 0px;
   }
-  .formSection .formSection__content-form .formSection__buttons-container .formSection__submit-button {
+  .form-section .form-section__content-form .form-section__buttons-container .form-section__submit-button {
     min-width: 134px;
     min-height: 47px;
   }
-  .formSection .formSection__content-form .formSection__buttons-container .formSection__submit-button .formSection__submit-button-text {
+  .form-section .form-section__content-form .form-section__buttons-container .form-section__submit-button .form-section__submit-button-text {
     font-size: 16px;
   }
-  .formSection .formSection__content-form .formSection__buttons-container .formSection__reset-button {
+  .form-section .form-section__content-form .form-section__buttons-container .form-section__reset-button {
     min-width: 134px;
     min-height: 47px;
   }
-  .formSection .formSection__content-form .formSection__buttons-container .formSection__reset-button .formSection__reset-button-text {
+  .form-section .form-section__content-form .form-section__buttons-container .form-section__reset-button .form-section__reset-button-text {
     font-size: 16px;
   }
 }/*# sourceMappingURL=form.css.map */

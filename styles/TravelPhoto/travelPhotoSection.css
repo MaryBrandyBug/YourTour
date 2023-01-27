@@ -1,16 +1,16 @@
-.travelPhotoSection {
+.travel-photo-section {
   gap: 100px;
 }
-.travelPhotoSection .travelPhotoSection__header {
+.travel-photo-section .travel-photo-section__header {
   gap: 30px;
 }
-.travelPhotoSection .travelPhotoSection__header .travelPhotoSection__header__subtitle {
+.travel-photo-section .travel-photo-section__header .travel-photo-section__header__subtitle {
   max-width: 418px;
 }
-.travelPhotoSection .travelPhotoSection__content {
+.travel-photo-section .travel-photo-section__content {
   gap: 30px;
 }
-.travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container {
+.travel-photo-section .travel-photo-section__content .travel-photo-section__photo-container {
   max-width: 1860px;
   max-height: 301px;
   display: flex;
@@ -19,14 +19,14 @@
   padding: 0px;
   gap: 30px;
 }
-.travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .travelPhotoSection__big-photo {
+.travel-photo-section .travel-photo-section__content .travel-photo-section__photo-container .travel-photo-section__big-photo {
   max-width: 442.5px;
   max-height: auto;
   border-radius: 50px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .travelPhotoSection__small-photo {
+.travel-photo-section .travel-photo-section__content .travel-photo-section__photo-container .travel-photo-section__small-photo {
   max-width: 349.16px;
   min-height: 301px;
   border-radius: 50px;
@@ -35,203 +35,203 @@
 }
 
 @media (max-width: 1730px) {
-  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .travelPhotoSection__big-photo {
+  .travel-photo-section .travel-photo-section__content .travel-photo-section__photo-container .travel-photo-section__big-photo {
     max-width: 370.67px;
     min-height: 300px;
   }
-  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .max-size {
+  .travel-photo-section .travel-photo-section__content .travel-photo-section__photo-container .max-size {
     display: none;
   }
-  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .travelPhotoSection__small-photo {
+  .travel-photo-section .travel-photo-section__content .travel-photo-section__photo-container .travel-photo-section__small-photo {
     max-width: 270px;
   }
 }
 @media (max-width: 1175px) {
-  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .travelPhotoSection__big-photo {
+  .travel-photo-section .travel-photo-section__content .travel-photo-section__photo-container .travel-photo-section__big-photo {
     max-width: 314.67px;
     min-height: 300px;
   }
-  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .max-size {
+  .travel-photo-section .travel-photo-section__content .travel-photo-section__photo-container .max-size {
     display: none;
   }
-  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .travelPhotoSection__small-photo {
+  .travel-photo-section .travel-photo-section__content .travel-photo-section__photo-container .travel-photo-section__small-photo {
     max-width: 231px;
   }
 }
 @media (max-width: 1024px) {
-  .travelPhotoSection {
+  .travel-photo-section {
     max-width: 100%;
     margin: 0 auto;
   }
-  .travelPhotoSection .travelPhotoSection__header {
+  .travel-photo-section .travel-photo-section__header {
     gap: 25px;
   }
-  .travelPhotoSection .travelPhotoSection__content {
+  .travel-photo-section .travel-photo-section__content {
     max-width: 1024px;
     max-height: 963px;
     padding: 0px 20px;
   }
-  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container {
+  .travel-photo-section .travel-photo-section__content .travel-photo-section__photo-container {
     max-width: 984px;
     gap: 20px;
   }
-  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .travelPhotoSection__big-photo {
+  .travel-photo-section .travel-photo-section__content .travel-photo-section__photo-container .travel-photo-section__big-photo {
     max-width: 314.67px;
     min-height: 300px;
   }
-  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .max-size {
+  .travel-photo-section .travel-photo-section__content .travel-photo-section__photo-container .max-size {
     display: none;
   }
-  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .travelPhotoSection__small-photo {
+  .travel-photo-section .travel-photo-section__content .travel-photo-section__photo-container .travel-photo-section__small-photo {
     max-width: 231px;
   }
 }
 @media (max-width: 992px) {
-  .travelPhotoSection {
+  .travel-photo-section {
     max-width: 90%;
     gap: 50px;
   }
-  .travelPhotoSection .travelPhotoSection__header {
+  .travel-photo-section .travel-photo-section__header {
     gap: 20px;
   }
-  .travelPhotoSection .travelPhotoSection__header .travelPhotoSection__header__title {
+  .travel-photo-section .travel-photo-section__header .travel-photo-section__header__title {
     letter-spacing: 0.02em;
   }
-  .travelPhotoSection .travelPhotoSection__header .travelPhotoSection__header__subtitle {
+  .travel-photo-section .travel-photo-section__header .travel-photo-section__header__subtitle {
     max-width: 400px;
   }
-  .travelPhotoSection .travelPhotoSection__content {
+  .travel-photo-section .travel-photo-section__content {
     gap: 18px;
   }
-  .travelPhotoSection .travelPhotoSection__content .small {
+  .travel-photo-section .travel-photo-section__content .small {
     gap: 10px;
   }
-  .travelPhotoSection .travelPhotoSection__content .big {
+  .travel-photo-section .travel-photo-section__content .big {
     gap: 16px;
   }
-  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container {
+  .travel-photo-section .travel-photo-section__content .travel-photo-section__photo-container {
     max-width: 90%;
     max-height: auto;
     justify-content: center;
   }
-  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .travelPhotoSection__big-photo {
+  .travel-photo-section .travel-photo-section__content .travel-photo-section__photo-container .travel-photo-section__big-photo {
     max-width: 340px;
     max-height: 110px;
     border-radius: 20px;
   }
-  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .max-middle-size {
+  .travel-photo-section .travel-photo-section__content .travel-photo-section__photo-container .max-middle-size {
     display: none;
   }
-  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .travelPhotoSection__small-photo {
+  .travel-photo-section .travel-photo-section__content .travel-photo-section__photo-container .travel-photo-section__small-photo {
     max-width: 250px;
     max-height: 110px;
     border-radius: 20px;
   }
 }
 @media (max-width: 790px) {
-  .travelPhotoSection {
+  .travel-photo-section {
     max-width: 90%;
     gap: 50px;
   }
-  .travelPhotoSection .travelPhotoSection__header {
+  .travel-photo-section .travel-photo-section__header {
     gap: 20px;
   }
-  .travelPhotoSection .travelPhotoSection__header .travelPhotoSection__header__title {
+  .travel-photo-section .travel-photo-section__header .travel-photo-section__header__title {
     letter-spacing: 0.02em;
   }
-  .travelPhotoSection .travelPhotoSection__content {
+  .travel-photo-section .travel-photo-section__content {
     gap: 18px;
   }
-  .travelPhotoSection .travelPhotoSection__content .small {
+  .travel-photo-section .travel-photo-section__content .small {
     gap: 10px;
   }
-  .travelPhotoSection .travelPhotoSection__content .big {
+  .travel-photo-section .travel-photo-section__content .big {
     gap: 16px;
   }
-  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container {
+  .travel-photo-section .travel-photo-section__content .travel-photo-section__photo-container {
     max-width: 90%;
     max-height: auto;
     justify-content: center;
   }
-  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .travelPhotoSection__big-photo {
+  .travel-photo-section .travel-photo-section__content .travel-photo-section__photo-container .travel-photo-section__big-photo {
     max-width: 240px;
     max-height: 110px;
     border-radius: 20px;
   }
-  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .max-middle-size {
+  .travel-photo-section .travel-photo-section__content .travel-photo-section__photo-container .max-middle-size {
     display: none;
   }
-  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .travelPhotoSection__small-photo {
+  .travel-photo-section .travel-photo-section__content .travel-photo-section__photo-container .travel-photo-section__small-photo {
     max-width: 170px;
     max-height: 70px;
     border-radius: 20px;
   }
 }
 @media (max-width: 576px) {
-  .travelPhotoSection {
+  .travel-photo-section {
     max-width: 360px;
     min-height: auto;
     gap: 50px;
   }
-  .travelPhotoSection .travelPhotoSection__header {
+  .travel-photo-section .travel-photo-section__header {
     gap: 20px;
   }
-  .travelPhotoSection .travelPhotoSection__header .travelPhotoSection__header__title {
+  .travel-photo-section .travel-photo-section__header .travel-photo-section__header__title {
     letter-spacing: 0.02em;
   }
-  .travelPhotoSection .travelPhotoSection__header .travelPhotoSection__header__subtitle {
+  .travel-photo-section .travel-photo-section__header .travel-photo-section__header__subtitle {
     max-width: 318px;
   }
-  .travelPhotoSection .travelPhotoSection__content {
+  .travel-photo-section .travel-photo-section__content {
     gap: 18px;
   }
-  .travelPhotoSection .travelPhotoSection__content .small {
+  .travel-photo-section .travel-photo-section__content .small {
     gap: 10px;
   }
-  .travelPhotoSection .travelPhotoSection__content .big {
+  .travel-photo-section .travel-photo-section__content .big {
     gap: 16px;
   }
-  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container {
+  .travel-photo-section .travel-photo-section__content .travel-photo-section__photo-container {
     max-width: 95%;
     max-height: auto;
   }
-  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .travelPhotoSection__big-photo {
+  .travel-photo-section .travel-photo-section__content .travel-photo-section__photo-container .travel-photo-section__big-photo {
     max-width: 170px;
     min-height: 150px;
     max-height: 110px;
     border-radius: 20px;
   }
-  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .max-middle-size {
+  .travel-photo-section .travel-photo-section__content .travel-photo-section__photo-container .max-middle-size {
     display: none;
   }
-  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .travelPhotoSection__small-photo {
+  .travel-photo-section .travel-photo-section__content .travel-photo-section__photo-container .travel-photo-section__small-photo {
     max-width: 110px;
     min-height: 130px;
     border-radius: 20px;
   }
 }
 @media (max-width: 360px) {
-  .travelPhotoSection {
+  .travel-photo-section {
     max-width: 360px;
     min-height: 558px;
     gap: 50px;
     margin-left: -2px;
   }
-  .travelPhotoSection .travelPhotoSection__header .travelPhotoSection__header__title {
+  .travel-photo-section .travel-photo-section__header .travel-photo-section__header__title {
     letter-spacing: 0.02em;
   }
-  .travelPhotoSection .travelPhotoSection__content {
+  .travel-photo-section .travel-photo-section__content {
     gap: 18px;
   }
-  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .travelPhotoSection__big-photo {
+  .travel-photo-section .travel-photo-section__content .travel-photo-section__photo-container .travel-photo-section__big-photo {
     max-width: 150px;
     min-height: 110px;
     border-radius: 20px;
   }
-  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .max-middle-size {
+  .travel-photo-section .travel-photo-section__content .travel-photo-section__photo-container .max-middle-size {
     display: none;
   }
-  .travelPhotoSection .travelPhotoSection__content .travelPhotoSection__photo-container .travelPhotoSection__small-photo {
+  .travel-photo-section .travel-photo-section__content .travel-photo-section__photo-container .travel-photo-section__small-photo {
     max-width: 99px;
     border-radius: 20px;
     min-height: 110px;
