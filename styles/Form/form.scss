@@ -8,11 +8,6 @@
 
         .formSection__header__subtitle {
             max-width: 458px;
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 20px;
-            line-height: 142%;
             text-align: center;
             color: $greyColor;
         }
@@ -33,11 +28,6 @@
             margin-top: 77px;
 
         .formSection__input-name {
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 20px;
-            line-height: 142%;
             color: $blackColor;
         }
 
@@ -86,11 +76,6 @@
                     background: $beigeColor;
                     border: 1px solid $lightBeigeColor;
                     border-radius: 10px;
-                    font-family: 'Roboto';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 20px;
-                    line-height: 142%;
                     gap: 10px;
                     padding: 20px;
                     cursor: pointer;
@@ -127,11 +112,6 @@
                     border: 1px solid $lightBeigeColor;
                     border-radius: 10px;
 
-                    font-family: 'Roboto';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 20px;
-                    line-height: 142%;
                     cursor: pointer;
                     font-size: 20px;
                     -webkit-appearance: none;
@@ -158,11 +138,6 @@
                 }
 
                 .formSection__input-field::placeholder {
-                    font-family: 'Roboto';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 20px;
-                    line-height: 142%;
                     color: $greyColor;
                 }
 
@@ -184,11 +159,6 @@
             margin-left: 70px;
 
             .formSection__input-name {
-                font-family: 'Roboto';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 20px;
-                line-height: 142%;
                 color: $blackColor;
             }
 
@@ -241,13 +211,7 @@
                 margin-top: 0px;
 
                 .formSection__input-name {
-                    font-family: 'Roboto';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 20px;
-                    line-height: 142%;
                     color: $blackColor;
-                    // margin-top: -5px;
                 }
 
                 .formSection__radio-buttons-container {
@@ -404,11 +368,6 @@
                 cursor: pointer;
 
                 .formSection__submit-button-text{
-                    font-family: 'Roboto';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 20px;
-                    line-height: 142%;
                     color: $whiteColor;
                 }
             }
@@ -437,11 +396,6 @@
                 cursor: pointer;
 
                 .formSection__reset-button-text {
-                    font-family: 'Roboto';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 20px;
-                    line-height: 142%;
                     color: $darkGreen;
                 }
             }
