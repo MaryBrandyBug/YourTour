@@ -85,13 +85,13 @@
   .header .header__content .header__content__button:hover {
     background: #EFA501;
   }
-  .header .header__content .header__content__button:hover .findTourBtn {
+  .header .header__content .header__content__button:hover .find-tour-btn {
     color: #FFFFFF;
   }
   .header .header__content .header__content__button:active {
     background: #F8E6BE;
   }
-  .header .header__content .header__content__button:active .findTourBtn {
+  .header .header__content .header__content__button:active .find-tour-btn {
     color: #1B1F2B;
   }
 }
@@ -106,7 +106,7 @@
   border-radius: 10px;
   cursor: pointer;
 }
-.header .header__content .header__content__button .findTourBtn {
+.header .header__content .header__content__button .find-tour-btn {
   max-width: 78px;
   min-height: 24px;
   font-family: "Roboto";
@@ -202,7 +202,7 @@
     max-width: 314px;
     font-size: 16px;
   }
-  .header .header__content .header__content__button .findTourBtn {
+  .header .header__content .header__content__button .find-tour-btn {
     font-size: 16px;
     min-height: 19px;
   }
