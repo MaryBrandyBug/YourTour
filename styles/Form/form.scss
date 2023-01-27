@@ -195,7 +195,7 @@
             }
         }
 
-        .form-section__ageCheck-container {
+        .form-section__age-check {
             display: flex;
             flex-direction: row;
             align-items: flex-start;
@@ -203,7 +203,7 @@
             margin-top: 6px;
             margin-left: 70px;
 
-            .form-section__input-ageCheck-container {
+            .form-section__age-check__input-container {
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
@@ -214,19 +214,19 @@
                     color: $blackColor;
                 }
 
-                .form-section__radio-buttons-container {
+                .age-check__radio-buttons-container {
                     display: flex;
                     flex-direction: row;
                     align-items: center;
                     gap: 31px;
 
-                    .form-section__radio-button-container {
+                    .age-check__radio-button-container {
                         display: flex;
                         flex-direction: row;
                         align-items: center;
                         gap: 11px;
 
-                        .form-section__age-radio-button {
+                        .age-check__radio-button {
                             display: none;
                         }
 
@@ -253,7 +253,7 @@
                             z-index: -1;
                         }
 
-                        .form-section__age-radio-button:checked + .radio__border::before {
+                        .age-check__radio-button:checked + .radio__border::before {
                             z-index: 1;
                         }
                     }
@@ -451,7 +451,7 @@
                 }
             }
 
-            .form-section__ageCheck-container {
+            .form-section__age-check {
                 min-width: 90%;
 
                 justify-content: center;
@@ -528,7 +528,7 @@
                 }
             }
 
-            .form-section__ageCheck-container {
+            .form-section__age-check {
                 margin-right: 700px;
             }
 
@@ -589,7 +589,7 @@
                 }
             }
 
-            .form-section__ageCheck-container {
+            .form-section__age-check {
                 margin-right: 540px;
             }
 
@@ -706,21 +706,21 @@
                 }
             }
 
-            .form-section__ageCheck-container {
+            .form-section__age-check {
                 margin-left: 0;
                 margin-right: 140px;
 
-                .form-section__input-ageCheck-container {
+                .form-section__age-check__input-container {
                     gap: 8px;
 
                     .form-section__input-name {
                         font-size: 16px;
                     }
 
-                    .form-section__radio-buttons-container {
+                    .age-check__radio-buttons-container {
                         gap: 27px;
 
-                        .form-section__radio-button-container {
+                        .age-check__radio-button-container {
 
 
                             .radio__border {
