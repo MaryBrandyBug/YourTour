@@ -1,4 +1,4 @@
-.mailSection {
+.mail-section {
   max-width: 771px;
   min-height: 370px;
   display: flex;
@@ -7,19 +7,19 @@
   padding: 0px;
   gap: 30px;
 }
-.mailSection .mailSection__photo {
+.mail-section .mail-section__photo {
   max-width: 370px;
   max-height: 370px;
   border-radius: 50px;
 }
-.mailSection .mailSection__content {
+.mail-section .mail-section__content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
   gap: 20px;
 }
-.mailSection .mailSection__content .mailSection__content__header {
+.mail-section .mail-section__content .mail-section__content__header {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -27,75 +27,69 @@
   line-height: 122%;
   color: #1B1F2B;
 }
-.mailSection .mailSection__content .mailSection__content__text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 142%;
+.mail-section .mail-section__content .mail-section__content__text {
   color: #A6A6A6;
 }
-.mailSection .mailSection__content .mailSection__content__text .mailSection__content__mail {
+.mail-section .mail-section__content .mail-section__content__text .mail-section__content__mail {
   color: #1B1F2B;
   text-decoration: none;
 }
-.mailSection .mailSection__content .mailSection__content__text .mailSection__content__mail:hover {
+.mail-section .mail-section__content .mail-section__content__text .mail-section__content__mail:hover {
   text-decoration: underline;
 }
-.mailSection .mailSection__content .mailSection__content__text .mailSection__content__mail:active {
+.mail-section .mail-section__content .mail-section__content__text .mail-section__content__mail:active {
   color: #286562;
 }
 
 @media (max-width: 780px) {
-  .mailSection {
+  .mail-section {
     min-height: auto;
     flex-direction: column;
   }
-  .mailSection .mailSection__photo {
+  .mail-section .mail-section__photo {
     max-width: 250px;
     max-height: auto;
     border-radius: 20px;
   }
-  .mailSection .mailSection__content {
+  .mail-section .mail-section__content {
     max-width: 291px;
     gap: 24px;
   }
-  .mailSection .mailSection__content .mailSection__content__header {
+  .mail-section .mail-section__content .mail-section__content__header {
     font-size: 25px;
     line-height: 120%;
     text-align: center;
     letter-spacing: 0.045em;
   }
-  .mailSection .mailSection__content .mailSection__content__text {
+  .mail-section .mail-section__content .mail-section__content__text {
     font-size: 20px;
     text-align: center;
   }
 }
 @media (max-width: 360px) {
-  .mailSection {
+  .mail-section {
     max-width: 360px;
     min-height: 285px;
     flex-direction: column;
     margin-left: -2.5px;
     margin-top: 1px;
   }
-  .mailSection .mailSection__photo {
+  .mail-section .mail-section__photo {
     max-width: 130px;
     max-height: 133px;
     border-radius: 20px;
   }
-  .mailSection .mailSection__content {
+  .mail-section .mail-section__content {
     max-width: 291px;
     gap: 24px;
   }
-  .mailSection .mailSection__content .mailSection__content__header {
+  .mail-section .mail-section__content .mail-section__content__header {
     font-size: 23px;
     line-height: 120%;
     text-align: center;
     letter-spacing: 0.045em;
   }
-  .mailSection .mailSection__content .mailSection__content__text {
-    font-size: 16px;
+  .mail-section .mail-section__content .mail-section__content__text {
     text-align: center;
   }
 }/*# sourceMappingURL=mailSection.css.map */

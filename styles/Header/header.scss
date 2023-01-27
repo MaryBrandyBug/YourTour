@@ -1,8 +1,4 @@
-$whiteColor:  #FFFFFF;
-$blackColor: #1B1F2B;
-$orangeColor: #EFA501;
-$lightOrange: #F8E6BE;
-
+@import '../Colors/colors.scss';
 
 .header {
     display: flex;
@@ -45,16 +41,10 @@ $lightOrange: #F8E6BE;
                 justify-content: center;
                 align-items: center;
                 gap: 50px;
-                // max-width: 468px;
                 min-height: 28px;
 
                 .menu__item {
                     min-height: 28px;
-                    font-family: 'Roboto';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 20px;
-                    line-height: 142%;
                     color: $whiteColor;
                     white-space: nowrap;
                     cursor: pointer;
@@ -70,11 +60,6 @@ $lightOrange: #F8E6BE;
             .telephone {
                 max-width: 155px;
                 min-height: 28px;
-                font-family: 'Roboto';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 20px;
-                line-height: 142%;
                 color: $whiteColor;
                 white-space: nowrap;
             }
@@ -103,11 +88,6 @@ $lightOrange: #F8E6BE;
 
         .header__content__subtitle {
             max-width: 562px;
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 20px;
-            line-height: 142%;
             text-align: center;
             color: $whiteColor;
         }
