@@ -1,8 +1,359 @@
 @import '../FontParams/fontParams.css';
 @import '../Header/header.css';
-@import '../choose-tour/choose-tourSection.css';
 @import '../Form/form.css';
 @import '../Footer/footer.css';
+.choose-tour-section {
+  gap: 100px;
+}
+.choose-tour-section .choose-tour-section__header {
+  max-width: 700px;
+  gap: 35px;
+}
+.choose-tour-section .choose-tour-section__header .choose-tour-section__header__menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 30px;
+}
+.choose-tour-section .choose-tour-section__header .choose-tour-section__header__menu .choose-tour-section_menu__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+.choose-tour-section .choose-tour-section__header .choose-tour-section__header__menu .choose-tour-section_menu__item .choose-tour-section_menu__item-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 122%;
+  cursor: pointer;
+}
+.choose-tour-section .choose-tour-section__header .choose-tour-section__header__menu .choose-tour-section_menu__item .choose-tour-section_menu__active-item {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 7px;
+  color: #EFA501;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 122%;
+  cursor: pointer;
+}
+.choose-tour-section .choose-tour-section__header .choose-tour-section__header__menu .choose-tour-section_menu__item .choose-tour-section_menu__item-name:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 7px;
+}
+.choose-tour-section .choose-tour-section__header .choose-tour-section__header__menu .choose-tour-section_menu__item .choose-tour-section_menu__item-name:active {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 7px;
+  color: #EFA501;
+}
+.choose-tour-section .choose-tour-section__content {
+  max-height: 1092px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1170px;
+}
+.choose-tour-section .choose-tour-section__content .choose-tour__card {
+  min-width: 370px;
+  min-height: 531px;
+  border-radius: 50px;
+  position: relative;
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%);
+  overflow: hidden;
+}
+.choose-tour-section .choose-tour-section__content .choose-tour__card .choose-tour__card__background {
+  position: absolute;
+  max-width: 370px;
+  max-height: 100%;
+  z-index: -1;
+  border-radius: 50px;
+  transition: all 0.3s;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.choose-tour-section .choose-tour-section__content .choose-tour__card .choose-tour__card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  border-radius: 50px;
+}
+.choose-tour-section .choose-tour-section__content .choose-tour__card .choose-tour__card-content .choose-tour__text-container {
+  max-width: 245px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 16px;
+}
+.choose-tour-section .choose-tour-section__content .choose-tour__card .choose-tour__card-content .choose-tour__text-container .choose-tour__card__subtitle {
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+}
+.choose-tour-section .choose-tour-section__content .choose-tour__card .choose-tour__card-content .choose-tour__link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  cursor: pointer;
+  border-radius: 50px;
+  position: absolute;
+  top: 453px;
+  left: 50px;
+}
+
+@media (min-width: 780px) {
+  .choose-tour-section .choose-tour-section__content .choose-tour__card:hover .choose-tour__card__background {
+    transform: scale(1.2);
+    transition: all 300ms ease;
+  }
+  .choose-tour-section .choose-tour-section__content .choose-tour__card:hover {
+    cursor: pointer;
+  }
+  .choose-tour-section .choose-tour-section__content .choose-tour__card:hover .choose-tour__card-content .choose-tour__link {
+    width: 199px;
+    height: 42px;
+    background: #286562;
+    position: absolute;
+    top: 446px;
+    left: 30px;
+  }
+  .choose-tour-section .choose-tour-section__content .choose-tour__card:hover .choose-tour__card-content .choose-tour__link:active {
+    width: 199px;
+    height: 42px;
+    background: #EFA501;
+    position: absolute;
+    top: 446px;
+    left: 30px;
+  }
+}
+@media (max-width: 1175px) {
+  .choose-tour-section .choose-tour-section__content {
+    gap: 11px;
+    justify-content: center;
+  }
+  .choose-tour-section .choose-tour-section__content .choose-tour__card {
+    min-width: 332px;
+  }
+}
+@media (max-width: 1024px) {
+  .choose-tour-section {
+    min-height: 1871px;
+  }
+  .choose-tour-section .choose-tour-section__content {
+    max-width: 920px;
+    justify-content: center;
+    gap: 20px;
+  }
+  .choose-tour-section .choose-tour-section__content .choose-tour__card {
+    min-width: 450px;
+  }
+  .choose-tour-section .choose-tour-section__content .choose-tour__card .choose-tour__card__background {
+    min-width: 450px;
+  }
+  .choose-tour-section .choose-tour-section__content .choose-tour__card .choose-tour__card-content .choose-tour__text-container {
+    max-width: 350px;
+  }
+}
+@media (max-width: 992px) and (min-width: 780px) {
+  .choose-tour-section .choose-tour-section__content {
+    max-width: 100%;
+  }
+  .choose-tour-section .choose-tour-section__content .choose-tour__card {
+    min-width: calc(350px - 1.0869565217vw);
+  }
+  .choose-tour-section .choose-tour-section__content .choose-tour__card .choose-tour__card__background {
+    min-width: calc(350px - 1.0869565217vw);
+  }
+}
+@media (max-width: 780px) {
+  .choose-tour-section {
+    min-height: auto;
+  }
+  .choose-tour-section .choose-tour-section__content {
+    letter-spacing: 0.04em;
+    gap: 18px;
+  }
+  .choose-tour-section .choose-tour-section__content .choose-tour__card {
+    min-width: 318px;
+    min-width: calc(270px - 1.3908205841vw);
+    min-height: 318px;
+    border-radius: 20px;
+  }
+  .choose-tour-section .choose-tour-section__content .choose-tour__card .choose-tour__card__background {
+    min-width: calc(270px - 1.3908205841vw);
+    border-radius: 20px;
+  }
+  .choose-tour-section .choose-tour-section__content .choose-tour__card .choose-tour__card-content {
+    padding: 25px;
+    left: -2px;
+    top: 2px;
+  }
+  .choose-tour-section .choose-tour-section__content .choose-tour__card .choose-tour__card-content .choose-tour__text-container {
+    max-width: 268px;
+    gap: 13px;
+  }
+  .choose-tour-section .choose-tour-section__content .choose-tour__card .choose-tour__card-content .choose-tour__text-container .choose-tour__card__subtitle {
+    font-size: 16px;
+  }
+  .choose-tour-section .choose-tour-section__content .choose-tour__card .choose-tour__card-content .choose-tour__link {
+    top: 269px;
+    left: 26px;
+  }
+  .choose-tour-section .choose-tour-section__header {
+    max-width: 360px;
+    min-width: 360px;
+    gap: 30px;
+  }
+  .choose-tour-section .choose-tour-section__header .choose-tour-section__header__title {
+    letter-spacing: 0.65px;
+  }
+  .choose-tour-section .choose-tour-section__header .choose-tour-section__header__menu {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .choose-tour-section .choose-tour-section__header .choose-tour-section__header__menu .choose-tour-section_menu__item .choose-tour-section_menu__item-name {
+    font-size: 20px;
+    line-height: 142%;
+  }
+  .choose-tour-section .choose-tour-section__header .choose-tour-section__header__menu .choose-tour-section_menu__item .choose-tour-section_menu__active-item {
+    font-size: 20px;
+    line-height: 142%;
+  }
+}
+@media (max-width: 576px) {
+  .choose-tour-section {
+    min-height: auto;
+    gap: 35px;
+    min-height: 2172px;
+    margin-left: -2px;
+  }
+  .choose-tour-section .choose-tour-section__content {
+    max-width: 318px;
+    letter-spacing: 0.04em;
+    gap: 18px;
+  }
+  .choose-tour-section .choose-tour-section__content .choose-tour__card {
+    min-width: 318px;
+    min-height: 318px;
+    border-radius: 20px;
+  }
+  .choose-tour-section .choose-tour-section__content .choose-tour__card .choose-tour__card__background {
+    min-width: 318px;
+    border-radius: 20px;
+  }
+  .choose-tour-section .choose-tour-section__content .choose-tour__card .choose-tour__card-content {
+    padding: 25px;
+    left: -2px;
+    top: 2px;
+  }
+  .choose-tour-section .choose-tour-section__content .choose-tour__card .choose-tour__card-content .choose-tour__text-container {
+    max-width: 268px;
+    gap: 13px;
+  }
+  .choose-tour-section .choose-tour-section__content .choose-tour__card .choose-tour__card-content .choose-tour__text-container .choose-tour__card__subtitle {
+    font-size: 16px;
+  }
+  .choose-tour-section .choose-tour-section__content .choose-tour__card .choose-tour__card-content .choose-tour__link {
+    top: 269px;
+    left: 26px;
+  }
+  .choose-tour-section .choose-tour-section__header {
+    max-width: 360px;
+    min-width: 360px;
+    gap: 30px;
+  }
+  .choose-tour-section .choose-tour-section__header .choose-tour-section__header__title {
+    letter-spacing: 0.65px;
+  }
+  .choose-tour-section .choose-tour-section__header .choose-tour-section__header__menu {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .choose-tour-section .choose-tour-section__header .choose-tour-section__header__menu .choose-tour-section_menu__item .choose-tour-section_menu__item-name {
+    font-size: 20px;
+    line-height: 142%;
+  }
+}
+@media (max-width: 360px) {
+  .choose-tour-section {
+    min-height: auto;
+    gap: 35px;
+    min-height: 2172px;
+    margin-left: -2px;
+  }
+  .choose-tour-section .choose-tour-section__content {
+    max-width: 318px;
+    letter-spacing: 0.04em;
+    gap: 18px;
+  }
+  .choose-tour-section .choose-tour-section__content .choose-tour__card {
+    min-width: 318px;
+    min-height: 318px;
+    border-radius: 20px;
+  }
+  .choose-tour-section .choose-tour-section__content .choose-tour__card .choose-tour__card__background {
+    min-width: 318px;
+    border-radius: 20px;
+  }
+  .choose-tour-section .choose-tour-section__content .choose-tour__card .choose-tour__card-content {
+    padding: 25px;
+    left: -2px;
+    top: 2px;
+  }
+  .choose-tour-section .choose-tour-section__content .choose-tour__card .choose-tour__card-content .choose-tour__text-container {
+    max-width: 268px;
+    gap: 13px;
+  }
+  .choose-tour-section .choose-tour-section__content .choose-tour__card .choose-tour__card-content .choose-tour__text-container .choose-tour__card__subtitle {
+    font-size: 16px;
+  }
+  .choose-tour-section .choose-tour-section__content .choose-tour__card .choose-tour__card-content .choose-tour__link {
+    top: 269px;
+    left: 26px;
+  }
+  .choose-tour-section .choose-tour-section__header {
+    max-width: 360px;
+    min-width: 360px;
+    gap: 30px;
+  }
+  .choose-tour-section .choose-tour-section__header .choose-tour-section__header__title {
+    letter-spacing: 0.65px;
+  }
+  .choose-tour-section .choose-tour-section__header .choose-tour-section__header__menu {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 300px;
+  }
+  .choose-tour-section .choose-tour-section__header .choose-tour-section__header__menu .choose-tour-section_menu__item .choose-tour-section_menu__item-name {
+    font-size: 16px;
+    line-height: 142%;
+  }
+  .choose-tour-section .choose-tour-section__header .choose-tour-section__header__menu .choose-tour-section_menu__item .choose-tour-section_menu__active-item {
+    font-size: 16px;
+    line-height: 142%;
+  }
+}
 .review-section {
   max-width: 1170px;
   min-height: 1005px;
